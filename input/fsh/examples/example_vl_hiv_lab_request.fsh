@@ -1,5 +1,5 @@
 Instance: example-vl-hiv-lab-request
-InstanceOf: ServiceRequest
+InstanceOf: KenyaDiagnosticServiceRequest
 Usage: #example
 Title: "vl-hiv-lab-request"
 Description: "Example of a laboratory test request for HIV viral load."

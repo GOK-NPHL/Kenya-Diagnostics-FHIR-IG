@@ -40,7 +40,7 @@ Description: "An example of a patient."
 
 // Request
 Instance: example-drtb-lab-request
-InstanceOf: ServiceRequest
+InstanceOf: KenyaDiagnosticServiceRequest
 Usage: #example
 Title: "drtb-lab-request"
 Description: "An example of a laboratory test request for drug resistance to tuberculosis (DR-TB)."

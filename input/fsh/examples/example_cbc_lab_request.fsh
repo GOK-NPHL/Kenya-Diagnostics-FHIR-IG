@@ -38,7 +38,7 @@ Description: "An example of a patient."
 
 // Request
 Instance: example-cbc-lab-request
-InstanceOf: ServiceRequest
+InstanceOf: KenyaDiagnosticServiceRequest
 Usage: #example
 Title: "cbc-lab-request"
 Description: "An example of a laboratory test request for complete blood count (CBC)."
