@@ -51,5 +51,4 @@ Description: "An example of a laboratory test request for complete blood count (
 * requester = Reference(example-lab-organization--cgrh)
 * reasonCode = LabOrderJustificationsCS#KDSTB.B1
 // * reasonReference = 
-* bodySite = LNC#LA7275-6
 * performer = Reference(example-lab-organization--jootrh)

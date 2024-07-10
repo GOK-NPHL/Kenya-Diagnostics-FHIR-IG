@@ -53,6 +53,5 @@ Description: "An example of a laboratory test request for drug resistance to tub
 * requester = Reference(example-lab-organization--jootrh)
 * reasonCode = LabOrderJustificationsCS#KDRTB.B1
 // * reasonReference = 
-* bodySite = LNC#LA7275-6
 * performer = Reference(example-lab-organization--cgrh)
 // * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
