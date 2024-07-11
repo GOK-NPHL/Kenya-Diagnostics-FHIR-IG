@@ -28,13 +28,13 @@ Description: "An example of a patient."
 * name.given = "John"
 * gender = #male
 * birthDate = "1990-01-01"
-* address.text = "123 Main Street, Anytown, CA 12345"
-* address.line = "123 Main Street, Anytown, CA 12345"
-* address.city = "Anytown"
-* address.state = "CA"
+* address.text = "P.O. Box 12345, Eldoret, Kenya"
+* address.line = "P.O. Box 12345"
+* address.city = "Eldoret"
+* address.state = "Kenya"
 * address.postalCode = "12345"
-* address.country = "US"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+* address.country = "KE"
+// * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
 
 // Request
 Instance: example-cbc-lab-request
