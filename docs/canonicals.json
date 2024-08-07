@@ -1,0 +1,58 @@
+[
+  {
+    "id" : "LabOrderJustificationsCS",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+    "version" : "0.1.0",
+    "name" : "LabOrderJustificationsCS"
+  },
+  {
+    "id" : "fhir.ke-moh-diagnostics",
+    "type" : "ImplementationGuide",
+    "url" : "http://fhir.nphl.go.ke/ImplementationGuide/fhir.ke-moh-diagnostics",
+    "version" : "0.1.0",
+    "name" : "KenyaDiagnosticsFHIRIG"
+  },
+  {
+    "id" : "KenyaDiagnosticReport",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaDiagnosticReport",
+    "version" : "0.1.0",
+    "name" : "KenyaDiagnosticReport"
+  },
+  {
+    "id" : "KenyaDiagnosticServiceRequest",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaDiagnosticServiceRequest",
+    "version" : "0.1.0",
+    "name" : "KenyaDiagnosticServiceRequest"
+  },
+  {
+    "id" : "KenyaLaboratoryOrganization",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaLaboratoryOrganization",
+    "version" : "0.1.0",
+    "name" : "KenyaLaboratoryOrganization"
+  },
+  {
+    "id" : "KenyaSpecimen",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaSpecimen",
+    "version" : "0.1.0",
+    "name" : "KenyaSpecimen"
+  },
+  {
+    "id" : "TBJustificationForLabOrderVS",
+    "type" : "ValueSet",
+    "url" : "http://fhir.nphl.go.ke/ValueSet/TBJustificationForLabOrderVS",
+    "version" : "0.1.0",
+    "name" : "KNHTSTBJustificationForLabOrderVS"
+  },
+  {
+    "id" : "yes-no-vs",
+    "type" : "ValueSet",
+    "url" : "http://fhir.nphl.go.ke/ValueSet/yes-no-vs",
+    "version" : "0.1.0",
+    "name" : "YesNoVS"
+  }
+]

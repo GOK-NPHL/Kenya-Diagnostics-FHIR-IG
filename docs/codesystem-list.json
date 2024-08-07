@@ -1,0 +1,12 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LabOrderJustificationsCS",
+      "title" : "CodeSystem: Laboratory Order Justifications",
+      "description" : "The reason for ordering a laboratory test."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "resourceType" : "Organization",
+  "id" : "example-lab-organization--jootrh",
+  "meta" : {
+    "profile" : ["http://fhir.nphl.go.ke/StructureDefinition/KenyaLaboratoryOrganization"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization example-lab-organization--jootrh</b></p><a name=\"example-lab-organization--jootrh\"> </a><a name=\"hcexample-lab-organization--jootrh\"> </a><a name=\"hcexample-lab-organization--jootrh-en-US\"> </a><p><b>identifier</b>: <code>http://kmhfr.health.go.ke/fhir</code>/13939\u00a0(use:\u00a0official,\u00a0), <code>http://kmhfl.health.go.ke/fhir</code>/?ngen-9?</p><p><b>active</b>: true</p><p><b>name</b>: Jaramogi Oginga Odinga Teaching and Referal Hospital</p><p><b>address</b>: Jaramogi Oginga Odinga Teaching and Referal Hospital, P.O. Box 001, Kisumu, Kenya</p></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "http://kmhfr.health.go.ke/fhir",
+    "value" : "13939"
+  },
+  {
+    "system" : "http://kmhfl.health.go.ke/fhir"
+  }],
+  "active" : true,
+  "name" : "Jaramogi Oginga Odinga Teaching and Referal Hospital",
+  "address" : [{
+    "text" : "Jaramogi Oginga Odinga Teaching and Referal Hospital, P.O. Box 001, Kisumu, Kenya",
+    "line" : ["Jaramogi Oginga Odinga Teaching and Referal Hospital, P.O. Box 001, Kisumu, Kenya"],
+    "city" : "Kisumu",
+    "state" : "Kenya",
+    "postalCode" : "00-001",
+    "country" : "KE"
+  }]
+}

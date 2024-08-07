@@ -1,0 +1,31 @@
+{
+  "resourceType" : "Observation",
+  "id" : "example-cbc-observation",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation example-cbc-observation</b></p><a name=\"example-cbc-observation\"> </a><a name=\"hcexample-cbc-observation\"> </a><a name=\"hcexample-cbc-observation-en-US\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 58410-2}\">CBC panel - Blood by Automated count</span></p><p><b>subject</b>: <a href=\"Patient-example-cbc-patient.html\">John Patient  Male, DoB: 1990-01-01</a></p><p><b>effective</b>: 2021-01-01 --&gt; 2021-01-01</p><p><b>performer</b>: <a href=\"Organization-example-lab-organization--cgrh.html\">Organization Coast General Teaching and Referal Hospital</a></p><p><b>value</b>: 0</p><p><b>specimen</b>: <a href=\"Specimen-example-cbc-specimen.html\">Specimen: status = available; type = specimen</a></p></div>"
+  },
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "58410-2"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/example-cbc-patient"
+  },
+  "effectivePeriod" : {
+    "start" : "2021-01-01",
+    "end" : "2021-01-01"
+  },
+  "performer" : [{
+    "reference" : "Organization/example-lab-organization--cgrh"
+  }],
+  "valueQuantity" : {
+    "value" : 0
+  },
+  "specimen" : {
+    "reference" : "Specimen/example-cbc-specimen"
+  }
+}

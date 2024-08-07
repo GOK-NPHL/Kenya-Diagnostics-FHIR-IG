@@ -1,0 +1,65 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "LabOrderJustificationsCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem LabOrderJustificationsCS</b></p><a name=\"LabOrderJustificationsCS\"> </a><a name=\"hcLabOrderJustificationsCS\"> </a><a name=\"hcLabOrderJustificationsCS-en-US\"> </a><p>This  code system <code>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">KDSTB.B1<a name=\"LabOrderJustificationsCS-KDSTB.46B1\"> </a></td><td>DS-TB - Baseline</td></tr><tr><td style=\"white-space:nowrap\">KDSTB.F2<a name=\"LabOrderJustificationsCS-KDSTB.46F2\"> </a></td><td>DS-TB - Follow-up (2 months)</td></tr><tr><td style=\"white-space:nowrap\">KDSTB.F3<a name=\"LabOrderJustificationsCS-KDSTB.46F3\"> </a></td><td>DS-TB - Follow-up (3 months)</td></tr><tr><td style=\"white-space:nowrap\">KDSTB.F5<a name=\"LabOrderJustificationsCS-KDSTB.46F5\"> </a></td><td>DS-TB - Follow-up (5 months)</td></tr><tr><td style=\"white-space:nowrap\">KDSTB.F6<a name=\"LabOrderJustificationsCS-KDSTB.46F6\"> </a></td><td>DS-TB - Follow-up (6 months)</td></tr><tr><td style=\"white-space:nowrap\">KDRTB.B1<a name=\"LabOrderJustificationsCS-KDRTB.46B1\"> </a></td><td>DR-TB - Baseline</td></tr><tr><td style=\"white-space:nowrap\">KDRTB.F2<a name=\"LabOrderJustificationsCS-KDRTB.46F2\"> </a></td><td>DR-TB - Follow-up (2 months)</td></tr><tr><td style=\"white-space:nowrap\">KDRTB.F3<a name=\"LabOrderJustificationsCS-KDRTB.46F3\"> </a></td><td>DR-TB - Follow-up (3 months)</td></tr><tr><td style=\"white-space:nowrap\">KDRTB.F5<a name=\"LabOrderJustificationsCS-KDRTB.46F5\"> </a></td><td>DR-TB - Follow-up (5 months)</td></tr><tr><td style=\"white-space:nowrap\">KDRTB.F6<a name=\"LabOrderJustificationsCS-KDRTB.46F6\"> </a></td><td>DR-TB - Follow-up (6 months)</td></tr></table></div>"
+  },
+  "url" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+  "version" : "0.1.0",
+  "name" : "LabOrderJustificationsCS",
+  "title" : "CodeSystem: Laboratory Order Justifications",
+  "status" : "draft",
+  "date" : "2024-07-11T15:57:36+03:00",
+  "publisher" : "DNLS",
+  "contact" : [{
+    "name" : "DNLS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://nphl.go.ke"
+    }]
+  }],
+  "description" : "The reason for ordering a laboratory test.",
+  "content" : "complete",
+  "count" : 10,
+  "concept" : [{
+    "code" : "KDSTB.B1",
+    "display" : "DS-TB - Baseline"
+  },
+  {
+    "code" : "KDSTB.F2",
+    "display" : "DS-TB - Follow-up (2 months)"
+  },
+  {
+    "code" : "KDSTB.F3",
+    "display" : "DS-TB - Follow-up (3 months)"
+  },
+  {
+    "code" : "KDSTB.F5",
+    "display" : "DS-TB - Follow-up (5 months)"
+  },
+  {
+    "code" : "KDSTB.F6",
+    "display" : "DS-TB - Follow-up (6 months)"
+  },
+  {
+    "code" : "KDRTB.B1",
+    "display" : "DR-TB - Baseline"
+  },
+  {
+    "code" : "KDRTB.F2",
+    "display" : "DR-TB - Follow-up (2 months)"
+  },
+  {
+    "code" : "KDRTB.F3",
+    "display" : "DR-TB - Follow-up (3 months)"
+  },
+  {
+    "code" : "KDRTB.F5",
+    "display" : "DR-TB - Follow-up (5 months)"
+  },
+  {
+    "code" : "KDRTB.F6",
+    "display" : "DR-TB - Follow-up (6 months)"
+  }]
+}

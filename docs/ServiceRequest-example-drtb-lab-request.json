@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ServiceRequest",
+  "id" : "example-drtb-lab-request",
+  "meta" : {
+    "profile" : ["http://fhir.nphl.go.ke/StructureDefinition/KenyaDiagnosticServiceRequest"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest example-drtb-lab-request</b></p><a name=\"example-drtb-lab-request\"> </a><a name=\"hcexample-drtb-lab-request\"> </a><a name=\"hcexample-drtb-lab-request-en-US\"> </a><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}\">Laboratory</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 94500-6}\">SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory system specimen by NAA with probe detection</span></p><p><b>subject</b>: <a href=\"example-drtb-patient\">example-drtb-patient</a></p><p><b>requester</b>: <a href=\"Organization-example-lab-organization--jootrh.html\">Organization Jaramogi Oginga Odinga Teaching and Referal Hospital</a></p><p><b>performer</b>: <a href=\"Organization-example-lab-organization--cgrh.html\">Organization Coast General Teaching and Referal Hospital</a></p><p><b>reasonCode</b>: <span title=\"Codes:{http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS KDRTB.B1}\">DR-TB - Baseline</span></p><p><b>specimen</b>: <a href=\"example-drtb-specimen\">example-drtb-specimen</a></p></div>"
+  },
+  "status" : "active",
+  "intent" : "order",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "laboratory"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "94500-6"
+    }]
+  },
+  "subject" : {
+    "reference" : "example-drtb-patient"
+  },
+  "requester" : {
+    "reference" : "Organization/example-lab-organization--jootrh"
+  },
+  "performer" : [{
+    "reference" : "Organization/example-lab-organization--cgrh"
+  }],
+  "reasonCode" : [{
+    "coding" : [{
+      "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+      "code" : "KDRTB.B1"
+    }]
+  }],
+  "specimen" : [{
+    "reference" : "example-drtb-specimen"
+  }]
+}

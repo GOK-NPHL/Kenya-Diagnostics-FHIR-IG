@@ -1,0 +1,27 @@
+{
+  "resourceType" : "DiagnosticReport",
+  "id" : "example-cbc-diagnostic-report",
+  "meta" : {
+    "profile" : ["http://fhir.nphl.go.ke/StructureDefinition/KenyaDiagnosticReport"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport example-cbc-diagnostic-report</b></p><a name=\"example-cbc-diagnostic-report\"> </a><a name=\"hcexample-cbc-diagnostic-report\"> </a><a name=\"hcexample-cbc-diagnostic-report-en-US\"> </a><h2><span title=\"Codes:{http://loinc.org 58410-2}\">CBC panel - Blood by Automated count</span> </h2><table class=\"grid\"><tr><td>Subject</td><td>No display for Patient </td></tr><tr><td>Performer</td><td> <a href=\"Organization-example-lab-organization--cgrh.html\">Organization Coast General Teaching and Referal Hospital</a></td></tr></table><p><b>Report Details</b></p></div>"
+  },
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "58410-2"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/example-cbc-patient"
+  },
+  "performer" : [{
+    "reference" : "Organization/example-lab-organization--cgrh"
+  }],
+  "specimen" : [{
+    "reference" : "Specimen/example-cbc-specimen"
+  }]
+}

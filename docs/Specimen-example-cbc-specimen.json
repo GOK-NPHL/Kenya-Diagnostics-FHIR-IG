@@ -1,0 +1,39 @@
+{
+  "resourceType" : "Specimen",
+  "id" : "example-cbc-specimen",
+  "meta" : {
+    "profile" : ["http://fhir.nphl.go.ke/StructureDefinition/KenyaSpecimen",
+    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-specimen"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Specimen example-cbc-specimen</b></p><a name=\"example-cbc-specimen\"> </a><a name=\"hcexample-cbc-specimen\"> </a><a name=\"hcexample-cbc-specimen-en-US\"> </a><p><b>status</b>: Available</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation specimen}\">specimen</span></p><p><b>subject</b>: <a href=\"Patient-example-cbc-patient.html\">John Patient  Male, DoB: 1990-01-01</a></p><h3>Collections</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Collected[x]</b></td><td><b>Method</b></td><td><b>BodySite</b></td></tr><tr><td style=\"display: none\">*</td><td>2021-01-01</td><td><span title=\"Codes:{http://loinc.org LNC#LA26398-0}\">Blood draw</span></td><td><span title=\"Codes:{http://loinc.org LA7275-6}\">Left arm</span></td></tr></table></div>"
+  },
+  "status" : "available",
+  "type" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+      "code" : "specimen"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/example-cbc-patient"
+  },
+  "collection" : {
+    "collectedDateTime" : "2021-01-01",
+    "method" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "LNC#LA26398-0",
+        "display" : "Blood draw"
+      }]
+    },
+    "bodySite" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "LA7275-6",
+        "display" : "Left arm"
+      }]
+    }
+  }
+}

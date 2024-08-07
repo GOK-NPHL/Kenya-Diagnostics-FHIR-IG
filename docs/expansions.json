@@ -1,0 +1,153 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "42d81b9f-9559-4f70-be16-594cc82e3297",
+  "meta" : {
+    "lastUpdated" : "2024-07-11T15:57:36.622+03:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://fhir.nphl.go.ke/ValueSet/TBJustificationForLabOrderVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-LabOrderJustificationsCS.html\">codesystem CodeSystem: Laboratory Order Justifications v0.1.0 (CodeSystem)</a></p><p>This value set contains 10 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.B1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46B1\">KDSTB.B1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DS-TB - Baseline</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.F2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46F2\">KDSTB.F2</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DS-TB - Follow-up (2 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.F3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46F3\">KDSTB.F3</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DS-TB - Follow-up (3 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.F5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46F5\">KDSTB.F5</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DS-TB - Follow-up (5 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.F6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46F6\">KDSTB.F6</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DS-TB - Follow-up (6 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.B1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46B1\">KDRTB.B1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DR-TB - Baseline</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.F2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46F2\">KDRTB.F2</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DR-TB - Follow-up (2 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.F3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46F3\">KDRTB.F3</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DR-TB - Follow-up (3 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.F5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46F5\">KDRTB.F5</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DR-TB - Follow-up (5 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.F6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46F6\">KDRTB.F6</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DR-TB - Follow-up (6 months)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.nphl.go.ke/ValueSet/TBJustificationForLabOrderVS",
+      "version" : "0.1.0",
+      "name" : "KNHTSTBJustificationForLabOrderVS",
+      "title" : "ValueSet: TB Justification for Lab Order",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2024-07-11T15:57:36+03:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:053689a3-46e4-4fac-8f77-2b14887684f2",
+        "timestamp" : "2024-07-11T15:57:52+03:00",
+        "total" : 10,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+          "code" : "KDSTB.B1",
+          "display" : "DS-TB - Baseline"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+          "code" : "KDSTB.F2",
+          "display" : "DS-TB - Follow-up (2 months)"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+          "code" : "KDSTB.F3",
+          "display" : "DS-TB - Follow-up (3 months)"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+          "code" : "KDSTB.F5",
+          "display" : "DS-TB - Follow-up (5 months)"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+          "code" : "KDSTB.F6",
+          "display" : "DS-TB - Follow-up (6 months)"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+          "code" : "KDRTB.B1",
+          "display" : "DR-TB - Baseline"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+          "code" : "KDRTB.F2",
+          "display" : "DR-TB - Follow-up (2 months)"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+          "code" : "KDRTB.F3",
+          "display" : "DR-TB - Follow-up (3 months)"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+          "code" : "KDRTB.F5",
+          "display" : "DR-TB - Follow-up (5 months)"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+          "code" : "KDRTB.F6",
+          "display" : "DR-TB - Follow-up (6 months)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.nphl.go.ke/ValueSet/yes-no-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 01-Feb 2024</p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---snomed.info-sct-373066001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/373066001\">373066001</a></td><td>http://snomed.info/sct</td><td>Yes (qualifier value)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---snomed.info-sct-373067005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/373067005\">373067005</a></td><td>http://snomed.info/sct</td><td>No (qualifier value)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.nphl.go.ke/ValueSet/yes-no-vs",
+      "version" : "0.1.0",
+      "name" : "YesNoVS",
+      "title" : "Yes/No Value Set",
+      "status" : "draft",
+      "date" : "2024-07-11T15:57:36+03:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:d61fbd36-8a98-438c-a9f6-4182102122be",
+        "timestamp" : "2024-07-11T15:57:52+03:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "373066001",
+          "display" : "Yes (qualifier value)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "373067005",
+          "display" : "No (qualifier value)"
+        }]
+      }
+    }
+  }]
+}

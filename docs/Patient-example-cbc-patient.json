@@ -1,0 +1,22 @@
+{
+  "resourceType" : "Patient",
+  "id" : "example-cbc-patient",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient example-cbc-patient</b></p><a name=\"example-cbc-patient\"> </a><a name=\"hcexample-cbc-patient\"> </a><a name=\"hcexample-cbc-patient-en-US\"> </a><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">John Patient  Male, DoB: 1990-01-01</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\">P.O. Box 12345, Eldoret, Kenya</td></tr></table></div>"
+  },
+  "name" : [{
+    "family" : "Patient",
+    "given" : ["John"]
+  }],
+  "gender" : "male",
+  "birthDate" : "1990-01-01",
+  "address" : [{
+    "text" : "P.O. Box 12345, Eldoret, Kenya",
+    "line" : ["P.O. Box 12345"],
+    "city" : "Eldoret",
+    "state" : "Kenya",
+    "postalCode" : "12345",
+    "country" : "KE"
+  }]
+}

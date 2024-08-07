@@ -1,0 +1,22 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://fhir.nphl.go.ke/ValueSet/TBJustificationForLabOrderVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "KNHTSTBJustificationForLabOrderVS",
+      "title" : "ValueSet: TB Justification for Lab Order",
+      "description" : "ValueSet: TB Justification for Lab Order",
+      "systems" : ["http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS"]
+    },
+    {
+      "url" : "http://fhir.nphl.go.ke/ValueSet/yes-no-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "YesNoVS",
+      "title" : "Yes/No Value Set",
+      "description" : "The SNOMED CT codes to answer in the affirmative or negative.",
+      "systems" : ["http://snomed.info/sct"]
+    }
+  ]
+}
