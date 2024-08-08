@@ -34,7 +34,6 @@ Description: "An example of a patient."
 * address.state = "Kenya"
 * address.postalCode = "12345"
 * address.country = "KE"
-// * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
 
 // Request
 Instance: example-cbc-lab-request

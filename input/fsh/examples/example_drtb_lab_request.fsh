@@ -16,7 +16,6 @@ Description: "An example of a blood specimen."
 * collection.method.coding.code = DiagnosticService#LNC#LA26398-0
 * collection.method.coding.display = "Blood draw"
 * collection.method.coding.system = "http://loinc.org"
-// * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-specimen"
 
 
 // Patient
@@ -35,7 +34,6 @@ Description: "An example of a patient."
 * address.state = "Kenya"
 * address.postalCode = "12345"
 * address.country = "KE"
-// * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
 
 
 // Request
@@ -54,4 +52,3 @@ Description: "An example of a laboratory test request for drug resistance to tub
 * reasonCode = LabOrderJustificationsCS#KDRTB.B1
 // * reasonReference = 
 * performer = Reference(example-lab-organization--cgrh)
-// * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"

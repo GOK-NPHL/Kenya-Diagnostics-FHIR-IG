@@ -34,7 +34,6 @@ Description: "An example of a patient."
 * address.state = "Kenya"
 * address.postalCode = "12345"
 * address.country = "KE"
-// * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
 
 
 // DiagnosticReport
@@ -46,31 +45,8 @@ Description: "An example of a diagnostic report for complete blood count (CBC)."
 * status = #final
 * code = LNC#58410-2
 * subject = Reference(example-cbc-patient)
-// * result.referenceRange.low.value = 0.0
-// * result.referenceRange.high.value = 1.0
-// * result.referenceRange.type = #type
-// * result.referenceRange.appliesTo.coding.code = LNC#LA7275-6
-// * result.referenceRange.appliesTo.coding.display = "Left arm"
-// * result.referenceRange.appliesTo.coding.system = "http://loinc.org"
-// * result.referenceRange.age.value = 0
-// * result.referenceRange.age.unit = UCUM#a
-// * result.referenceRange.text = "Normal"
-// * result.referenceRange.type = #type
-// * result.referenceRange.appliesTo.coding.code = LNC#LA7275-6
-// * result.referenceRange.appliesTo.coding.display = "Left arm"
-// * result.referenceRange.appliesTo.coding.system = "http://loinc.org"
-// * result.referenceRange.age.value = 0
-// * result.referenceRange.age.unit = UCUM#a
-// * result.referenceRange.text = "Normal"
-// * effectiveDateTime = "2021-01-01"
-// * effectivePeriod.start = "2021-01-01"
-// * effectivePeriod.end = "2021-01-01"
-// * effectivePeriod.start = "2021-01-01"
-// * effectivePeriod.end = "2021-01-01"
-// * issued = "2021-01-01"
 * performer = Reference(example-lab-organization--cgrh)
 * specimen = Reference(example-cbc-specimen)
-// * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"
 
 // Observation
 Instance: example-cbc-observation
@@ -82,25 +58,13 @@ Description: "An example of a blood specimen."
 * code = LNC#58410-2
 * subject = Reference(example-cbc-patient)
 * valueQuantity.value = 0.0
-// * valueQuantity.unit = "%"
-// * valueQuantity.system = "http://unitsofmeasure.org"
-// * valueQuantity.code = "%"
-// * valueQuantity.comparator = ">"
-// * valueQuantity.unit = "%"
-// * valueQuantity.system = "http://unitsofmeasure.org"
-// * valueQuantity.code = "%"
-// * valueQuantity.comparator = ">"
-// * valueQuantity.unit = "%"
-// * valueQuantity.system = "http://unitsofmeasure.org"
 * effectiveDateTime = "2021-01-01"
 * effectivePeriod.start = "2021-01-01"
 * effectivePeriod.end = "2021-01-01"
 * effectivePeriod.start = "2021-01-01"
 * effectivePeriod.end = "2021-01-01"
-// * issued = "2021-01-01"
 * performer = Reference(example-lab-organization--cgrh)
 * specimen = Reference(example-cbc-specimen)
-// * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"
 
 // Observation
 Instance: example-vl-hiv-observation
@@ -112,20 +76,10 @@ Description: "An example of a HIV viral load observation."
 * code = LNC#94500-6
 * subject = Reference(example-vl-hiv-patient)
 * valueQuantity.value = 0.0
-// * valueQuantity.unit = "%"
-// * valueQuantity.system = "http://unitsofmeasure.org"
-// * valueQuantity.code = "%"
-// * valueQuantity.comparator = ">"
-// * valueQuantity.unit = "%"
-// * valueQuantity.system = "http://unitsofmeasure.org"
-// * valueQuantity.code = "%"
-// * valueQuantity.comparator = ">"
 * effectiveDateTime = "2021-01-01"
 * effectivePeriod.start = "2021-01-01"
 * effectivePeriod.end = "2021-01-01"
 * effectivePeriod.start = "2021-01-01"
 * effectivePeriod.end = "2021-01-01"
-// * issued = "2021-01-01"
 * performer = Reference(example-lab-organization--cgrh)
 * specimen = Reference(example-cbc-specimen)
-// * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"

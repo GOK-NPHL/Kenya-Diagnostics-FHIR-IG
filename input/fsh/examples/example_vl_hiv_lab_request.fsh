@@ -13,4 +13,3 @@ Description: "Example of a laboratory test request for HIV viral load."
 * reasonCode = LabOrderJustificationsCS#KDSTB.B1
 // * reasonReference = 
 * performer = Reference(example-lab-organization--cgrh)
-// * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
