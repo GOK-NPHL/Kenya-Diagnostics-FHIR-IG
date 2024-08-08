@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "KenyaDiagnosticsFHIRIG",
   "status" : "draft",
-  "date" : "2024-08-08T16:03:25+03:00",
+  "date" : "2024-08-08T16:40:56+03:00",
   "publisher" : "DNLS",
   "contact" : [{
     "name" : "DNLS",
@@ -688,7 +688,7 @@
       "reference" : {
         "reference" : "Organization/example-lab-organization--cgrh"
       },
-      "name" : "cgrh-lab-organization",
+      "name" : "cgrh-organization-example",
       "description" : "Example of an organization that is responsible for a laboratory test.",
       "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization"
     },
@@ -746,21 +746,9 @@
         "valueString" : "Organization"
       }],
       "reference" : {
-        "reference" : "Organization/ExampleOrganization"
-      },
-      "name" : "example-organization",
-      "description" : "Example of an organization.",
-      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Organization"
-      }],
-      "reference" : {
         "reference" : "Organization/example-lab-organization--jootrh"
       },
-      "name" : "jootrh-lab-organization",
+      "name" : "jootrh-organization-example",
       "description" : "Example of an organization that is responsible for a laboratory test.",
       "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization"
     },
@@ -811,6 +799,18 @@
       "name" : "KMHFL Code System",
       "description" : "The KMHFL code system is a code system that defines the KMHFL identifier.",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/ExampleOrganization"
+      },
+      "name" : "ntrl-organization-example",
+      "description" : "Example of an organization.",
+      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization"
     },
     {
       "extension" : [{

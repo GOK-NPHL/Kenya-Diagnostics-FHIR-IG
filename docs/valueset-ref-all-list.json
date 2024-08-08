@@ -128,8 +128,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest",
       "StructureDefinition-KenyaDiagnosticReport.html" : "KenyaDiagnosticReport",
+      "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest",
       "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization"
     },
     {
