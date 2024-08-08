@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "KenyaDiagnosticsFHIRIG",
   "status" : "draft",
-  "date" : "2024-07-11T15:57:36+03:00",
+  "date" : "2024-08-08T16:03:25+03:00",
   "publisher" : "DNLS",
   "contact" : [{
     "name" : "DNLS",
@@ -29,7 +29,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "5.5.0"
+    "version" : "6.0.2"
   },
   {
     "id" : "hl7ext",
@@ -666,7 +666,7 @@
       },
       "name" : "cbc-specimen",
       "description" : "An example of a blood specimen.",
-      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaSpecimen"
+      "exampleBoolean" : true
     },
     {
       "extension" : [{
@@ -678,7 +678,7 @@
       },
       "name" : "cbc-specimen-2",
       "description" : "An example of a blood specimen.",
-      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaSpecimen"
+      "exampleBoolean" : true
     },
     {
       "extension" : [{
@@ -690,7 +690,7 @@
       },
       "name" : "cgrh-lab-organization",
       "description" : "Example of an organization that is responsible for a laboratory test.",
-      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaLaboratoryOrganization"
+      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization"
     },
     {
       "extension" : [{
@@ -738,7 +738,19 @@
       },
       "name" : "drtb-specimen",
       "description" : "An example of a blood specimen.",
-      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaSpecimen"
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/ExampleOrganization"
+      },
+      "name" : "example-organization",
+      "description" : "Example of an organization.",
+      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization"
     },
     {
       "extension" : [{
@@ -750,7 +762,7 @@
       },
       "name" : "jootrh-lab-organization",
       "description" : "Example of an organization that is responsible for a laboratory test.",
-      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaLaboratoryOrganization"
+      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization"
     },
     {
       "extension" : [{
@@ -782,22 +794,22 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/KenyaLaboratoryOrganization"
+        "reference" : "StructureDefinition/KenyaHealthProviderOrganization"
       },
-      "name" : "KenyaLaboratoryOrganization",
-      "description" : "This profile defines an organization (facility or laboratory) that is part of the Kenya Health Facilities (KMHFL) system.",
+      "name" : "KenyaHealthProviderOrganization",
+      "description" : "Profile for an Organization with an MFL code as the primary identifier.",
       "exampleBoolean" : false
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
+        "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/KenyaSpecimen"
+        "reference" : "CodeSystem/KMHFLCS"
       },
-      "name" : "KenyaSpecimen",
-      "description" : "This profile defines a specimen to be used in a laboratory test.",
+      "name" : "KMHFL Code System",
+      "description" : "The KMHFL code system is a code system that defines the KMHFL identifier.",
       "exampleBoolean" : false
     },
     {

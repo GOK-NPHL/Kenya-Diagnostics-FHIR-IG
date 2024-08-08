@@ -1,5 +1,5 @@
 Instance: example-lab-organization--cgrh
-InstanceOf: KenyaLaboratoryOrganization
+InstanceOf: KenyaHealthProviderOrganization
 Usage: #example
 Title: "cgrh-lab-organization"
 Description: "Example of an organization that is responsible for a laboratory test."
@@ -10,7 +10,6 @@ Description: "Example of an organization that is responsible for a laboratory te
 * address.state = "Kenya"
 * address.postalCode = "00-000"
 * address.country = "KE"
-* identifier.system = "http://kmhfr.health.go.ke/fhir"
-* identifier.value = "11289"
-* identifier.use = #official
+* identifier[MFL].system = "http://kmhfr.health.go.ke/fhir"
+* identifier[MFL].value = "11289"
 * active = true

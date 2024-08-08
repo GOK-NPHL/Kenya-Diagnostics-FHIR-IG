@@ -1,5 +1,5 @@
 Instance: example-lab-organization--jootrh
-InstanceOf: KenyaLaboratoryOrganization
+InstanceOf: KenyaHealthProviderOrganization
 Usage: #example
 Title: "jootrh-lab-organization"
 Description: "Example of an organization that is responsible for a laboratory test."
@@ -10,7 +10,7 @@ Description: "Example of an organization that is responsible for a laboratory te
 * address.state = "Kenya"
 * address.postalCode = "00-001"
 * address.country = "KE"
-* identifier.system = "http://kmhfr.health.go.ke/fhir"
-* identifier.value = "13939"
+* identifier[MFL].system = "http://kmhfr.health.go.ke/fhir"
+* identifier[MFL].value = "13939"
 * identifier.use = #official
 * active = true

@@ -13,6 +13,9 @@ echo "Writing to docs directory..."
 # Make the docs directory if it doesn't exist
 mkdir -p docs
 
+# Clean the docs directory
+rm -rf docs/*
+
 # Copy all html, css, and js files from output to docs
 cp -r output/*.html docs
 cp -r output/*.css docs

@@ -18,14 +18,8 @@
     ],
     "Organization": [
       {
-        "url": "http://fhir.nphl.go.ke/StructureDefinition/KenyaLaboratoryOrganization",
-        "title": "KenyaLaboratoryOrganization"
-      }
-    ],
-    "Specimen": [
-      {
-        "url": "http://fhir.nphl.go.ke/StructureDefinition/KenyaSpecimen",
-        "title": "KenyaSpecimen"
+        "url": "http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization",
+        "title": "KenyaHealthProviderOrganization"
       }
     ]
   },

@@ -38,7 +38,8 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"2"}
     h3,h4,h5,h6{--heading-prefix:"2.0"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
@@ -169,20 +170,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-KenyaLaboratoryOrganization.html"
-                  title="StructureDefinition/KenyaLaboratoryOrganization">KenyaLaboratoryOrganization</a>
+               <a href="StructureDefinition-KenyaHealthProviderOrganization.html"
+                  title="StructureDefinition/KenyaHealthProviderOrganization">KenyaHealthProviderOrganization</a>
             </td>
             <td>
-<p>This profile defines an organization (facility or laboratory) that is part of the Kenya Health Facilities (KMHFL) system.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-KenyaSpecimen.html"
-                  title="StructureDefinition/KenyaSpecimen">KenyaSpecimen</a>
-            </td>
-            <td>
-<p>This profile defines a specimen to be used in a laboratory test.</p>
+<p>Profile for an Organization with an MFL code as the primary identifier.</p>
 </td>
          </tr>
       </tbody>
@@ -225,6 +217,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </td>
             <td>
 <p>The reason for ordering a laboratory test.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-KMHFLCS.html" title="CodeSystem/KMHFLCS">KMHFL Code System</a>
+            </td>
+            <td>
+<p>The KMHFL code system is a code system that defines the KMHFL identifier.</p>
 </td>
          </tr>
       </tbody>
@@ -334,6 +334,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="Organization-ExampleOrganization.html"
+                  title="Organization/ExampleOrganization">example-organization</a>
+            </td>
+            <td>
+<p>Example of an organization.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="Organization-example-lab-organization--jootrh.html"
                   title="Organization/example-lab-organization--jootrh">jootrh-lab-organization</a>
             </td>
@@ -379,7 +388,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 11, 2024 15:57+0300">2024-07-11</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 8, 2024 16:03+0300">2024-08-08</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -396,7 +405,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -407,7 +416,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
-  
   <!-- Analytics Below
   ================================================== -->
   </body>

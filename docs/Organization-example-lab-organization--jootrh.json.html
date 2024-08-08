@@ -40,9 +40,10 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
-    <style type="text/css">h2{--heading-prefix:"2.19"}
-    h3,h4,h5,h6{--heading-prefix:"2.19"}</style>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"2.20"}
+    h3,h4,h5,h6{--heading-prefix:"2.20"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -171,21 +172,18 @@
   "<a href="http://hl7.org/fhir/R4/organization.html#Organization.id">id</a>" : "example-lab-organization--jootrh",
   "<a href="http://hl7.org/fhir/R4/organization.html#Organization.meta">meta</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
-      <a href="StructureDefinition-KenyaLaboratoryOrganization.html" style="color: Maroon">&#x1F517;</a> "http://fhir.nphl.go.ke/StructureDefinition/KenyaLaboratoryOrganization"
+      <a href="StructureDefinition-KenyaHealthProviderOrganization.html" style="color: Maroon">&#x1F517;</a> "http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization"
     ]
   },
   "<a href="http://hl7.org/fhir/R4/organization.html#Organization.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Organization example-lab-organization--jootrh&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;example-lab-organization--jootrh\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcexample-lab-organization--jootrh\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcexample-lab-organization--jootrh-en-US\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://kmhfr.health.go.ke/fhir&lt;/code&gt;/13939\u00a0(use:\u00a0official,\u00a0), &lt;code&gt;http://kmhfl.health.go.ke/fhir&lt;/code&gt;/?ngen-9?&lt;/p&gt;&lt;p&gt;&lt;b&gt;active&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Jaramogi Oginga Odinga Teaching and Referal Hospital&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: Jaramogi Oginga Odinga Teaching and Referal Hospital, P.O. Box 001, Kisumu, Kenya&lt;/p&gt;&lt;/div&gt;"
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Organization example-lab-organization--jootrh&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;example-lab-organization--jootrh\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcexample-lab-organization--jootrh\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcexample-lab-organization--jootrh-en-US\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://kmhfr.health.go.ke/fhir&lt;/code&gt;/13939\u00a0(use:\u00a0official,\u00a0)&lt;/p&gt;&lt;p&gt;&lt;b&gt;active&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Jaramogi Oginga Odinga Teaching and Referal Hospital&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: Jaramogi Oginga Odinga Teaching and Referal Hospital, P.O. Box 001, Kisumu, Kenya&lt;/p&gt;&lt;/div&gt;"
   },
   "<a href="http://hl7.org/fhir/R4/organization.html#Organization.identifier">identifier</a>" : [
     {
       "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
       "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "http://kmhfr.health.go.ke/fhir",
       "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "13939"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "http://kmhfl.health.go.ke/fhir"
     }
   ],
   "<a href="http://hl7.org/fhir/R4/organization.html#Organization.active">active</a>" : true,
@@ -226,7 +224,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 11, 2024 15:57+0300">2024-07-11</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 8, 2024 16:03+0300">2024-08-08</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -243,7 +241,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -254,7 +252,6 @@
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
-  
   <!-- Analytics Below
   ================================================== -->
   </body>

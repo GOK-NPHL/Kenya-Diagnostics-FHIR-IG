@@ -7,6 +7,14 @@
       "name" : "LabOrderJustificationsCS",
       "title" : "CodeSystem: Laboratory Order Justifications",
       "description" : "The reason for ordering a laboratory test."
+    },
+    {
+      "url" : "http://kmhfl.health.go.ke/fhir",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "KMHFLCS",
+      "title" : "KMHFL Code System",
+      "description" : "The KMHFL code system is a code system that defines the KMHFL identifier."
     }
   ]
 }

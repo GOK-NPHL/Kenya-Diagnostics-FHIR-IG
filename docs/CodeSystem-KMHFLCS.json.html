@@ -1,5 +1,3 @@
-<!-- get modelType -->
-
 
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -7,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title> -  v0.1.0</title>
+    <title>KMHFL Code System - JSON Representation -  v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -42,9 +40,10 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
-    <style type="text/css">h2{--heading-prefix:""}
-    h3,h4,h5,h6{--heading-prefix:""}</style>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"2.7"}
+    h3,h4,h5,h6{--heading-prefix:"2.7"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -98,7 +97,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>KMHFL Code System</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -110,12 +109,8 @@
         <div class="row">
           <div class="inner-wrapper">
 
-
-<div style="counter-reset: section 10" class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">KenyaDiagnosticsFHIRIG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://fhir.nphl.go.ke/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-  
-
-
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">KenyaDiagnosticsFHIRIG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://fhir.nphl.go.ke/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -128,65 +123,40 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="StructureDefinition-KenyaSpecimen.html">Content</a>
-  </li>
-
-
-
-  <li>
-    <a href="StructureDefinition-KenyaSpecimen-definitions.html">Detailed Descriptions</a>
+    <a href="CodeSystem-KMHFLCS.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="StructureDefinition-KenyaSpecimen-mappings.html">Mappings</a>
+      <a href="CodeSystem-KMHFLCS.xml.html">XML</a>
     </li>
   
 
 
-
-
-
-
   
-    
-      <li>
-        <a href="StructureDefinition-KenyaSpecimen-examples.html">Examples</a>
-      </li>
-    
-  
-
-
-
-
-  
-    <li>
-      <a href="StructureDefinition-KenyaSpecimen.profile.xml.html">XML</a>
+    <li class="active">
+      <a href="#">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="StructureDefinition-KenyaSpecimen.profile.json.html">JSON</a>
+      <a href="CodeSystem-KMHFLCS.ttl.html">TTL</a>
     </li>
   
 
-
-  
-    <li>
-      <a href="StructureDefinition-KenyaSpecimen.profile.ttl.html">TTL</a>
-    </li>
-  
 
 
 </ul>
 
 
-  <a name="root"> </a>
-  <h2 id="root">Resource Profile: KenyaSpecimen - Change History</h2>
+<a name="root"> </a>
+
+
+<h2 id="root">: KMHFL Code System - JSON Representation</h2>
 
   <table class="colsd">
     <tr>
@@ -195,7 +165,7 @@
         
           Draft
           
-            as of 2024-07-11
+            as of 2024-08-08
           
         
       </td>
@@ -203,12 +173,60 @@
     </tr>
   </table>
 
-  <p>Changes in the KenyaSpecimen resource profile.</p>
 
+<p><a href="CodeSystem-KMHFLCS.json" no-download="true">Raw json</a> | <a href="CodeSystem-KMHFLCS.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
   
 
-</div>
 
+
+  <pre class="json" style="white-space: pre; text-wrap: nowrap;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">
+{
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "KMHFLCS",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: CodeSystem KMHFLCS&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;KMHFLCS\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcKMHFLCS\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcKMHFLCS-en-US\&quot;&gt; &lt;/a&gt;&lt;p&gt;This case-sensitive code system &lt;code&gt;http://kmhfl.health.go.ke/fhir&lt;/code&gt; defines the following code:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;/&gt;&lt;td&gt;KMHFL&lt;/td&gt;&lt;td&gt;The KMHFL identifier.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "http://kmhfl.health.go.ke/fhir",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "0.1.0",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "KMHFLCS",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "KMHFL Code System",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "draft",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">experimental</a>" : false,
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2024-08-08T16:03:25+03:00",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "DNLS",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "DNLS",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://nphl.go.ke"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>" : "The KMHFL code system is a code system that defines the KMHFL identifier.",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">caseSensitive</a>" : true,
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a>" : "complete",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">count</a>" : 1,
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "KMHFL",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "The KMHFL identifier."
+    }
+  ]
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
     </div>  <!-- /container -->
@@ -217,8 +235,6 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript" src="assets/js/tabs.js"> </script>
-
   <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
@@ -226,7 +242,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 11, 2024 15:57+0300">2024-07-11</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 8, 2024 16:03+0300">2024-08-08</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -243,7 +259,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -254,7 +270,6 @@
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
-  
   <!-- Analytics Below
   ================================================== -->
   </body>

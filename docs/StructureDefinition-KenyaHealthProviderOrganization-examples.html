@@ -7,7 +7,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>KenyaLaboratoryOrganization - Examples -  v0.1.0</title>
+    <title>KenyaHealthProviderOrganization - Examples -  v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -42,7 +42,8 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"2.3"}
     h3,h4,h5,h6{--heading-prefix:"2.3"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
@@ -98,7 +99,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>KenyaLaboratoryOrganization</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>KenyaHealthProviderOrganization</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -127,20 +128,20 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="StructureDefinition-KenyaLaboratoryOrganization.html">Content</a>
+    <a href="StructureDefinition-KenyaHealthProviderOrganization.html">Content</a>
   </li>
 
 
 
   <li>
-    <a href="StructureDefinition-KenyaLaboratoryOrganization-definitions.html">Detailed Descriptions</a>
+    <a href="StructureDefinition-KenyaHealthProviderOrganization-definitions.html">Detailed Descriptions</a>
   </li>
 
 
 
   
     <li>
-      <a href="StructureDefinition-KenyaLaboratoryOrganization-mappings.html">Mappings</a>
+      <a href="StructureDefinition-KenyaHealthProviderOrganization-mappings.html">Mappings</a>
     </li>
   
 
@@ -162,21 +163,21 @@
 
   
     <li>
-      <a href="StructureDefinition-KenyaLaboratoryOrganization.profile.xml.html">XML</a>
+      <a href="StructureDefinition-KenyaHealthProviderOrganization.profile.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="StructureDefinition-KenyaLaboratoryOrganization.profile.json.html">JSON</a>
+      <a href="StructureDefinition-KenyaHealthProviderOrganization.profile.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="StructureDefinition-KenyaLaboratoryOrganization.profile.ttl.html">TTL</a>
+      <a href="StructureDefinition-KenyaHealthProviderOrganization.profile.ttl.html">TTL</a>
     </li>
   
 
@@ -185,7 +186,7 @@
 
 
   <a name="root"> </a>
-  <h2 id="root">Resource Profile: KenyaLaboratoryOrganization - Examples</h2>
+  <h2 id="root">Resource Profile: KenyaHealthProviderOrganization - Examples</h2>
 
   <table class="colsd">
     <tr>
@@ -194,7 +195,7 @@
         
           Draft
           
-            as of 2024-07-11
+            as of 2024-08-08
           
         
       </td>
@@ -210,9 +211,15 @@
 
 
 
-  <p>Examples for the KenyaLaboratoryOrganization Profile.</p>
+  <p>Examples for the KenyaHealthProviderOrganization Profile.</p>
   <table style="grid">
     <tbody>
+      
+        <tr>
+          <td>
+            <a href="Organization-ExampleOrganization.html">example-organization</a>
+          </td>
+        </tr>
       
         <tr>
           <td>
@@ -254,7 +261,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 11, 2024 15:57+0300">2024-07-11</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 8, 2024 16:03+0300">2024-08-08</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -271,7 +278,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -282,7 +289,6 @@
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
-  
   <!-- Analytics Below
   ================================================== -->
   </body>

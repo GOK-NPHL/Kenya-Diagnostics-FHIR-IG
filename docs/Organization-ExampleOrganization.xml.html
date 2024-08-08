@@ -1,5 +1,3 @@
-<!-- get modelType -->
-
 
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -7,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>KenyaLaboratoryOrganization - Testing -  v0.1.0</title>
+    <title>example-organization - XML Representation -  v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -42,9 +40,10 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
-    <style type="text/css">h2{--heading-prefix:"2.3"}
-    h3,h4,h5,h6{--heading-prefix:"2.3"}</style>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"2.19"}
+    h3,h4,h5,h6{--heading-prefix:"2.19"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -98,7 +97,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>KenyaLaboratoryOrganization</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>example-organization</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -110,11 +109,8 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 6" class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">KenyaDiagnosticsFHIRIG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://fhir.nphl.go.ke/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-  
-
-
+<div style="counter-reset: section 7" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">KenyaDiagnosticsFHIRIG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://fhir.nphl.go.ke/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -127,106 +123,86 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="StructureDefinition-KenyaLaboratoryOrganization.html">Content</a>
-  </li>
-
-
-
-  <li>
-    <a href="StructureDefinition-KenyaLaboratoryOrganization-definitions.html">Detailed Descriptions</a>
+    <a href="Organization-ExampleOrganization.html">Narrative Content</a>
   </li>
 
 
 
   
-    <li>
-      <a href="StructureDefinition-KenyaLaboratoryOrganization-mappings.html">Mappings</a>
-    </li>
-  
-
-
-
-
-
-
-  
-    
-      <li>
-        <a href="StructureDefinition-KenyaLaboratoryOrganization-examples.html">Examples</a>
-      </li>
-    
-  
-
-
-
-
-  
-    <li>
-      <a href="StructureDefinition-KenyaLaboratoryOrganization.profile.xml.html">XML</a>
+    <li class="active">
+      <a href="#">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="StructureDefinition-KenyaLaboratoryOrganization.profile.json.html">JSON</a>
+      <a href="Organization-ExampleOrganization.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="StructureDefinition-KenyaLaboratoryOrganization.profile.ttl.html">TTL</a>
+      <a href="Organization-ExampleOrganization.ttl.html">TTL</a>
     </li>
   
+
 
 
 </ul>
 
 
-  <a name="root"> </a>
-  <h2 id="root">Resource Profile: KenyaLaboratoryOrganization - Testing</h2>
+<a name="root"> </a>
 
-  <table class="colsd">
-    <tr>
 
-      <td colspan="2">
-        
-          Draft
-          
-            as of 2024-07-11
-          
-        
-      </td>
+<h2 id="root">: example-organization - XML Representation</h2>
 
-    </tr>
-  </table>
+
+<p><a href="Organization-ExampleOrganization.xml" no-download="true">Raw xml</a> | <a href="Organization-ExampleOrganization.xml" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
 
 
 
+  <pre class="xml" style="white-space: pre; text-wrap: nowrap;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
 
-<!-- insert intro if present -->
+&lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization">Organization</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;ExampleOrganization&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization&quot;/&gt;
+  &lt;/meta&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Organization ExampleOrganization&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;ExampleOrganization&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcExampleOrganization&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcExampleOrganization-en-US&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://kmhfr.health.go.ke/fhir&lt;/code&gt;/23841&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: National Tuberculosis Reference Laboratory&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: National Tuberculosis Reference Laboratory, Afya Annex, Nairobi, Kenya&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://kmhfr.health.go.ke/fhir&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;23841&quot;/&gt;
+  &lt;/identifier&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;National Tuberculosis Reference Laboratory&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.address">address</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.text">text</a>
+          <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;National Tuberculosis Reference Laboratory, Afya Annex, Nairobi, Kenya&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;National Tuberculosis Reference Laboratory&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Afya Annex, KNH Grounds&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Woodley/Kenyatta Golf Course&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nairobi, Kenya&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nairobi&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">state</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kenya&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;12345&quot;/&gt;
+  &lt;/address&gt;
+&lt;/Organization&gt;</code></pre>
 
 
-
-
-<h3>Test Plans</h3>
-
-  <p><b>No test plans are currently available for the  Profile.</b></p>
-
-
-<h3>Test Scripts</h3>
-
-  <p><b>No test scripts are currently available for the  Profile.</b></p>
-
-
-<!-- insert notes if present -->
-
+  <!-- insert notes if present -->
+  
 
 
 
 </div>
-
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
     </div>  <!-- /container -->
@@ -235,8 +211,6 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript" src="assets/js/tabs.js"> </script>
-
   <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
@@ -244,7 +218,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 11, 2024 15:57+0300">2024-07-11</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 8, 2024 16:03+0300">2024-08-08</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -261,7 +235,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -272,7 +246,6 @@
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
-  
   <!-- Analytics Below
   ================================================== -->
   </body>

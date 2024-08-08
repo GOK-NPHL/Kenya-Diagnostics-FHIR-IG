@@ -72,18 +72,6 @@
       "http://hl7.org/fhir/R4/valueset-request-status.html" : "RequestStatus"
     },
     {
-      "url" : "http://hl7.org/fhir/specimen-status",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "SpecimenStatus",
-      "title" : "SpecimenStatus",
-      "description" : "Codes providing the status/availability of a specimen.",
-      "oids" : ["2.16.840.1.113883.4.642.4.472"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-specimen-status.html" : "SpecimenStatus"
-    },
-    {
       "url" : "http://loinc.org",
       "version" : "3.1.0",
       "status" : "active",
@@ -105,16 +93,14 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings",
       "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
       "http://hl7.org/fhir/R4/valueset-participant-role.html" : "Participant Roles",
-      "http://hl7.org/fhir/R4/valueset-specimen-collection-method.html" : "FHIR Specimen Collection Method",
-      "http://hl7.org/fhir/R4/valueset-specimen-container-type.html" : "Specimen Container Type",
+      "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings",
+      "ValueSet-yes-no-vs.html" : "Yes/No Value Set",
+      "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
       "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
       "http://hl7.org/fhir/R4/valueset-servicerequest-category.html" : "Service Request Category Codes",
-      "ValueSet-yes-no-vs.html" : "Yes/No Value Set",
       "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
-      "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
       "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes"
     },
     {
@@ -131,8 +117,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/organization-type",
-      "version" : "2.0.0",
-      "status" : "draft",
+      "version" : "2.0.1",
+      "status" : "active",
       "name" : "OrganizationType",
       "title" : "Organization type",
       "description" : "This example value set defines a set of codes that can be used to indicate a type of organization.",
@@ -166,66 +152,6 @@
       "http://hl7.org/fhir/R4/valueset-identifier-type.html" : "IdentifierType"
     },
     {
-      "url" : "http://terminology.hl7.org/CodeSystem/v2-0371",
-      "version" : "2.0.0",
-      "status" : "active",
-      "name" : "AdditivePreservative",
-      "title" : "additivePreservative",
-      "description" : "HL7-defined code system of concepts specifying any additive introduced to the specimen before or at the time of collection.  These additives may be introduced in order to preserve, maintain or enhance the particular nature or component of the specimen.  Used in HL7 Version 2.x messaging in the SPM and SAC segments.",
-      "oids" : ["2.16.840.1.113883.18.229"],
-      "uses" : {
-      },
-      "http://terminology.hl7.org/5.5.0/ValueSet-v2-0371.html" : "hl7VS-additivePreservative"
-    },
-    {
-      "url" : "http://terminology.hl7.org/CodeSystem/v2-0373",
-      "version" : "2.0.0",
-      "status" : "active",
-      "name" : "Treatment",
-      "title" : "treatment",
-      "description" : "Code system of concepts that identify the specimen treatment performed during lab processing.  Used in the Interaction Specimen Container Detail (SAC) segment in HL7 Version 2.x messaging.",
-      "oids" : ["2.16.840.1.113883.18.231"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-specimen-processing-procedure.html" : "Specimen processing procedure"
-    },
-    {
-      "url" : "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version" : "2.0.0",
-      "status" : "active",
-      "name" : "SpecimenType",
-      "title" : "specimenType",
-      "description" : "HL7-defined code system of concepts that describe the precise nature of an entity that may be used as the source material for an observation.  This is one of two code systems that are used instead of table 0070 (code system 2.16.840.1.113883.18.28) which conflated specimen types and specimen collection methods.   Used in HL7 Version 2.x messaging in the SPM segment.",
-      "oids" : ["2.16.840.1.113883.18.311"],
-      "uses" : {
-      },
-      "http://terminology.hl7.org/5.5.0/ValueSet-v2-0487.html" : "hl7VS-specimenType"
-    },
-    {
-      "url" : "http://terminology.hl7.org/CodeSystem/v2-0493",
-      "version" : "2.0.0",
-      "status" : "active",
-      "name" : "SpecimenCondition",
-      "title" : "specimenCondition",
-      "description" : "Code system of concepts specifying a mode or state of being that describes the nature of the specimen.  Used in HL7 Version 2.x messaging in the SPM segment.",
-      "oids" : ["2.16.840.1.113883.18.317"],
-      "uses" : {
-      },
-      "http://terminology.hl7.org/5.5.0/ValueSet-v2-0493.html" : "hl7VS-specimenCondition"
-    },
-    {
-      "url" : "http://terminology.hl7.org/CodeSystem/v2-0916",
-      "version" : "2.0.0",
-      "status" : "active",
-      "name" : "RelevantClincialInformation",
-      "title" : "relevantClincialInformation",
-      "description" : "Code system of concepts specifying additional clinical information about the patient or specimen to report the supporting and/or suspected diagnosis and clinical findings on requests for interpreted diagnostic studies. Used in HL7 Version 2.x messaging in the OBR segment.",
-      "oids" : ["2.16.840.1.113883.18.422"],
-      "uses" : {
-      },
-      "http://terminology.hl7.org/5.5.0/ValueSet-v2-0916.html" : "hl7VS-relevantClincialInformation"
-    },
-    {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
       "version" : "3.0.0",
       "status" : "active",
@@ -235,7 +161,7 @@
       "oids" : ["2.16.840.1.113883.5.111"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.5.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
+      "http://terminology.hl7.org/6.0.2/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
     },
     {
       "url" : "urn:ietf:bcp:47",

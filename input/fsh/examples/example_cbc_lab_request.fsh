@@ -1,6 +1,6 @@
 // Specimen
 Instance: example-cbc-specimen
-InstanceOf: KenyaSpecimen
+InstanceOf: Specimen
 Usage: #example
 Title: "cbc-specimen"
 Description: "An example of a blood specimen."

@@ -2,8 +2,7 @@
   "resourceType" : "Specimen",
   "id" : "example-cbc-specimen",
   "meta" : {
-    "profile" : ["http://fhir.nphl.go.ke/StructureDefinition/KenyaSpecimen",
-    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-specimen"]
+    "profile" : ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-specimen"]
   },
   "text" : {
     "status" : "generated",

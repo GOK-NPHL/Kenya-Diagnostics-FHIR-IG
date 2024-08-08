@@ -1,6 +1,6 @@
 // Specimen
 Instance: drtb-specimen
-InstanceOf: KenyaSpecimen
+InstanceOf: Specimen
 Usage: #example
 Title: "drtb-specimen"
 Description: "An example of a blood specimen."
