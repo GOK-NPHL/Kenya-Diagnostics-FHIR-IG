@@ -1,7 +1,7 @@
 Instance: example-lab-organization--cgrh
 InstanceOf: KenyaHealthProviderOrganization
 Usage: #example
-Title: "cgrh-lab-organization"
+Title: "cgrh-organization-example"
 Description: "Example of an organization that is responsible for a laboratory test."
 * name = "Coast General Teaching and Referal Hospital"
 * address.text = "Coast General Teaching and Referal Hospital, P.O. Box 000, Mombasa, Kenya"

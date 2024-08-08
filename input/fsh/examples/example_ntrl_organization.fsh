@@ -2,7 +2,7 @@
 Instance: ExampleOrganization
 InstanceOf: KenyaHealthProviderOrganization
 Usage: #example
-Title: "example-organization"
+Title: "ntrl-organization-example"
 Description: "Example of an organization."
 * name = "National Tuberculosis Reference Laboratory"
 * identifier[MFL].system = "http://kmhfr.health.go.ke/fhir" // URL of the organization identifier system

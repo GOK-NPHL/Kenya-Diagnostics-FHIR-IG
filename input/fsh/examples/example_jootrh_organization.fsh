@@ -1,7 +1,7 @@
 Instance: example-lab-organization--jootrh
 InstanceOf: KenyaHealthProviderOrganization
 Usage: #example
-Title: "jootrh-lab-organization"
+Title: "jootrh-organization-example"
 Description: "Example of an organization that is responsible for a laboratory test."
 * name = "Jaramogi Oginga Odinga Teaching and Referal Hospital"
 * address.text = "Jaramogi Oginga Odinga Teaching and Referal Hospital, P.O. Box 001, Kisumu, Kenya"
