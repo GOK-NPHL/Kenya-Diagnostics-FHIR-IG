@@ -128,9 +128,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-KenyaDiagnosticReport.html" : "KenyaDiagnosticReport",
+      "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization",
       "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest",
-      "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization"
+      "StructureDefinition-KenyaDiagnosticReport.html" : "KenyaDiagnosticReport"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
