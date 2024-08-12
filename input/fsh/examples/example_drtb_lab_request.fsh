@@ -20,14 +20,17 @@ Description: "An example of a blood specimen."
 
 // Patient
 Instance: drtb-patient
-InstanceOf: Patient
+InstanceOf: KenyaPatientIps
 Usage: #example
 Title: "drtb-patient"
 Description: "An example of a patient."
 * name.family = "Patient"
 * name.given = "John"
+* identifier.type = http://terminology.hl7.org/CodeSystem/v2-0203#NI
+* identifier.value = "123456789"
 * gender = #male
 * birthDate = "1990-01-01"
+* maritalStatus = #U
 * address.text = "P.O. Box 12345, Eldoret, Kenya"
 * address.line = "P.O. Box 12345"
 * address.city = "Eldoret"
@@ -45,7 +48,7 @@ Description: "An example of a laboratory test request for drug resistance to tub
 * status = #active
 * intent = #order
 * category = ObsCat#laboratory
-* code = LNC#94500-6
+* code = LNC#13956-8
 * subject = Reference(example-drtb-patient)
 * specimen = Reference(example-drtb-specimen)
 * requester = Reference(example-lab-organization--jootrh)

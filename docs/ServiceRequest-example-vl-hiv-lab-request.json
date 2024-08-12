@@ -6,7 +6,7 @@
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest example-vl-hiv-lab-request</b></p><a name=\"example-vl-hiv-lab-request\"> </a><a name=\"hcexample-vl-hiv-lab-request\"> </a><a name=\"hcexample-vl-hiv-lab-request-en-US\"> </a><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}\">Laboratory</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 94500-6}\">SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory system specimen by NAA with probe detection</span></p><p><b>subject</b>: <a href=\"example-vl-hiv-patient\">example-vl-hiv-patient</a></p><p><b>requester</b>: <a href=\"Organization-example-lab-organization--cgrh.html\">Organization Coast General Teaching and Referal Hospital</a></p><p><b>performer</b>: <a href=\"Organization-example-lab-organization--cgrh.html\">Organization Coast General Teaching and Referal Hospital</a></p><p><b>reasonCode</b>: <span title=\"Codes:{http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS KDSTB.B1}\">DS-TB - Baseline</span></p><p><b>specimen</b>: <a href=\"example-vl-hiv-specimen\">example-vl-hiv-specimen</a></p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest example-vl-hiv-lab-request</b></p><a name=\"example-vl-hiv-lab-request\"> </a><a name=\"hcexample-vl-hiv-lab-request\"> </a><a name=\"hcexample-vl-hiv-lab-request-en-US\"> </a><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}\">Laboratory</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 10351-5}\">HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification</span></p><p><b>subject</b>: <a href=\"example-vl-hiv-patient\">example-vl-hiv-patient</a></p><p><b>requester</b>: <a href=\"Organization-example-lab-organization--cgrh.html\">Organization Coast General Teaching and Referal Hospital</a></p><p><b>performer</b>: <a href=\"Organization-example-lab-organization--cgrh.html\">Organization Coast General Teaching and Referal Hospital</a></p><p><b>reasonCode</b>: <span title=\"Codes:{http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS KDSTB.B1}\">DS-TB - Baseline</span></p><p><b>specimen</b>: <a href=\"example-vl-hiv-specimen\">example-vl-hiv-specimen</a></p></div>"
   },
   "status" : "active",
   "intent" : "order",
@@ -19,7 +19,7 @@
   "code" : {
     "coding" : [{
       "system" : "http://loinc.org",
-      "code" : "94500-6"
+      "code" : "10351-5"
     }]
   },
   "subject" : {
