@@ -28,9 +28,10 @@ The following FHIR resources are commonly used in the context of health diagnost
 
 2. **DiagnosticReport**: The DiagnosticReport resource is used to report the results of diagnostic tests, such as blood tests, imaging studies, and pathology reports. It includes information about the ordering provider, performing laboratory, and relevant clinical details.
 
-3. **Specimen**: The Specimen resource is used to represent a sample collected from a patient for laboratory testing. It includes information about the specimen type, collection details, and processing instructions.
+3. **Organization**: The Organization resource is used to represent a formal entity or group that is responsible for providing or coordinating healthcare services.
 
 4. **ServiceRequest**: The ServiceRequest resource is used to request diagnostic tests, procedures, or interventions for a patient. It includes information about the ordering provider, relevant clinical details, and the requested service.
+4. **Patient (IPS)**: The Patient resource represents information about an individual who is receiving or has received healthcare services. It provides essential details about a patient, such as their identifiers, demographic information, contact details, etc.
 
 ## Profiles
 
@@ -38,9 +39,10 @@ This IG defines the following profiles for FHIR resources related to health diag
 
 1. **KenyaDiagnosticReport**: This profile specifies additional constraints and extensions for the DiagnosticReport resource to support diagnostic reporting in Kenya. It includes elements for capturing the laboratory facility, test methodology, and result interpretation.
 
-2. **KenyaSpecimen**: This profile specifies additional constraints and extensions for the Specimen resource to support specimen tracking and processing in Kenya. It includes elements for specimen collection details, processing instructions, and storage conditions.
+2. **KenyaOrganization**:  This profile constrains the Organization resource to represent an organization that acts as performer or observer for a result observation (laboratory, pathology or imaging), or as performer for a procedure.
 
 3. **KenyaServiceRequest**: This profile specifies additional constraints and extensions for the ServiceRequest resource to support diagnostic test ordering in Kenya. It includes elements for the ordering provider, clinical indication, and requested service details.
+4. **KenyaPatient (IPS)**: This profile represents the constraints applied to the Patient resource and describes the minimum expectations for the Patient resource when used in one of the referred resources.
 
 ## Implementation Guidance
 
