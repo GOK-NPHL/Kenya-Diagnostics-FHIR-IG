@@ -19,6 +19,20 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
+      "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1"],
+      "uses" : {
+      },
+      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)"
+    },
+    {
       "url" : "http://hl7.org/fhir/ValueSet/body-site",
       "version" : "4.0.1",
       "status" : "draft",
@@ -45,6 +59,34 @@
       "uses" : {
       },
       "StructureDefinition-KenyaDiagnosticReport.html" : "KenyaDiagnosticReport"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/contact-point-system",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ContactPointSystem",
+      "title" : "ContactPointSystem",
+      "description" : "Telecommunications form for contact point.",
+      "systems" : ["http://hl7.org/fhir/contact-point-system"],
+      "oids" : ["2.16.840.1.113883.4.642.3.71"],
+      "sources" : ["2.16.840.1.113883.4.642.3.71"],
+      "uses" : {
+      },
+      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ContactPointUse",
+      "title" : "ContactPointUse",
+      "description" : "Use of contact point.",
+      "systems" : ["http://hl7.org/fhir/contact-point-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.73"],
+      "sources" : ["2.16.840.1.113883.4.642.3.73"],
+      "uses" : {
+      },
+      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contactentity-type",
@@ -100,6 +142,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
+      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)",
       "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization"
     },
     {
@@ -114,6 +157,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
+      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)",
       "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization"
     },
     {
@@ -128,9 +172,41 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
+      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)",
       "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization",
-      "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest",
-      "StructureDefinition-KenyaDiagnosticReport.html" : "KenyaDiagnosticReport"
+      "StructureDefinition-KenyaDiagnosticReport.html" : "KenyaDiagnosticReport",
+      "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/link-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "LinkType",
+      "title" : "LinkType",
+      "description" : "The type of link between this patient resource and another patient resource.",
+      "systems" : ["http://hl7.org/fhir/link-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.423"],
+      "sources" : ["2.16.840.1.113883.4.642.3.423"],
+      "uses" : {
+      },
+      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/marital-status",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "Marital Status Codes",
+      "title" : "MaritalStatus",
+      "description" : "This value set defines the set of codes that can be used to indicate the marital status of a person.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.29"],
+      "sources" : ["2.16.840.1.113883.4.642.3.29"],
+      "uses" : {
+      },
+      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
@@ -145,6 +221,20 @@
       "uses" : {
       },
       "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/name-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "NameUse",
+      "title" : "NameUse",
+      "description" : "The use of a human name.",
+      "systems" : ["http://hl7.org/fhir/name-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.65"],
+      "sources" : ["2.16.840.1.113883.4.642.3.65"],
+      "uses" : {
+      },
+      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/organization-type",
@@ -173,6 +263,20 @@
       "uses" : {
       },
       "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "PatientContactRelationship",
+      "title" : "Patient Contact Relationship ",
+      "description" : "The nature of the relationship between the patient and the contact person.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0131"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1130"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1130"],
+      "uses" : {
+      },
+      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-code",

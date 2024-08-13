@@ -4,6 +4,12 @@
   "fhirVersion": "4.0.1",
   "extensions": [],
   "profiles": {
+    "Patient": [
+      {
+        "url": "http://fhir.nphl.go.ke/StructureDefinition/Kenya-patient-ips",
+        "title": "Patient (IPS)"
+      }
+    ],
     "DiagnosticReport": [
       {
         "url": "http://fhir.nphl.go.ke/StructureDefinition/KenyaDiagnosticReport",
@@ -41,6 +47,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
       "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
+      "StructureDefinition"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
       "ImplementationGuide.definition"

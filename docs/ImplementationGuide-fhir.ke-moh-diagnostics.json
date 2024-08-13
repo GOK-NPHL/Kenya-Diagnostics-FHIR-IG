@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "KenyaDiagnosticsFHIRIG",
   "status" : "draft",
-  "date" : "2024-08-09T10:46:08+03:00",
+  "date" : "2024-08-12T15:14:08+03:00",
   "publisher" : "DNLS",
   "contact" : [{
     "name" : "DNLS",
@@ -642,7 +642,7 @@
       },
       "name" : "cbc-patient",
       "description" : "An example of a patient.",
-      "exampleBoolean" : true
+      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/Kenya-patient-ips"
     },
     {
       "extension" : [{
@@ -654,7 +654,7 @@
       },
       "name" : "cbc-patient-2",
       "description" : "An example of a patient.",
-      "exampleBoolean" : true
+      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/Kenya-patient-ips"
     },
     {
       "extension" : [{
@@ -726,7 +726,7 @@
       },
       "name" : "drtb-patient",
       "description" : "An example of a patient.",
-      "exampleBoolean" : true
+      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/Kenya-patient-ips"
     },
     {
       "extension" : [{
@@ -811,6 +811,18 @@
       "name" : "ntrl-organization-example",
       "description" : "Example of an organization.",
       "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/Kenya-patient-ips"
+      },
+      "name" : "Patient (IPS)",
+      "description" : "This profile represents the constraints applied to the Patient resource by the International Patient Summary (IPS) FHIR Implementation Guide and describes the minimum expectations for the Patient resource when used in the IPS composition or in one of the referred resources.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{

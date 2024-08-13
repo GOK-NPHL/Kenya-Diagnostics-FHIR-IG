@@ -20,13 +20,16 @@ Description: "An example of a blood specimen."
 
 // Patient
 Instance: example-cbc-patient-2
-InstanceOf: Patient
+InstanceOf: KenyaPatientIps
 Usage: #example
 Title: "cbc-patient-2"
 Description: "An example of a patient."
 * name.family = "Patient"
 * name.given = "Janet"
-* gender = #male
+* identifier.value = "123456789"
+* identifier.type = http://terminology.hl7.org/CodeSystem/v2-0203#NI
+* gender = #female
+* maritalStatus = #U
 * birthDate = "1990-01-01"
 * address.text = "P.O. Box 12345, Eldoret, Kenya"
 * address.line = "P.O. Box 12345"
@@ -58,11 +61,6 @@ Description: "An example of a blood specimen."
 * code = LNC#58410-2
 * subject = Reference(example-cbc-patient)
 * valueQuantity.value = 0.0
-* effectiveDateTime = "2021-01-01"
-* effectivePeriod.start = "2021-01-01"
-* effectivePeriod.end = "2021-01-01"
-* effectivePeriod.start = "2021-01-01"
-* effectivePeriod.end = "2021-01-01"
 * performer = Reference(example-lab-organization--cgrh)
 * specimen = Reference(example-cbc-specimen)
 
@@ -73,13 +71,8 @@ Usage: #example
 Title: "vl-hiv-observation"
 Description: "An example of a HIV viral load observation."
 * status = #final
-* code = LNC#94500-6
+* code = LNC#10351-5
 * subject = Reference(example-vl-hiv-patient)
-* valueQuantity.value = 0.0
-* effectiveDateTime = "2021-01-01"
-* effectivePeriod.start = "2021-01-01"
-* effectivePeriod.end = "2021-01-01"
-* effectivePeriod.start = "2021-01-01"
-* effectivePeriod.end = "2021-01-01"
+* valueQuantity.value = 2100.0
 * performer = Reference(example-lab-organization--cgrh)
 * specimen = Reference(example-cbc-specimen)

@@ -14,6 +14,13 @@
     "name" : "KenyaDiagnosticsFHIRIG"
   },
   {
+    "id" : "Kenya-patient-ips",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.nphl.go.ke/StructureDefinition/Kenya-patient-ips",
+    "version" : "0.1.0",
+    "name" : "KenyaPatientIps"
+  },
+  {
     "id" : "KenyaDiagnosticReport",
     "type" : "StructureDefinition",
     "url" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaDiagnosticReport",

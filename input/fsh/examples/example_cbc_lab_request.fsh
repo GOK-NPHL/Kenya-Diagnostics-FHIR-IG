@@ -20,13 +20,16 @@ Description: "An example of a blood specimen."
 
 // Patient
 Instance: example-cbc-patient
-InstanceOf: Patient
+InstanceOf: KenyaPatientIps
 Usage: #example
 Title: "cbc-patient"
 Description: "An example of a patient."
 * name.family = "Patient"
 * name.given = "John"
+* identifier.type = http://terminology.hl7.org/CodeSystem/v2-0203#NI
+* identifier.value = "123456789"
 * gender = #male
+* maritalStatus = #M
 * birthDate = "1990-01-01"
 * address.text = "P.O. Box 12345, Eldoret, Kenya"
 * address.line = "P.O. Box 12345"
