@@ -9,7 +9,7 @@
       "description" : "The reason for ordering a laboratory test.",
       "uses" : {
       },
-      "ValueSet-TBJustificationForLabOrderVS.html" : "ValueSet: TB Justification for Lab Order"
+      "ValueSet-JustificationForLabOrderVS.html" : "ValueSet: Justification for Lab Order"
     },
     {
       "url" : "http://snomed.info/sct",

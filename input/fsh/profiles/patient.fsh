@@ -24,6 +24,7 @@ Description: "This profile represents the constraints applied to the Patient res
 * birthDate 1.. MS
 * maritalStatus 1..1 MS
 * address MS
+* telecom MS
 * contact.relationship 
 * generalPractitioner MS
 
