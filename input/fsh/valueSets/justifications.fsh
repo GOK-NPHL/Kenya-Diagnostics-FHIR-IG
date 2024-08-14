@@ -33,3 +33,27 @@ Description:  "ValueSet: EID Justification for Lab Order"
 * LabOrderJustificationsCS#KEID.D1
 * LabOrderJustificationsCS#KEID.R1
 // ------------- EID Justification for Lab Order> ----------------
+
+// ------------- <EID Rejection Reasons for Lab Order ----------------
+ValueSet: EIDRejectionReasonsForLabOrderVS
+Title:        "ValueSet: EID Rejection Reasons for Lab Order"
+Description:  "ValueSet: EID Rejection Reasons for Lab Order"
+* ^experimental = false
+* ^name = "KNHTSEIDRejectionReasonsorLabOrderVS"
+
+* LabOrderRejectionReasonsCS#KEID.RC1
+* LabOrderRejectionReasonsCS#KEID.RC2
+* LabOrderRejectionReasonsCS#KEID.RC3
+* LabOrderRejectionReasonsCS#KEID.RC4
+* LabOrderRejectionReasonsCS#KEID.RC5
+* LabOrderRejectionReasonsCS#KEID.RC6
+* LabOrderRejectionReasonsCS#KEID.RC7
+* LabOrderRejectionReasonsCS#KEID.RC8
+* LabOrderRejectionReasonsCS#KEID.RC9
+* LabOrderRejectionReasonsCS#KEID.RC10
+* LabOrderRejectionReasonsCS#KEID.RC11
+* LabOrderRejectionReasonsCS#KEID.RC12
+* LabOrderRejectionReasonsCS#KEID.RC13
+* LabOrderRejectionReasonsCS#KEID.RC14
+* LabOrderRejectionReasonsCS#KEID.RC15
+// ------------- EID Rejection Reasons for Lab Order> ----------------

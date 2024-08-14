@@ -1,4 +1,4 @@
-// ------------- <TB Justification for Lab Order ----------------
+// Contains CodeSystems for Lab Orders Defined WITHIN this IG
 CodeSystem:     LabOrderJustificationsCS
 Title:          "CodeSystem: Laboratory Order Justifications"
 Description:    "The reason for ordering a laboratory test."
@@ -40,3 +40,40 @@ Description:    "The reason for ordering a laboratory test."
 // 6. PCR-EID - Sample redraw (specify PCR sample Code e.g. 6,1 )
 * #KEID.R1 "PCR-EID - Sample redraw (specify PCR sample Code e.g. 6,1 )"
 // ------------- EID Justification for Lab Order> ----------------
+
+CodeSystem:     LabOrderRejectionReasonsCS
+Title:          "CodeSystem: Laboratory Order Rejection Reasons"
+Description:    "The reason for rejecting a laboratory Order."
+
+// ------------- <EID Rejection Reasons for Lab Sample ----------------
+//// 1. EID-RR - Unlabeled DBS
+* #KEID.RC1 "EID-RR - Unlabeled DBS"
+// 2. EID-RR - Over saturation
+* #KEID.RC2 "EID-RR - Over saturation"
+// 3. EID-RR - Insufficient blood
+* #KEID.RC3 "EID-RR - Insufficient blood"
+// 4. EID-RR - Scratched spots
+* #KEID.RC4 "EID-RR - Scratched spots"
+// 5. EID-RR - Scattered spots
+* #KEID.RC5 "EID-RR - Scattered spots"
+// 6. EID-RR - Two layered spot
+* #KEID.RC6 "EID-RR - Two layered spot"
+// 7. EID-RR - Sample not due
+* #KEID.RC7 "EID-RR - Sample not due"
+// 8. EID-RR - Samples packed together
+* #KEID.RC8 "EID-RR - Samples packed together"
+// 9. EID-RR - Clotted blood
+* #KEID.RC9 "EID-RR - Clotted blood"
+// 10. EID-RR - Improper drying
+* #KEID.RC10 "EID-RR - Improper drying"
+// 11. EID-RR - Serum rings –water, alcohol
+* #KEID.RC11 "EID-RR - Serum rings –water, alcohol"
+// 12. EID-RR - Collected on expired DBS card
+* #KEID.RC12 "EID-RR - Collected on expired DBS card"
+// 13. EID-RR - Overstayed specimen ( >2wks )
+* #KEID.RC13 "EID-RR - Overstayed specimen ( >2wks )"
+// 14. EID-RR - Above 2years
+* #KEID.RC14 "EID-RR - Above 2years"
+// 15. EID-RR - Sample & requisition mismatch
+* #KEID.RC15 "EID-RR - Sample & requisition mismatch"
+// ------------- EID Rejection Reasons for Lab Order> ----------------
