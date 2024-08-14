@@ -18,3 +18,18 @@ Description:  "ValueSet: TB Justification for Lab Order"
 * LabOrderJustificationsCS#KDRTB.F5
 * LabOrderJustificationsCS#KDRTB.F6
 // ------------- TB Justification for Lab Order> ----------------
+
+// ------------- <EID Justification for Lab Order ----------------
+ValueSet: EIDJustificationForLabOrderVS
+Title:        "ValueSet: EID Justification for Lab Order"
+Description:  "ValueSet: EID Justification for Lab Order"
+* ^experimental = false
+* ^name = "KNHTSEIDJustificationForLabOrderVS"
+
+* LabOrderJustificationsCS#KEID.P1
+* LabOrderJustificationsCS#KEID.P2
+* LabOrderJustificationsCS#KEID.P3
+* LabOrderJustificationsCS#KEID.B1
+* LabOrderJustificationsCS#KEID.D1
+* LabOrderJustificationsCS#KEID.R1
+// ------------- EID Justification for Lab Order> ----------------
