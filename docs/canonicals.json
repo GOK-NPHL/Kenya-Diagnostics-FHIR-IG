@@ -35,6 +35,13 @@
     "name" : "KenyaDiagnosticServiceRequest"
   },
   {
+    "id" : "KenyaEncounter",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaEncounter",
+    "version" : "0.1.0",
+    "name" : "KenyaEncounter"
+  },
+  {
     "id" : "KenyaHealthProviderOrganization",
     "type" : "StructureDefinition",
     "url" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization",
@@ -42,11 +49,25 @@
     "name" : "KenyaHealthProviderOrganization"
   },
   {
-    "id" : "TBJustificationForLabOrderVS",
-    "type" : "ValueSet",
-    "url" : "http://fhir.nphl.go.ke/ValueSet/TBJustificationForLabOrderVS",
+    "id" : "KenyaObservation",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaObservation",
     "version" : "0.1.0",
-    "name" : "KNHTSTBJustificationForLabOrderVS"
+    "name" : "KenyaObservation"
+  },
+  {
+    "id" : "KenyaSpecimen",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaSpecimen",
+    "version" : "0.1.0",
+    "name" : "KenyaSpecimen"
+  },
+  {
+    "id" : "JustificationForLabOrderVS",
+    "type" : "ValueSet",
+    "url" : "http://fhir.nphl.go.ke/ValueSet/JustificationForLabOrderVS",
+    "version" : "0.1.0",
+    "name" : "JustificationsForLabOrders"
   },
   {
     "id" : "yes-no-vs",

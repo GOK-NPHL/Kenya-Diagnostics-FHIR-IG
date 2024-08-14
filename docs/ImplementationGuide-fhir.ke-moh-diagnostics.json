@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "KenyaDiagnosticsFHIRIG",
   "status" : "draft",
-  "date" : "2024-08-12T15:14:08+03:00",
+  "date" : "2024-08-14T15:19:23+03:00",
   "publisher" : "DNLS",
   "contact" : [{
     "name" : "DNLS",
@@ -782,10 +782,46 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/KenyaEncounter"
+      },
+      "name" : "KenyaEncounter",
+      "description" : "This profile defines an encounter that resulted in a laboratory test.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/KenyaHealthProviderOrganization"
       },
       "name" : "KenyaHealthProviderOrganization",
       "description" : "Profile for an Organization with an MFL code as the primary identifier.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/KenyaObservation"
+      },
+      "name" : "KenyaObservation",
+      "description" : "This profile defines an observation to be used in a laboratory test.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/KenyaSpecimen"
+      },
+      "name" : "KenyaSpecimen",
+      "description" : "This profile defines a specimen for a laboratory test.",
       "exampleBoolean" : false
     },
     {
@@ -830,10 +866,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/TBJustificationForLabOrderVS"
+        "reference" : "ValueSet/JustificationForLabOrderVS"
       },
-      "name" : "ValueSet: TB Justification for Lab Order",
-      "description" : "ValueSet: TB Justification for Lab Order",
+      "name" : "ValueSet: Justification for Lab Order",
+      "description" : "Justification options for lab orders",
       "exampleBoolean" : false
     },
     {

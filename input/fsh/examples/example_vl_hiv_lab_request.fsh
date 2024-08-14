@@ -3,6 +3,7 @@ InstanceOf: KenyaDiagnosticServiceRequest
 Usage: #example
 Title: "vl-hiv-lab-request"
 Description: "Example of a laboratory test request for HIV viral load."
+* identifier.value = "vl-hiv-lab-request-123456789"
 * status = #active
 * intent = #order
 * category = ObsCat#laboratory

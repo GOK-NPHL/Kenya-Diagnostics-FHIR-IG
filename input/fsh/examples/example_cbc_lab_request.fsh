@@ -44,6 +44,7 @@ InstanceOf: KenyaDiagnosticServiceRequest
 Usage: #example
 Title: "cbc-lab-request"
 Description: "An example of a laboratory test request for complete blood count (CBC)."
+* identifier.value = "cbc-lab-request-123456789"
 * status = #active
 * intent = #order
 * category = ObsCat#laboratory

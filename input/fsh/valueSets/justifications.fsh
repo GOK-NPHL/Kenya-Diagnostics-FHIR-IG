@@ -1,11 +1,11 @@
 // Contains ValueSets for Justifications for Lab Orders Defined WITHIN this IG
 
 // ------------- <TB Justification for Lab Order ----------------
-ValueSet: TBJustificationForLabOrderVS
-Title:        "ValueSet: TB Justification for Lab Order"
-Description:  "ValueSet: TB Justification for Lab Order"
+ValueSet: JustificationForLabOrderVS
+Title:        "ValueSet: Justification for Lab Order"
+Description:  "Justification options for lab orders"
 * ^experimental = false
-* ^name = "KNHTSTBJustificationForLabOrderVS"
+* ^name = "JustificationsForLabOrders"
 
 * LabOrderJustificationsCS#KDSTB.B1
 * LabOrderJustificationsCS#KDSTB.F2

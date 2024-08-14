@@ -45,11 +45,13 @@ InstanceOf: KenyaDiagnosticReport
 Usage: #example
 Title: "cbc-diagnostic-report"
 Description: "An example of a diagnostic report for complete blood count (CBC)."
+* identifier.value = "cbc-diagnostic-report-1"
 * status = #final
 * code = LNC#58410-2
 * subject = Reference(example-cbc-patient)
 * performer = Reference(example-lab-organization--cgrh)
 * specimen = Reference(example-cbc-specimen)
+* effectiveDateTime = "2021-01-01"
 
 // Observation
 Instance: example-cbc-observation

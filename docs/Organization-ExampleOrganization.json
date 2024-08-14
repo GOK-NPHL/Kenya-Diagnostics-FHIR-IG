@@ -6,12 +6,13 @@
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization ExampleOrganization</b></p><a name=\"ExampleOrganization\"> </a><a name=\"hcExampleOrganization\"> </a><a name=\"hcExampleOrganization-en-US\"> </a><p><b>identifier</b>: <code>http://kmhfr.health.go.ke/fhir</code>/23841</p><p><b>name</b>: National Tuberculosis Reference Laboratory</p><p><b>address</b>: National Tuberculosis Reference Laboratory, Afya Annex, Nairobi, Kenya</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization ExampleOrganization</b></p><a name=\"ExampleOrganization\"> </a><a name=\"hcExampleOrganization\"> </a><a name=\"hcExampleOrganization-en-US\"> </a><p><b>identifier</b>: <code>http://kmhfr.health.go.ke/fhir</code>/23841</p><p><b>active</b>: true</p><p><b>name</b>: National Tuberculosis Reference Laboratory</p><p><b>address</b>: National Tuberculosis Reference Laboratory, Afya Annex, Nairobi, Kenya</p></div>"
   },
   "identifier" : [{
     "system" : "http://kmhfr.health.go.ke/fhir",
     "value" : "23841"
   }],
+  "active" : true,
   "name" : "National Tuberculosis Reference Laboratory",
   "address" : [{
     "text" : "National Tuberculosis Reference Laboratory, Afya Annex, Nairobi, Kenya",

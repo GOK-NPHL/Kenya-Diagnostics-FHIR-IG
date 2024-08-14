@@ -31,3 +31,4 @@ Description: "Profile for an Organization with an MFL code as the primary identi
 // Additional constraints for the Organization resource (not applicable to this profile)
 * name 1..1 MS
 * address 0..* MS
+* active 1..1 MS
