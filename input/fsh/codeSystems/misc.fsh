@@ -41,6 +41,21 @@ Description:    "The reason for ordering a laboratory test."
 * #KEID.R1 "PCR-EID - Sample redraw (specify PCR sample Code e.g. 6,1 )"
 // ------------- EID Justification for Lab Order> ----------------
 
+// ------------- <VL Justification for Lab Order ----------------
+//// 1. VL - 1ST VL
+* #KVL.B1 "VL - 1ST VL"
+// 2. VL - Follow up
+* #KVL.F1 "VL - Follow up"
+// 3. VL - Single drug substitution
+* #KVL.S1 "VL - Single drug substitution"
+// 4. VL - Recency
+* #KVL.R1 "VL - Recency"
+// 5. VL - PMTCT NP
+* #KVL.P1 "VL - PMTCT NP"
+// 6. VL - PMTCT KP
+* #KVL.P2 "VL - PMTCT KP"
+// ------------- VL Justification for Lab Order> ----------------
+
 CodeSystem:     LabOrderRejectionReasonsCS
 Title:          "CodeSystem: Laboratory Order Rejection Reasons"
 Description:    "The reason for rejecting a laboratory Order."
@@ -77,3 +92,24 @@ Description:    "The reason for rejecting a laboratory Order."
 // 15. EID-RR - Sample & requisition mismatch
 * #KEID.RC15 "EID-RR - Sample & requisition mismatch"
 // ------------- EID Rejection Reasons for Lab Order> ----------------
+
+// ------------- <VL Rejection Reasons for Lab Sample ----------------
+//// 1. VL-RR - Missing Sample
+* #KVL.RC1 "VL-RR - Missing Sample"
+// 2. VL-RR - Hemolysed sample
+* #KVL.RC2 "VL-RR - Hemolysed sample"
+// 3. VL-RR - Missing patient
+* #KVL.RC3 "VL-RR - Missing patient"
+// 4. VL-RR - Sample request form & sample mismatch
+* #KVL.RC4 "VL-RR - Sample request form & sample mismatch"
+// 5. VL-RR - Sample not under cold chain
+* #KVL.RC5 "VL-RR - Sample not under cold chain"
+// 6. VL-RR - Expired PPT tubes
+* #KVL.RC6 "VL-RR - Expired PPT tubes"
+// 7. VL-RR - No request form
+* #KVL.RC7 "VL-RR - No request form"
+// 8. VL-RR - Improper packaging
+* #KVL.RC8 "VL-RR - Improper packaging"
+// 9. VL-RR - Insufficient volume
+* #KVL.RC9 "VL-RR - Insufficient volume"
+// ------------- VL Rejection Reasons for Lab Order> ----------------

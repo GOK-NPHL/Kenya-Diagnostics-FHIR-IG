@@ -57,3 +57,36 @@ Description:  "ValueSet: EID Rejection Reasons for Lab Order"
 * LabOrderRejectionReasonsCS#KEID.RC14
 * LabOrderRejectionReasonsCS#KEID.RC15
 // ------------- EID Rejection Reasons for Lab Order> ----------------
+
+// ------------- <VL Justification for Lab Order ----------------
+ValueSet: VLJustificationForLabOrderVS
+Title:        "ValueSet: VL Justification for Lab Order"
+Description:  "ValueSet: VL Justification for Lab Order"
+* ^experimental = false
+* ^name = "KNHTSVLJustificationForLabOrderVS"
+
+* LabOrderJustificationsCS#KVL.B1
+* LabOrderJustificationsCS#KVL.F1
+* LabOrderJustificationsCS#KVL.S1
+* LabOrderJustificationsCS#KVL.R1
+* LabOrderJustificationsCS#KVL.P1
+* LabOrderJustificationsCS#KVL.P2
+// ------------- VL Justification for Lab Order> ----------------
+
+// ------------- <VL Rejection Reasons for Lab Order ----------------
+ValueSet: VLRejectionReasonsForLabOrderVS
+Title:        "ValueSet: VL Rejection Reasons for Lab Order"
+Description:  "ValueSet: VL Rejection Reasons for Lab Order"
+* ^experimental = false
+* ^name = "KNHTSVLRejectionReasonsorLabOrderVS"
+
+* LabOrderRejectionReasonsCS#KVL.RC1
+* LabOrderRejectionReasonsCS#KVL.RC2
+* LabOrderRejectionReasonsCS#KVL.RC3
+* LabOrderRejectionReasonsCS#KVL.RC4
+* LabOrderRejectionReasonsCS#KVL.RC5
+* LabOrderRejectionReasonsCS#KVL.RC6
+* LabOrderRejectionReasonsCS#KVL.RC7
+* LabOrderRejectionReasonsCS#KVL.RC8
+* LabOrderRejectionReasonsCS#KVL.RC9
+// ------------- VL Rejection Reasons for Lab Order> ----------------
