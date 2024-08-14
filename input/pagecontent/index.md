@@ -32,7 +32,8 @@ This IG uses the following FHIR resources for health diagnostics with additional
 
 4. **ServiceRequest**: The ServiceRequest resource is used to request diagnostic tests, procedures, or interventions for a patient. It includes information about the ordering provider, relevant clinical details, and the requested service.
 
-4. **Patient (IPS)**: The Patient resource represents information about an individual who is receiving or has received healthcare services. It provides essential details about a patient, such as their identifiers, demographic information, contact details, etc.
+5. **Patient (IPS)**: The Patient resource represents information about an individual who is receiving or has received healthcare services. It provides essential details about a patient, such as their identifiers, demographic information, contact details, etc.
+
 
 ## Profiles
 
