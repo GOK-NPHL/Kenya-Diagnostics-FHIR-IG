@@ -9,8 +9,8 @@
       "description" : "The reason for ordering a laboratory test.",
       "uses" : {
       },
-      "ValueSet-JustificationForLabOrderVS.html" : "ValueSet: Justification for Lab Order",
       "ValueSet-EIDJustificationForLabOrderVS.html" : "ValueSet: EID Justification for Lab Order",
+      "ValueSet-JustificationForLabOrderVS.html" : "ValueSet: Justification for Lab Order",
       "ValueSet-VLJustificationForLabOrderVS.html" : "ValueSet: VL Justification for Lab Order"
     },
     {

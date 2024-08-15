@@ -33,7 +33,7 @@ Description: "This profile defines a service request to be used in a laboratory 
 * subject ^definition = "The patient for the service request. This is a reference to a KenyaPatientIps resource."
 * subject only Reference(KenyaPatientIps)
 * code 1..1 MS
-* code ^short = "The code for the service request"
+* code ^short = "The code for the service request from a terminology service e.g. LOINC code"
 * code ^definition = "The code for the service request. This is a code from KNHTS or LOINC or some other code system."
 * reasonCode 0..1
 * reasonCode ^short = "The reason for the service request"
