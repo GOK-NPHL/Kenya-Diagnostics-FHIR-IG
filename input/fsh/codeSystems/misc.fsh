@@ -113,3 +113,24 @@ Description:    "The reason for rejecting a laboratory Order."
 // 9. VL-RR - Insufficient volume
 * #KVL.RC9 "VL-RR - Insufficient volume"
 // ------------- VL Rejection Reasons for Lab Order> ----------------
+
+// ------------- <TB Rejection Reasons for Lab Sample ----------------
+//// 1. TB-RR - Leaking
+* #KTB.RC1 "TB-RR - Leaking"
+// 2. TB-RR - Request form without samples
+* #KTB.RC2 "TB-RR - Request form without samples"
+// 3. TB-RR - Mismatch Information on requset from and specimen container
+* #KTB.RC3 "TB-RR - Mismatch Information on requset from and specimen container"
+// 4. TB-RR - No label
+* #KTB.RC4 "TB-RR - No label"
+// 5. TB-RR - No sample in the container
+* #KTB.RC5 "TB-RR - No sample in the container"
+// 6. TB-RR - No requset form
+* #KTB.RC6 "TB-RR - No requset form"
+// 7. TB-RR - Missing information required
+* #KTB.RC7 "TB-RR - Missing information required"
+// 8. TB-RR - Sample in the wrong container
+* #KTB.RC8 "TB-RR - Sample in the wrong container"
+// 9. TB-RR - Delay between sample collection and reception at NTRL
+* #KTB.RC9 "TB-RR - Delay between sample collection and reception at NTRL"
+// ------------- TB Rejection Reasons for Lab Order> ----------------

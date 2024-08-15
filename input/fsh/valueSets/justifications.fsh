@@ -90,3 +90,21 @@ Description:  "ValueSet: VL Rejection Reasons for Lab Order"
 * LabOrderRejectionReasonsCS#KVL.RC8
 * LabOrderRejectionReasonsCS#KVL.RC9
 // ------------- VL Rejection Reasons for Lab Order> ----------------
+
+// ------------- <TB Rejection Reasons for Lab Order ----------------
+ValueSet: TBRejectionReasonsForLabOrderVS
+Title:        "ValueSet: TB Rejection Reasons for Lab Order"
+Description:  "ValueSet: TB Rejection Reasons for Lab Order"
+* ^experimental = false
+* ^name = "KNHTSTBRejectionReasonsorLabOrderVS"
+
+* LabOrderRejectionReasonsCS#KTB.RC1
+* LabOrderRejectionReasonsCS#KTB.RC2
+* LabOrderRejectionReasonsCS#KTB.RC3
+* LabOrderRejectionReasonsCS#KTB.RC4
+* LabOrderRejectionReasonsCS#KTB.RC5
+* LabOrderRejectionReasonsCS#KTB.RC6
+* LabOrderRejectionReasonsCS#KTB.RC7
+* LabOrderRejectionReasonsCS#KTB.RC8
+* LabOrderRejectionReasonsCS#KTB.RC9
+// ------------- TB Rejection Reasons for Lab Order> ----------------
