@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>cbc-specimen-2 - TTL Representation -  v0.1.0</title>
+    <title>vl-hiv-diagnostic-report - TTL Representation -  v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -42,8 +42,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"2.18"}
-    h3,h4,h5,h6{--heading-prefix:"2.18"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.29"}
+    h3,h4,h5,h6{--heading-prefix:"2.29"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -97,7 +97,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>cbc-specimen-2</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>vl-hiv-diagnostic-report</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -123,21 +123,21 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="Specimen-example-cbc-specimen-2.html">Narrative Content</a>
+    <a href="DiagnosticReport-example-vl-hiv-diagnostic-report.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="Specimen-example-cbc-specimen-2.xml.html">XML</a>
+      <a href="DiagnosticReport-example-vl-hiv-diagnostic-report.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="Specimen-example-cbc-specimen-2.json.html">JSON</a>
+      <a href="DiagnosticReport-example-vl-hiv-diagnostic-report.json.html">JSON</a>
     </li>
   
 
@@ -156,10 +156,10 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: cbc-specimen-2 - TTL Representation</h2>
+<h2 id="root">: vl-hiv-diagnostic-report - TTL Representation</h2>
 
 
-<p><a href="Specimen-example-cbc-specimen-2.ttl" no-download="true">Raw ttl</a> | <a href="Specimen-example-cbc-specimen-2.ttl" download>Download</a></p>
+<p><a href="DiagnosticReport-example-vl-hiv-diagnostic-report.ttl" no-download="true">Raw ttl</a> | <a href="DiagnosticReport-example-vl-hiv-diagnostic-report.ttl" download>Download</a></p>
 
   <!-- insert intro if present -->
   
@@ -175,37 +175,41 @@
 
 # - resource -------------------------------------------------------------------
 
- a fhir:Specimen ;
+ a fhir:DiagnosticReport ;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
-  <a href="http://hl7.org/fhir/R4/specimen.html#Specimen.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;example-cbc-specimen-2&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/specimen.html#Specimen.text">fhir:text</a> [
+  <a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;example-vl-hiv-diagnostic-report&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://fhir.nphl.go.ke/StructureDefinition/KenyaDiagnosticReport&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://fhir.nphl.go.ke/StructureDefinition/KenyaDiagnosticReport&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Specimen example-cbc-specimen-2&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;example-cbc-specimen-2\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcexample-cbc-specimen-2\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcexample-cbc-specimen-2-en-US\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Available&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation specimen}\&quot;&gt;specimen&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-example-cbc-patient.html\&quot;&gt;John Patient  Male, DoB: 1990-01-01 ( National unique individual identifier)&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;Collections&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Collected[x]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Method&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;BodySite&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;2021-01-01&lt;/td&gt;&lt;td&gt;&lt;span title=\&quot;Codes:{http://loinc.org LNC#LA26398-0}\&quot;&gt;Blood draw&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span title=\&quot;Codes:{http://loinc.org LA7275-6}\&quot;&gt;Left arm&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: DiagnosticReport example-vl-hiv-diagnostic-report&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;example-vl-hiv-diagnostic-report\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcexample-vl-hiv-diagnostic-report\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcexample-vl-hiv-diagnostic-report-en-US\&quot;&gt; &lt;/a&gt;&lt;h2&gt;&lt;span title=\&quot;Codes:{http://loinc.org 10351-5}\&quot;&gt;HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification&lt;/span&gt; &lt;/h2&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;Subject&lt;/td&gt;&lt;td&gt;Unable to get Patient Details&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;When For&lt;/td&gt;&lt;td&gt;2021-01-01&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Performer&lt;/td&gt;&lt;td&gt; &lt;a href=\&quot;Organization-example-lab-organization--cgrh.html\&quot;&gt;Organization Coast General Teaching and Referal Hospital&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Identifier&lt;/td&gt;&lt;td&gt; vl-hiv-diagnostic-report-1&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Report Details&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Value&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Reference Range&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Flags&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;Observation-example-vl-hiv-observation.html\&quot;&gt;&lt;span title=\&quot;Codes:{http://loinc.org 10351-5}\&quot;&gt;HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;1001 copies/mL&lt;/td&gt;&lt;td&gt;40 copies/mL - 1000 copies/mL&lt;/td&gt;&lt;td&gt;Final&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
   ] ; # 
-  <a href="http://hl7.org/fhir/R4/specimen.html#Specimen.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;available&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/specimen.html#Specimen.type">fhir:type</a> [
+  <a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;vl-hiv-diagnostic-report-1&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;final&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.code">fhir:code</a> [
     ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;specimen&quot; ]     ] )
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/specimen.html#Specimen.subject">fhir:subject</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Patient/example-cbc-patient&quot; ]
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/specimen.html#Specimen.collection">fhir:collection</a> [
-<a href="http://hl7.org/fhir/R4/specimen.html#Specimen.collection.collected[x]">fhir:collected</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2021-01-01&quot;^^xsd:date ] ;
-<a href="http://hl7.org/fhir/R4/specimen.html#Specimen.collection.method">fhir:method</a> [
-      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-a loinc:LNC#LA26398-0 ;
+a loinc:10351-5 ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://loinc.org&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;LNC#LA26398-0&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Blood draw&quot; ]       ] )     ] ;
-<a href="http://hl7.org/fhir/R4/specimen.html#Specimen.collection.bodySite">fhir:bodySite</a> [
-      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-a loinc:LA7275-6 ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://loinc.org&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;LA7275-6&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Left arm&quot; ]       ] )     ]
-  ] . # 
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10351-5&quot; ]     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.subject">fhir:subject</a> [
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;example-vl-hiv-patient&quot; ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.effective[x]">fhir:effective</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2021-01-01&quot;^^xsd:date] ; # 
+  <a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.performer">fhir:performer</a> ( [
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Organization/example-lab-organization--cgrh&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.specimen">fhir:specimen</a> ( [
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Specimen/example-cbc-specimen&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.result">fhir:result</a> ( [
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Observation/example-vl-hiv-observation&quot; ]
+  ] ) . # 
 
 </code></pre>
 
@@ -232,7 +236,7 @@ a loinc:LA7275-6 ;
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Aug 14, 2024 15:19+0300">2024-08-14</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 15, 2024 10:34+0300">2024-08-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

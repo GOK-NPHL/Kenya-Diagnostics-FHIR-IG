@@ -9,6 +9,14 @@
       "description" : "The reason for ordering a laboratory test."
     },
     {
+      "url" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LabOrderRejectionReasonsCS",
+      "title" : "CodeSystem: Laboratory Order Rejection Reasons",
+      "description" : "The reason for rejecting a laboratory Order."
+    },
+    {
       "url" : "http://kmhfl.health.go.ke/fhir",
       "version" : "0.1.0",
       "status" : "draft",

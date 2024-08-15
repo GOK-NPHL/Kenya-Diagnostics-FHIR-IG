@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "EIDJustificationForLabOrderVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet EIDJustificationForLabOrderVS</b></p><a name=\"EIDJustificationForLabOrderVS\"> </a><a name=\"hcEIDJustificationForLabOrderVS\"> </a><a name=\"hcEIDJustificationForLabOrderVS-en-US\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-LabOrderJustificationsCS.html\"><code>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46P1\">KEID.P1</a></td><td style=\"color: #cccccc\">PCR-EID - Initial PCR (6week or first contact)</td></tr><tr><td><a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46P2\">KEID.P2</a></td><td style=\"color: #cccccc\">PCR-EID - 2nd PCR (6 months)</td></tr><tr><td><a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46P3\">KEID.P3</a></td><td style=\"color: #cccccc\">PCR-EID - 3rd PCR (12months)</td></tr><tr><td><a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46B1\">KEID.B1</a></td><td style=\"color: #cccccc\">PCR-EID - Confirmatory PCR and Baseline VL</td></tr><tr><td><a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46D1\">KEID.D1</a></td><td style=\"color: #cccccc\">PCR-EID - Discrepant PCR (tie breaker)</td></tr><tr><td><a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46R1\">KEID.R1</a></td><td style=\"color: #cccccc\">PCR-EID - Sample redraw (specify PCR sample Code e.g. 6,1 )</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://fhir.nphl.go.ke/ValueSet/EIDJustificationForLabOrderVS",
+  "version" : "0.1.0",
+  "name" : "KNHTSEIDJustificationForLabOrderVS",
+  "title" : "ValueSet: EID Justification for Lab Order",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2024-08-15T10:34:39+03:00",
+  "publisher" : "DNLS",
+  "contact" : [{
+    "name" : "DNLS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://nphl.go.ke"
+    }]
+  }],
+  "description" : "ValueSet: EID Justification for Lab Order",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+      "concept" : [{
+        "code" : "KEID.P1"
+      },
+      {
+        "code" : "KEID.P2"
+      },
+      {
+        "code" : "KEID.P3"
+      },
+      {
+        "code" : "KEID.B1"
+      },
+      {
+        "code" : "KEID.D1"
+      },
+      {
+        "code" : "KEID.R1"
+      }]
+    }]
+  }
+}

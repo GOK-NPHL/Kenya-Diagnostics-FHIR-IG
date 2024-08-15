@@ -40,8 +40,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"2.10"}
-    h3,h4,h5,h6{--heading-prefix:"2.10"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.14"}
+    h3,h4,h5,h6{--heading-prefix:"2.14"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -177,7 +177,7 @@
         
           Draft
           
-            as of 2024-08-14
+            as of 2024-08-15
           
         
       </td>
@@ -208,7 +208,9 @@
 
   
 <ul>
+ <li><a href="ValueSet-EIDJustificationForLabOrderVS.html">KNHTSEIDJustificationForLabOrderVS</a></li>
  <li><a href="ValueSet-JustificationForLabOrderVS.html">JustificationsForLabOrders</a></li>
+ <li><a href="ValueSet-VLJustificationForLabOrderVS.html">KNHTSVLJustificationForLabOrderVS</a></li>
 </ul>
 
 
@@ -233,7 +235,31 @@
 <tr><td style="white-space:nowrap">KDRTB.F5<a name="LabOrderJustificationsCS-KDRTB.46F5"> </a></td>
 <td>DR-TB - Follow-up (5 months)</td></tr>
 <tr><td style="white-space:nowrap">KDRTB.F6<a name="LabOrderJustificationsCS-KDRTB.46F6"> </a></td>
-<td>DR-TB - Follow-up (6 months)</td></tr></table></div>
+<td>DR-TB - Follow-up (6 months)</td></tr>
+<tr><td style="white-space:nowrap">KEID.P1<a name="LabOrderJustificationsCS-KEID.46P1"> </a></td>
+<td>PCR-EID - Initial PCR (6week or first contact)</td></tr>
+<tr><td style="white-space:nowrap">KEID.P2<a name="LabOrderJustificationsCS-KEID.46P2"> </a></td>
+<td>PCR-EID - 2nd PCR (6 months)</td></tr>
+<tr><td style="white-space:nowrap">KEID.P3<a name="LabOrderJustificationsCS-KEID.46P3"> </a></td>
+<td>PCR-EID - 3rd PCR (12months)</td></tr>
+<tr><td style="white-space:nowrap">KEID.B1<a name="LabOrderJustificationsCS-KEID.46B1"> </a></td>
+<td>PCR-EID - Confirmatory PCR and Baseline VL</td></tr>
+<tr><td style="white-space:nowrap">KEID.D1<a name="LabOrderJustificationsCS-KEID.46D1"> </a></td>
+<td>PCR-EID - Discrepant PCR (tie breaker)</td></tr>
+<tr><td style="white-space:nowrap">KEID.R1<a name="LabOrderJustificationsCS-KEID.46R1"> </a></td>
+<td>PCR-EID - Sample redraw (specify PCR sample Code e.g. 6,1 )</td></tr>
+<tr><td style="white-space:nowrap">KVL.B1<a name="LabOrderJustificationsCS-KVL.46B1"> </a></td>
+<td>VL - 1ST VL</td></tr>
+<tr><td style="white-space:nowrap">KVL.F1<a name="LabOrderJustificationsCS-KVL.46F1"> </a></td>
+<td>VL - Follow up</td></tr>
+<tr><td style="white-space:nowrap">KVL.S1<a name="LabOrderJustificationsCS-KVL.46S1"> </a></td>
+<td>VL - Single drug substitution</td></tr>
+<tr><td style="white-space:nowrap">KVL.R1<a name="LabOrderJustificationsCS-KVL.46R1"> </a></td>
+<td>VL - Recency</td></tr>
+<tr><td style="white-space:nowrap">KVL.P1<a name="LabOrderJustificationsCS-KVL.46P1"> </a></td>
+<td>VL - PMTCT NP</td></tr>
+<tr><td style="white-space:nowrap">KVL.P2<a name="LabOrderJustificationsCS-KVL.46P2"> </a></td>
+<td>VL - PMTCT KP</td></tr></table></div>
 
   
 
@@ -260,7 +286,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Aug 14, 2024 15:19+0300">2024-08-14</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 15, 2024 10:34+0300">2024-08-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

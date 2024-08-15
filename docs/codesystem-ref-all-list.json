@@ -9,7 +9,21 @@
       "description" : "The reason for ordering a laboratory test.",
       "uses" : {
       },
-      "ValueSet-JustificationForLabOrderVS.html" : "ValueSet: Justification for Lab Order"
+      "ValueSet-JustificationForLabOrderVS.html" : "ValueSet: Justification for Lab Order",
+      "ValueSet-EIDJustificationForLabOrderVS.html" : "ValueSet: EID Justification for Lab Order",
+      "ValueSet-VLJustificationForLabOrderVS.html" : "ValueSet: VL Justification for Lab Order"
+    },
+    {
+      "url" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LabOrderRejectionReasonsCS",
+      "title" : "CodeSystem: Laboratory Order Rejection Reasons",
+      "description" : "The reason for rejecting a laboratory Order.",
+      "uses" : {
+      },
+      "ValueSet-VLRejectionReasonsForLabOrderVS.html" : "ValueSet: VL Rejection Reasons for Lab Order",
+      "ValueSet-EIDRejectionReasonsForLabOrderVS.html" : "ValueSet: EID Rejection Reasons for Lab Order"
     },
     {
       "url" : "http://hl7.org/fhir/administrative-gender",
@@ -202,19 +216,19 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
+      "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
       "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
-      "http://hl7.org/fhir/R4/valueset-specimen-collection-method.html" : "FHIR Specimen Collection Method",
       "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings",
-      "http://hl7.org/fhir/R4/valueset-specimen-container-type.html" : "Specimen Container Type",
+      "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
       "http://hl7.org/fhir/R4/valueset-participant-role.html" : "Participant Roles",
-      "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-      "ValueSet-yes-no-vs.html" : "Yes/No Value Set",
       "http://hl7.org/fhir/R4/valueset-encounter-reason.html" : "Encounter Reason Codes",
       "http://hl7.org/fhir/R4/valueset-servicerequest-category.html" : "Service Request Category Codes",
-      "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
-      "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
+      "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+      "http://hl7.org/fhir/R4/valueset-specimen-collection-method.html" : "FHIR Specimen Collection Method",
+      "ValueSet-yes-no-vs.html" : "Yes/No Value Set",
+      "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
       "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
-      "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes"
+      "http://hl7.org/fhir/R4/valueset-specimen-container-type.html" : "Specimen Container Type"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/admit-source",

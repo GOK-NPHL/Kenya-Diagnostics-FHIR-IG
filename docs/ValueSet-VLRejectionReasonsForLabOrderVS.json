@@ -1,0 +1,56 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VLRejectionReasonsForLabOrderVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet VLRejectionReasonsForLabOrderVS</b></p><a name=\"VLRejectionReasonsForLabOrderVS\"> </a><a name=\"hcVLRejectionReasonsForLabOrderVS\"> </a><a name=\"hcVLRejectionReasonsForLabOrderVS-en-US\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-LabOrderRejectionReasonsCS.html\"><code>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC1\">KVL.RC1</a></td><td style=\"color: #cccccc\">VL-RR - Missing Sample</td></tr><tr><td><a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC2\">KVL.RC2</a></td><td style=\"color: #cccccc\">VL-RR - Hemolysed sample</td></tr><tr><td><a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC3\">KVL.RC3</a></td><td style=\"color: #cccccc\">VL-RR - Missing patient</td></tr><tr><td><a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC4\">KVL.RC4</a></td><td style=\"color: #cccccc\">VL-RR - Sample request form &amp; sample mismatch</td></tr><tr><td><a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC5\">KVL.RC5</a></td><td style=\"color: #cccccc\">VL-RR - Sample not under cold chain</td></tr><tr><td><a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC6\">KVL.RC6</a></td><td style=\"color: #cccccc\">VL-RR - Expired PPT tubes</td></tr><tr><td><a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC7\">KVL.RC7</a></td><td style=\"color: #cccccc\">VL-RR - No request form</td></tr><tr><td><a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC8\">KVL.RC8</a></td><td style=\"color: #cccccc\">VL-RR - Improper packaging</td></tr><tr><td><a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC9\">KVL.RC9</a></td><td style=\"color: #cccccc\">VL-RR - Insufficient volume</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://fhir.nphl.go.ke/ValueSet/VLRejectionReasonsForLabOrderVS",
+  "version" : "0.1.0",
+  "name" : "KNHTSVLRejectionReasonsorLabOrderVS",
+  "title" : "ValueSet: VL Rejection Reasons for Lab Order",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2024-08-15T10:34:39+03:00",
+  "publisher" : "DNLS",
+  "contact" : [{
+    "name" : "DNLS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://nphl.go.ke"
+    }]
+  }],
+  "description" : "ValueSet: VL Rejection Reasons for Lab Order",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
+      "concept" : [{
+        "code" : "KVL.RC1"
+      },
+      {
+        "code" : "KVL.RC2"
+      },
+      {
+        "code" : "KVL.RC3"
+      },
+      {
+        "code" : "KVL.RC4"
+      },
+      {
+        "code" : "KVL.RC5"
+      },
+      {
+        "code" : "KVL.RC6"
+      },
+      {
+        "code" : "KVL.RC7"
+      },
+      {
+        "code" : "KVL.RC8"
+      },
+      {
+        "code" : "KVL.RC9"
+      }]
+    }]
+  }
+}
