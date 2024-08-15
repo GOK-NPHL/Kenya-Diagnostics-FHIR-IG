@@ -20,7 +20,7 @@ The following actors are involved in the diagnostic process and will interact wi
 
 4. **Patient**: The patient is the individual undergoing diagnostic tests and receiving healthcare services. They may access their diagnostic data through FHIR-enabled applications and share it with other healthcare providers as needed. -->
 
-## FHIR Resources
+### FHIR Resources
 
 This IG uses the following FHIR resources for health diagnostics with additional modifications:
 
@@ -34,20 +34,24 @@ This IG uses the following FHIR resources for health diagnostics with additional
 
 5. **Patient (IPS)**: The Patient resource represents information about an individual who is receiving or has received healthcare services. It provides essential details about a patient, such as their identifiers, demographic information, contact details, etc.
 
-
-## Profiles
+### Profiles
 
 This IG defines the following profiles for FHIR resources related to health diagnostics:
 
-1. **KenyaDiagnosticReport**: This profile specifies additional constraints and extensions for the DiagnosticReport resource to support diagnostic reporting in Kenya. It includes elements for capturing the laboratory facility, test methodology, and result interpretation.
+1. **[KenyaDiagnosticReport](StructureDefinition-KenyaDiagnosticReport.html)**: This profile specifies additional constraints and extensions for the DiagnosticReport resource to support diagnostic reporting in Kenya. It includes elements for capturing the laboratory facility, test methodology, and result interpretation.
 
-2. **KenyaOrganization**:  This profile constrains the Organization resource to represent an organization that acts as performer or observer for a result observation (laboratory, pathology or imaging), or as performer for a procedure.
+2. **[KenyaOrganization](StructureDefinition-KenyaHealthProviderOrganization.html)**:  This profile constrains the Organization resource to represent an organization that acts as performer or observer for a result observation (laboratory, pathology or imaging), or as performer for a procedure.
 
-3. **KenyaServiceRequest**: This profile specifies additional constraints and extensions for the ServiceRequest resource to support diagnostic test ordering in Kenya. It includes elements for the ordering provider, clinical indication, and requested service details.
+3. **[KenyaServiceRequest](StructureDefinition-KenyaDiagnosticServiceRequest.html)**: This profile specifies additional constraints and extensions for the ServiceRequest resource to support diagnostic test ordering in Kenya. It includes elements for the ordering provider, clinical indication, and requested service details.
+   
+4. **[KenyaPatient (IPS)](StructureDefinition-Kenya-patient-ips.html)**: This profile represents the constraints applied to the Patient resource and describes the minimum expectations for the Patient resource when used in one of the referred resources.
 
-4. **KenyaPatient (IPS)**: This profile represents the constraints applied to the Patient resource and describes the minimum expectations for the Patient resource when used in one of the referred resources.
-
-## Implementation Guidance
+### Implementation Guidance
 
 Throughout this IG, you will find implementation guidance on how to use FHIR resources and profiles for health diagnostics in Kenya. We will provide examples, mappings to existing diagnostic systems, and recommendations for data exchange and interoperability.
 
+### References
+See the Laboratory Request Forms for details on [EID & VL](https://nascop.org/) and [TB](https://nltp.co.ke/wp-content/uploads/2023/09/Lab-request-form_Draft_06_06_2023.pdf) for how an application captures a patient record.
+
+---
+Primary Authors: Benzer Bett, Faith Jepkoech
