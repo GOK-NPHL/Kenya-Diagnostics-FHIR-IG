@@ -1,15 +1,6 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://fhir.nphl.go.ke/ValueSet/EIDJustificationForLabOrderVS",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "KNHTSEIDJustificationForLabOrderVS",
-      "title" : "ValueSet: EID Justification for Lab Order",
-      "description" : "ValueSet: EID Justification for Lab Order",
-      "systems" : ["http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS"]
-    },
-    {
       "url" : "http://fhir.nphl.go.ke/ValueSet/EIDRejectionReasonsForLabOrderVS",
       "version" : "0.1.0",
       "status" : "draft",
@@ -25,29 +16,9 @@
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "JustificationsForLabOrders",
-      "title" : "ValueSet: Justification for Lab Order",
-      "description" : "Justification options for lab orders",
+      "title" : "ValueSet: Justification options for Lab Orders",
+      "description" : "Justification options for lab orders in this IG",
       "systems" : ["http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS"]
-    },
-    {
-      "url" : "http://fhir.nphl.go.ke/ValueSet/VLJustificationForLabOrderVS",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "KNHTSVLJustificationForLabOrderVS",
-      "title" : "ValueSet: VL Justification for Lab Order",
-      "description" : "ValueSet: VL Justification for Lab Order",
-      "systems" : ["http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS"]
-    },
-    {
-      "url" : "http://fhir.nphl.go.ke/ValueSet/VLRejectionReasonsForLabOrderVS",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "KNHTSVLRejectionReasonsorLabOrderVS",
-      "title" : "ValueSet: VL Rejection Reasons for Lab Order",
-      "description" : "ValueSet: VL Rejection Reasons for Lab Order",
-      "systems" : [
-        "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS"
-      ]
     },
     {
       "url" : "http://fhir.nphl.go.ke/ValueSet/yes-no-vs",

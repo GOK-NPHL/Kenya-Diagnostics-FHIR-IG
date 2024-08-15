@@ -1,86 +1,17 @@
 {
   "resourceType" : "Bundle",
-  "id" : "914b9876-bf81-4db8-ae1e-ed4bdd205183",
+  "id" : "e96dbdfc-79d2-494b-894e-474e743475d9",
   "meta" : {
-    "lastUpdated" : "2024-08-15T14:29:44.787+03:00"
+    "lastUpdated" : "2024-08-15T14:46:36.973+03:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://fhir.nphl.go.ke/ValueSet/EIDJustificationForLabOrderVS",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-LabOrderJustificationsCS.html\">codesystem CodeSystem: Laboratory Order Justifications v0.1.0 (CodeSystem)</a></p><p>This value set contains 6 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.P1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46P1\">KEID.P1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>PCR-EID - Initial PCR (6week or first contact)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.P2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46P2\">KEID.P2</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>PCR-EID - 2nd PCR (6 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.P3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46P3\">KEID.P3</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>PCR-EID - 3rd PCR (12months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.B1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46B1\">KEID.B1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>PCR-EID - Confirmatory PCR and Baseline VL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.D1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46D1\">KEID.D1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>PCR-EID - Discrepant PCR (tie breaker)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.R1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46R1\">KEID.R1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>PCR-EID - Sample redraw (specify PCR sample Code e.g. 6,1 )</td></tr></table></div>"
-      },
-      "url" : "http://fhir.nphl.go.ke/ValueSet/EIDJustificationForLabOrderVS",
-      "version" : "0.1.0",
-      "name" : "KNHTSEIDJustificationForLabOrderVS",
-      "title" : "ValueSet: EID Justification for Lab Order",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2024-08-15T14:29:44+03:00",
-      "expansion" : {
-        "identifier" : "urn:uuid:e3ba5807-4919-445b-b5dc-f908ce193a63",
-        "timestamp" : "2024-08-15T14:30:32+03:00",
-        "total" : 6,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
-          "code" : "KEID.P1",
-          "display" : "PCR-EID - Initial PCR (6week or first contact)"
-        },
-        {
-          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
-          "code" : "KEID.P2",
-          "display" : "PCR-EID - 2nd PCR (6 months)"
-        },
-        {
-          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
-          "code" : "KEID.P3",
-          "display" : "PCR-EID - 3rd PCR (12months)"
-        },
-        {
-          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
-          "code" : "KEID.B1",
-          "display" : "PCR-EID - Confirmatory PCR and Baseline VL"
-        },
-        {
-          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
-          "code" : "KEID.D1",
-          "display" : "PCR-EID - Discrepant PCR (tie breaker)"
-        },
-        {
-          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
-          "code" : "KEID.R1",
-          "display" : "PCR-EID - Sample redraw (specify PCR sample Code e.g. 6,1 )"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "http://fhir.nphl.go.ke/ValueSet/EIDRejectionReasonsForLabOrderVS",
     "resource" : {
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-LabOrderRejectionReasonsCS.html\">codesystem CodeSystem: Laboratory Order Rejection Reasons v0.1.0 (CodeSystem)</a></p><p>This value set contains 15 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC1\">KEID.RC1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-RR - Unlabeled DBS</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC2\">KEID.RC2</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-RR - Over saturation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC3\">KEID.RC3</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-RR - Insufficient blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC4\">KEID.RC4</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-RR - Scratched spots</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC5\">KEID.RC5</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-RR - Scattered spots</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC6\">KEID.RC6</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-RR - Two layered spot</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC7\">KEID.RC7</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-RR - Sample not due</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC8\">KEID.RC8</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-RR - Samples packed together</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC9\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC9\">KEID.RC9</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-RR - Clotted blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC10\">KEID.RC10</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-RR - Improper drying</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC11\">KEID.RC11</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-RR - Serum rings –water, alcohol</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC12\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC12\">KEID.RC12</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-RR - Collected on expired DBS card</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC13\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC13\">KEID.RC13</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-RR - Overstayed specimen ( &gt;2wks )</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC14\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC14\">KEID.RC14</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-RR - Above 2years</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC15\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC15\">KEID.RC15</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-RR - Sample &amp; requisition mismatch</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-LabOrderRejectionReasonsCS.html\">codesystem CodeSystem: Laboratory Order Rejection Reasons v0.1.0 (CodeSystem)</a></p><p>This value set contains 22 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC1\">KEID.RC1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-Rejection-RC1 - Unlabeled DBS</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC2\">KEID.RC2</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-Rejection-RC2 - Over saturation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC3\">KEID.RC3</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-Rejection-RC3 - Insufficient blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC4\">KEID.RC4</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-Rejection-RC4 - Scattered spots</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC5\">KEID.RC5</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-Rejection-RC5 - Two layered spot</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC8\">KEID.RC8</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-Rejection-RC8 - Samples packed together</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC9\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC9\">KEID.RC9</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-Rejection-RC9 - Clotted blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC10\">KEID.RC10</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-Rejection-RC10 - Improper drying</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC11\">KEID.RC11</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-Rejection-RC11 - Serum rings –water, alcohol</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC12\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC12\">KEID.RC12</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-Rejection-RC12 - Collected on expired DBS card</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC13\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC13\">KEID.RC13</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-Rejection-RC13 - Overstayed specimen ( &gt;2wks )</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC14\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC14\">KEID.RC14</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-Rejection-RC14 - Above 2years</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC15\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC15\">KEID.RC15</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>EID-Rejection-RC15 - Sample &amp; requisition mismatch</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC1\">KVL.RC1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-Rejection-RC1 - Missing Sample</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC2\">KVL.RC2</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-Rejection-RC2 - Hemolysed sample</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC3\">KVL.RC3</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-Rejection-RC3 - Missing patient</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC4\">KVL.RC4</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-Rejection-RC4 - Sample request form &amp; sample mismatch</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC5\">KVL.RC5</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-Rejection-RC5 - Sample not under cold chain</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC6\">KVL.RC6</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-Rejection-RC6 - Expired PPT tubes</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC7\">KVL.RC7</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-Rejection-RC7 - No request form</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC8\">KVL.RC8</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-Rejection-RC8 - Improper packaging</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC9\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC9\">KVL.RC9</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-Rejection-RC9 - Insufficient volume</td></tr></table></div>"
       },
       "url" : "http://fhir.nphl.go.ke/ValueSet/EIDRejectionReasonsForLabOrderVS",
       "version" : "0.1.0",
@@ -88,11 +19,11 @@
       "title" : "ValueSet: EID Rejection Reasons for Lab Order",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2024-08-15T14:29:44+03:00",
+      "date" : "2024-08-15T14:46:36+03:00",
       "expansion" : {
-        "identifier" : "urn:uuid:139ef637-53fb-4869-bb4d-cde4f4646c43",
-        "timestamp" : "2024-08-15T14:30:32+03:00",
-        "total" : 15,
+        "identifier" : "urn:uuid:04006bfa-c5b3-4444-ab9b-0cd906a3ee55",
+        "timestamp" : "2024-08-15T14:47:29+03:00",
+        "total" : 22,
         "offset" : 0,
         "parameter" : [{
           "name" : "count",
@@ -113,77 +44,112 @@
         "contains" : [{
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
           "code" : "KEID.RC1",
-          "display" : "EID-RR - Unlabeled DBS"
+          "display" : "EID-Rejection-RC1 - Unlabeled DBS"
         },
         {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
           "code" : "KEID.RC2",
-          "display" : "EID-RR - Over saturation"
+          "display" : "EID-Rejection-RC2 - Over saturation"
         },
         {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
           "code" : "KEID.RC3",
-          "display" : "EID-RR - Insufficient blood"
+          "display" : "EID-Rejection-RC3 - Insufficient blood"
         },
         {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
           "code" : "KEID.RC4",
-          "display" : "EID-RR - Scratched spots"
+          "display" : "EID-Rejection-RC4 - Scattered spots"
         },
         {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
           "code" : "KEID.RC5",
-          "display" : "EID-RR - Scattered spots"
-        },
-        {
-          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
-          "code" : "KEID.RC6",
-          "display" : "EID-RR - Two layered spot"
-        },
-        {
-          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
-          "code" : "KEID.RC7",
-          "display" : "EID-RR - Sample not due"
+          "display" : "EID-Rejection-RC5 - Two layered spot"
         },
         {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
           "code" : "KEID.RC8",
-          "display" : "EID-RR - Samples packed together"
+          "display" : "EID-Rejection-RC8 - Samples packed together"
         },
         {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
           "code" : "KEID.RC9",
-          "display" : "EID-RR - Clotted blood"
+          "display" : "EID-Rejection-RC9 - Clotted blood"
         },
         {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
           "code" : "KEID.RC10",
-          "display" : "EID-RR - Improper drying"
+          "display" : "EID-Rejection-RC10 - Improper drying"
         },
         {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
           "code" : "KEID.RC11",
-          "display" : "EID-RR - Serum rings –water, alcohol"
+          "display" : "EID-Rejection-RC11 - Serum rings –water, alcohol"
         },
         {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
           "code" : "KEID.RC12",
-          "display" : "EID-RR - Collected on expired DBS card"
+          "display" : "EID-Rejection-RC12 - Collected on expired DBS card"
         },
         {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
           "code" : "KEID.RC13",
-          "display" : "EID-RR - Overstayed specimen ( >2wks )"
+          "display" : "EID-Rejection-RC13 - Overstayed specimen ( >2wks )"
         },
         {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
           "code" : "KEID.RC14",
-          "display" : "EID-RR - Above 2years"
+          "display" : "EID-Rejection-RC14 - Above 2years"
         },
         {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
           "code" : "KEID.RC15",
-          "display" : "EID-RR - Sample & requisition mismatch"
+          "display" : "EID-Rejection-RC15 - Sample & requisition mismatch"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
+          "code" : "KVL.RC1",
+          "display" : "VL-Rejection-RC1 - Missing Sample"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
+          "code" : "KVL.RC2",
+          "display" : "VL-Rejection-RC2 - Hemolysed sample"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
+          "code" : "KVL.RC3",
+          "display" : "VL-Rejection-RC3 - Missing patient"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
+          "code" : "KVL.RC4",
+          "display" : "VL-Rejection-RC4 - Sample request form & sample mismatch"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
+          "code" : "KVL.RC5",
+          "display" : "VL-Rejection-RC5 - Sample not under cold chain"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
+          "code" : "KVL.RC6",
+          "display" : "VL-Rejection-RC6 - Expired PPT tubes"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
+          "code" : "KVL.RC7",
+          "display" : "VL-Rejection-RC7 - No request form"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
+          "code" : "KVL.RC8",
+          "display" : "VL-Rejection-RC8 - Improper packaging"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
+          "code" : "KVL.RC9",
+          "display" : "VL-Rejection-RC9 - Insufficient volume"
         }]
       }
     }
@@ -194,19 +160,19 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-LabOrderJustificationsCS.html\">codesystem CodeSystem: Laboratory Order Justifications v0.1.0 (CodeSystem)</a></p><p>This value set contains 10 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.B1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46B1\">KDSTB.B1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DS-TB - Baseline</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.F2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46F2\">KDSTB.F2</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DS-TB - Follow-up (2 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.F3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46F3\">KDSTB.F3</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DS-TB - Follow-up (3 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.F5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46F5\">KDSTB.F5</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DS-TB - Follow-up (5 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.F6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46F6\">KDSTB.F6</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DS-TB - Follow-up (6 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.B1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46B1\">KDRTB.B1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DR-TB - Baseline</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.F2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46F2\">KDRTB.F2</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DR-TB - Follow-up (2 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.F3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46F3\">KDRTB.F3</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DR-TB - Follow-up (3 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.F5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46F5\">KDRTB.F5</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DR-TB - Follow-up (5 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.F6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46F6\">KDRTB.F6</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DR-TB - Follow-up (6 months)</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-LabOrderJustificationsCS.html\">codesystem CodeSystem: Laboratory Order Justifications v0.1.0 (CodeSystem)</a></p><p>This value set contains 22 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.B1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46B1\">KDSTB.B1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DS-TB - Baseline</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.F2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46F2\">KDSTB.F2</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DS-TB - Follow-up (2 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.F3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46F3\">KDSTB.F3</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DS-TB - Follow-up (3 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.F5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46F5\">KDSTB.F5</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DS-TB - Follow-up (5 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.F6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46F6\">KDSTB.F6</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DS-TB - Follow-up (6 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.B1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46B1\">KDRTB.B1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DR-TB - Baseline</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.F2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46F2\">KDRTB.F2</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DR-TB - Follow-up (2 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.F3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46F3\">KDRTB.F3</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DR-TB - Follow-up (3 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.F5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46F5\">KDRTB.F5</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DR-TB - Follow-up (5 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.F6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46F6\">KDRTB.F6</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>DR-TB - Follow-up (6 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.P1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46P1\">KEID.P1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>PCR-EID - Initial PCR (6week or first contact)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.P2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46P2\">KEID.P2</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>PCR-EID - 2nd PCR (6 months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.P3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46P3\">KEID.P3</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>PCR-EID - 3rd PCR (12months)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.B1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46B1\">KEID.B1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>PCR-EID - Confirmatory PCR and Baseline VL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.D1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46D1\">KEID.D1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>PCR-EID - Discrepant PCR (tie breaker)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.R1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46R1\">KEID.R1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>PCR-EID - Sample redraw (specify PCR sample Code e.g. 6,1 )</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.B1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46B1\">KVL.B1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>VL-Justification-B1 - 1st VL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.F1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46F1\">KVL.F1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>VL-Justification-F1 - Follow up</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.S1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46S1\">KVL.S1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>VL-Justification-S1 - Single drug substitution</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.R1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46R1\">KVL.R1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>VL-Justification-R1 - Recency</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.P1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46P1\">KVL.P1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>VL-Justification-P1 - PMTCT NP</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.P2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46P2\">KVL.P2</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>VL-Justification-P2 - PMTCT KP</td></tr></table></div>"
       },
       "url" : "http://fhir.nphl.go.ke/ValueSet/JustificationForLabOrderVS",
       "version" : "0.1.0",
       "name" : "JustificationsForLabOrders",
-      "title" : "ValueSet: Justification for Lab Order",
+      "title" : "ValueSet: Justification options for Lab Orders",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2024-08-15T14:29:44+03:00",
+      "date" : "2024-08-15T14:46:36+03:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c95220a8-a3d9-4fb8-bac5-a7e6aadf7631",
-        "timestamp" : "2024-08-15T14:30:32+03:00",
-        "total" : 10,
+        "identifier" : "urn:uuid:e48c0aef-5ddf-415e-88ba-171967c4283e",
+        "timestamp" : "2024-08-15T14:47:29+03:00",
+        "total" : 22,
         "offset" : 0,
         "parameter" : [{
           "name" : "count",
@@ -273,159 +239,66 @@
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
           "code" : "KDRTB.F6",
           "display" : "DR-TB - Follow-up (6 months)"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://fhir.nphl.go.ke/ValueSet/VLJustificationForLabOrderVS",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-LabOrderJustificationsCS.html\">codesystem CodeSystem: Laboratory Order Justifications v0.1.0 (CodeSystem)</a></p><p>This value set contains 6 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.B1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46B1\">KVL.B1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>VL - 1ST VL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.F1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46F1\">KVL.F1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>VL - Follow up</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.S1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46S1\">KVL.S1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>VL - Single drug substitution</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.R1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46R1\">KVL.R1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>VL - Recency</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.P1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46P1\">KVL.P1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>VL - PMTCT NP</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.P2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46P2\">KVL.P2</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td><td>VL - PMTCT KP</td></tr></table></div>"
-      },
-      "url" : "http://fhir.nphl.go.ke/ValueSet/VLJustificationForLabOrderVS",
-      "version" : "0.1.0",
-      "name" : "KNHTSVLJustificationForLabOrderVS",
-      "title" : "ValueSet: VL Justification for Lab Order",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2024-08-15T14:29:44+03:00",
-      "expansion" : {
-        "identifier" : "urn:uuid:e6164a17-664b-469e-af4b-8dcab14c5657",
-        "timestamp" : "2024-08-15T14:30:33+03:00",
-        "total" : 6,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "count",
-          "valueInteger" : 1000
         },
         {
-          "name" : "offset",
-          "valueInteger" : 0
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+          "code" : "KEID.P1",
+          "display" : "PCR-EID - Initial PCR (6week or first contact)"
         },
         {
-          "name" : "excludeNested",
-          "valueBoolean" : false
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+          "code" : "KEID.P2",
+          "display" : "PCR-EID - 2nd PCR (6 months)"
         },
         {
-          "name" : "used-codesystem",
-          "valueUri" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS|0.1.0"
-        }],
-        "contains" : [{
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+          "code" : "KEID.P3",
+          "display" : "PCR-EID - 3rd PCR (12months)"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+          "code" : "KEID.B1",
+          "display" : "PCR-EID - Confirmatory PCR and Baseline VL"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+          "code" : "KEID.D1",
+          "display" : "PCR-EID - Discrepant PCR (tie breaker)"
+        },
+        {
+          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+          "code" : "KEID.R1",
+          "display" : "PCR-EID - Sample redraw (specify PCR sample Code e.g. 6,1 )"
+        },
+        {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
           "code" : "KVL.B1",
-          "display" : "VL - 1ST VL"
+          "display" : "VL-Justification-B1 - 1st VL"
         },
         {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
           "code" : "KVL.F1",
-          "display" : "VL - Follow up"
+          "display" : "VL-Justification-F1 - Follow up"
         },
         {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
           "code" : "KVL.S1",
-          "display" : "VL - Single drug substitution"
+          "display" : "VL-Justification-S1 - Single drug substitution"
         },
         {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
           "code" : "KVL.R1",
-          "display" : "VL - Recency"
+          "display" : "VL-Justification-R1 - Recency"
         },
         {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
           "code" : "KVL.P1",
-          "display" : "VL - PMTCT NP"
+          "display" : "VL-Justification-P1 - PMTCT NP"
         },
         {
           "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
           "code" : "KVL.P2",
-          "display" : "VL - PMTCT KP"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://fhir.nphl.go.ke/ValueSet/VLRejectionReasonsForLabOrderVS",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-LabOrderRejectionReasonsCS.html\">codesystem CodeSystem: Laboratory Order Rejection Reasons v0.1.0 (CodeSystem)</a></p><p>This value set contains 9 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC1\">KVL.RC1</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-RR - Missing Sample</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC2\">KVL.RC2</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-RR - Hemolysed sample</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC3\">KVL.RC3</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-RR - Missing patient</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC4\">KVL.RC4</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-RR - Sample request form &amp; sample mismatch</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC5\">KVL.RC5</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-RR - Sample not under cold chain</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC6\">KVL.RC6</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-RR - Expired PPT tubes</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC7\">KVL.RC7</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-RR - No request form</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC8\">KVL.RC8</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-RR - Improper packaging</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC9\"> </a>\u00a0\u00a0<a href=\"CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC9\">KVL.RC9</a></td><td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td><td>VL-RR - Insufficient volume</td></tr></table></div>"
-      },
-      "url" : "http://fhir.nphl.go.ke/ValueSet/VLRejectionReasonsForLabOrderVS",
-      "version" : "0.1.0",
-      "name" : "KNHTSVLRejectionReasonsorLabOrderVS",
-      "title" : "ValueSet: VL Rejection Reasons for Lab Order",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2024-08-15T14:29:44+03:00",
-      "expansion" : {
-        "identifier" : "urn:uuid:e76cb4e7-6eb8-42fd-a865-4c083b024f36",
-        "timestamp" : "2024-08-15T14:30:33+03:00",
-        "total" : 9,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
-          "code" : "KVL.RC1",
-          "display" : "VL-RR - Missing Sample"
-        },
-        {
-          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
-          "code" : "KVL.RC2",
-          "display" : "VL-RR - Hemolysed sample"
-        },
-        {
-          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
-          "code" : "KVL.RC3",
-          "display" : "VL-RR - Missing patient"
-        },
-        {
-          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
-          "code" : "KVL.RC4",
-          "display" : "VL-RR - Sample request form & sample mismatch"
-        },
-        {
-          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
-          "code" : "KVL.RC5",
-          "display" : "VL-RR - Sample not under cold chain"
-        },
-        {
-          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
-          "code" : "KVL.RC6",
-          "display" : "VL-RR - Expired PPT tubes"
-        },
-        {
-          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
-          "code" : "KVL.RC7",
-          "display" : "VL-RR - No request form"
-        },
-        {
-          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
-          "code" : "KVL.RC8",
-          "display" : "VL-RR - Improper packaging"
-        },
-        {
-          "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
-          "code" : "KVL.RC9",
-          "display" : "VL-RR - Insufficient volume"
+          "display" : "VL-Justification-P2 - PMTCT KP"
         }]
       }
     }
@@ -443,10 +316,10 @@
       "name" : "YesNoVS",
       "title" : "Yes/No Value Set",
       "status" : "draft",
-      "date" : "2024-08-15T14:29:44+03:00",
+      "date" : "2024-08-15T14:46:36+03:00",
       "expansion" : {
-        "identifier" : "urn:uuid:4fe6ef9d-2a74-40d2-b99a-856d0a4611e3",
-        "timestamp" : "2024-08-15T14:30:33+03:00",
+        "identifier" : "urn:uuid:65db0541-90b4-42bf-a1a4-52ab0c0f1843",
+        "timestamp" : "2024-08-15T14:47:29+03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{

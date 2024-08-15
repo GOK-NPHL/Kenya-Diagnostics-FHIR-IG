@@ -4,7 +4,7 @@ ValueSet: JustificationForLabOrderVS
 Title:        "ValueSet: Justification options for Lab Orders"
 Description:  "Justification options for lab orders in this IG"
 * ^experimental = false
-* ^name = "JustificationsForLabOrders"
+* ^name = "JustificationsForLabOrdersVS"
 
 // ------------- <TB Justification for Lab Order ----------------
 // ValueSet: JustificationForLabOrderVS
@@ -58,11 +58,17 @@ Description:  "Justification options for lab orders in this IG"
 
 
 // ------------- <EID Rejection Reasons for Lab Order ----------------
-ValueSet: EIDRejectionReasonsForLabOrderVS
-Title:        "ValueSet: EID Rejection Reasons for Lab Order"
-Description:  "ValueSet: EID Rejection Reasons for Lab Order"
+ValueSet: RejectionReasonsForLabOrderVS
+Title:        "ValueSet: Rejection reasons for Lab Orders"
+Description:  "Rejection reasons for lab orders in this IG"
 * ^experimental = false
-* ^name = "KNHTSEIDRejectionReasonsorLabOrderVS"
+* ^name = "RejectionReasonsForLabOrdersVS"
+
+// ValueSet: EIDRejectionReasonsForLabOrderVS
+// Title:        "ValueSet: EID Rejection Reasons for Lab Order"
+// Description:  "ValueSet: EID Rejection Reasons for Lab Order"
+// * ^experimental = false
+// * ^name = "KNHTSEIDRejectionReasonsorLabOrderVS"
 * LabOrderRejectionReasonsCS#KEID.RC1 "EID-Rejection-RC1 - Unlabeled DBS"
 * LabOrderRejectionReasonsCS#KEID.RC2 "EID-Rejection-RC2 - Over saturation"
 * LabOrderRejectionReasonsCS#KEID.RC3 "EID-Rejection-RC3 - Insufficient blood"
