@@ -22,10 +22,28 @@
         "title": "KenyaDiagnosticServiceRequest"
       }
     ],
+    "Encounter": [
+      {
+        "url": "http://fhir.nphl.go.ke/StructureDefinition/KenyaEncounter",
+        "title": "KenyaEncounter"
+      }
+    ],
     "Organization": [
       {
         "url": "http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization",
         "title": "KenyaHealthProviderOrganization"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "http://fhir.nphl.go.ke/StructureDefinition/KenyaObservation",
+        "title": "KenyaObservation"
+      }
+    ],
+    "Specimen": [
+      {
+        "url": "http://fhir.nphl.go.ke/StructureDefinition/KenyaSpecimen",
+        "title": "KenyaSpecimen"
       }
     ]
   },
@@ -41,6 +59,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"

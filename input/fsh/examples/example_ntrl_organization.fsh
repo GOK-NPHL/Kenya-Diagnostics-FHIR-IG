@@ -7,6 +7,7 @@ Description: "Example of an organization."
 * name = "National Tuberculosis Reference Laboratory"
 * identifier[MFL].system = "http://kmhfr.health.go.ke/fhir" // URL of the organization identifier system
 * identifier[MFL].value = "23841" // Value of the organization identifier (MFL code)
+* active = true
 * address.text = "National Tuberculosis Reference Laboratory, Afya Annex, Nairobi, Kenya"
 * address.line[0] = "National Tuberculosis Reference Laboratory"
 * address.line[1] = "Afya Annex, KNH Grounds"

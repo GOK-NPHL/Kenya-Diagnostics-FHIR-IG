@@ -1,13 +1,16 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://fhir.nphl.go.ke/ValueSet/TBJustificationForLabOrderVS",
+      "url" : "http://fhir.nphl.go.ke/ValueSet/JustificationForLabOrderVS",
       "version" : "0.1.0",
       "status" : "draft",
-      "name" : "KNHTSTBJustificationForLabOrderVS",
-      "title" : "ValueSet: TB Justification for Lab Order",
-      "description" : "ValueSet: TB Justification for Lab Order",
-      "systems" : ["http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS"]
+      "name" : "JustificationsForLabOrders",
+      "title" : "ValueSet: Justification for Lab Order",
+      "description" : "Justification options for lab orders",
+      "systems" : ["http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS"],
+      "uses" : {
+      },
+      "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest"
     },
     {
       "url" : "http://fhir.nphl.go.ke/ValueSet/yes-no-vs",

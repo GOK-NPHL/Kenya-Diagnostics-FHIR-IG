@@ -45,6 +45,7 @@ InstanceOf: KenyaDiagnosticServiceRequest
 Usage: #example
 Title: "drtb-lab-request"
 Description: "An example of a laboratory test request for drug resistance to tuberculosis (DR-TB)."
+* identifier.value = "drtb-lab-request-123456789"
 * status = #active
 * intent = #order
 * category = ObsCat#laboratory
