@@ -87,8 +87,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest",
       "StructureDefinition-KenyaObservation.html" : "KenyaObservation",
+      "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest",
       "StructureDefinition-KenyaSpecimen.html" : "KenyaSpecimen"
     },
     {
@@ -365,8 +365,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization",
-      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)"
+      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)",
+      "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -380,8 +380,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization",
-      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)"
+      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)",
+      "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -395,13 +395,13 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest",
-      "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization",
-      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)",
-      "StructureDefinition-KenyaDiagnosticReport.html" : "KenyaDiagnosticReport",
-      "StructureDefinition-KenyaObservation.html" : "KenyaObservation",
       "StructureDefinition-KenyaEncounter.html" : "KenyaEncounter",
-      "StructureDefinition-KenyaSpecimen.html" : "KenyaSpecimen"
+      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)",
+      "StructureDefinition-KenyaObservation.html" : "KenyaObservation",
+      "StructureDefinition-KenyaDiagnosticReport.html" : "KenyaDiagnosticReport",
+      "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest",
+      "StructureDefinition-KenyaSpecimen.html" : "KenyaSpecimen",
+      "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
