@@ -102,3 +102,15 @@ Description:  "Rejection reasons for lab orders in this IG"
 * LabOrderRejectionReasonsCS#KVL.RC8 "VL-Rejection-RC8 - Improper packaging"
 * LabOrderRejectionReasonsCS#KVL.RC9 "VL-Rejection-RC9 - Insufficient volume"
 // ------------- VL Rejection Reasons for Lab Order> ----------------
+
+// ------------- <TB Rejection Reasons for Lab Order ----------------
+* LabOrderRejectionReasonsCS#KTB.RC1 "TB-Rejection-RC1 - Leaking"
+* LabOrderRejectionReasonsCS#KTB.RC2 "TB-Rejection-RC2 - Request form without samples"
+* LabOrderRejectionReasonsCS#KTB.RC3 "TB-Rejection-RC3 - Mismatch Information on requset from and specimen container"
+* LabOrderRejectionReasonsCS#KTB.RC4 "TB-Rejection-RC4 - No label"
+* LabOrderRejectionReasonsCS#KTB.RC5 "TB-Rejection-RC5 - No sample in the container"
+* LabOrderRejectionReasonsCS#KTB.RC6 "TB-Rejection-RC6 - No requset form"
+* LabOrderRejectionReasonsCS#KTB.RC7 "TB-Rejection-RC7 - Missing information required"
+* LabOrderRejectionReasonsCS#KTB.RC8 "TB-Rejection-RC8 - Sample in the wrong container"
+* LabOrderRejectionReasonsCS#KTB.RC9 "TB-Rejection-RC9 - Delay between sample collection and reception at NTRL"
+// ------------- TB Rejection Reasons for Lab Order> ----------------
