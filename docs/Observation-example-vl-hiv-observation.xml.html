@@ -42,8 +42,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"2.26"}
-    h3,h4,h5,h6{--heading-prefix:"2.26"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.28"}
+    h3,h4,h5,h6{--heading-prefix:"2.28"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -170,10 +170,17 @@
 
 &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation">Observation</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;example-vl-hiv-observation&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://fhir.nphl.go.ke/StructureDefinition/KenyaObservation&quot;/&gt;
+  &lt;/meta&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Observation example-vl-hiv-observation&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;example-vl-hiv-observation&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcexample-vl-hiv-observation&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcexample-vl-hiv-observation-en-US&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 10351-5}&quot;&gt;HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=&quot;example-vl-hiv-patient&quot;&gt;example-vl-hiv-patient&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=&quot;Organization-example-lab-organization--cgrh.html&quot;&gt;Organization Coast General Teaching and Referal Hospital&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 2100&lt;/p&gt;&lt;p&gt;&lt;b&gt;specimen&lt;/b&gt;: &lt;a href=&quot;Specimen-example-cbc-specimen.html&quot;&gt;Specimen: status = available; type = specimen&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Observation example-vl-hiv-observation&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;example-vl-hiv-observation&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcexample-vl-hiv-observation&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcexample-vl-hiv-observation-en-US&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: vl-hiv-observation-1&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 10351-5}&quot;&gt;HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=&quot;example-vl-hiv-patient&quot;&gt;example-vl-hiv-patient&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2021-01-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=&quot;Organization-example-lab-organization--cgrh.html&quot;&gt;Organization Coast General Teaching and Referal Hospital&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 1001 copies/mL&lt;/p&gt;&lt;p&gt;&lt;b&gt;specimen&lt;/b&gt;: &lt;a href=&quot;Specimen-example-cbc-specimen.html&quot;&gt;Specimen: status = available; type = specimen&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;ReferenceRanges&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Low&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;High&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;200 copies/mL&lt;/td&gt;&lt;td&gt;1000 copies/mL&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;vl-hiv-observation-1&quot;/&gt;
+  &lt;/identifier&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;final&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.code">code</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
@@ -184,15 +191,30 @@
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">subject</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;example-vl-hiv-patient&quot;/&gt;
   &lt;/subject&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.effective[x]">effectiveDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2021-01-01&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.performer">performer</a>&gt;<a href="Organization-example-lab-organization--cgrh.html" style="color: Maroon">&#x1F517;</a> 
     &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Organization/example-lab-organization--cgrh&quot;/&gt;
   &lt;/performer&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.value[x]">valueQuantity</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;2100&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;1001&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;copies/mL&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
   &lt;/valueQuantity&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.specimen">specimen</a>&gt;<a href="Specimen-example-cbc-specimen.html" style="color: Maroon">&#x1F517;</a> 
     &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Specimen/example-cbc-specimen&quot;/&gt;
   &lt;/specimen&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.referenceRange">referenceRange</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.referenceRange.low">low</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;200&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;copies/mL&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+    &lt;/low&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.referenceRange.high">high</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;1000&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;copies/mL&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+    &lt;/high&gt;
+  &lt;/referenceRange&gt;
 &lt;/Observation&gt;</code></pre>
 
 
@@ -217,7 +239,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Aug 14, 2024 15:19+0300">2024-08-14</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 15, 2024 14:46+0300">2024-08-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

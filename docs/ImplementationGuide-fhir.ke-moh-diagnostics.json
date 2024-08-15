@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "KenyaDiagnosticsFHIRIG",
   "status" : "draft",
-  "date" : "2024-08-14T15:19:23+03:00",
+  "date" : "2024-08-15T14:46:36+03:00",
   "publisher" : "DNLS",
   "contact" : [{
     "name" : "DNLS",
@@ -630,7 +630,7 @@
       },
       "name" : "cbc-observation",
       "description" : "An example of a blood specimen.",
-      "exampleBoolean" : true
+      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaObservation"
     },
     {
       "extension" : [{
@@ -647,36 +647,12 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/example-cbc-patient-2"
-      },
-      "name" : "cbc-patient-2",
-      "description" : "An example of a patient.",
-      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/Kenya-patient-ips"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Specimen"
       }],
       "reference" : {
         "reference" : "Specimen/example-cbc-specimen"
       },
       "name" : "cbc-specimen",
-      "description" : "An example of a blood specimen.",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Specimen"
-      }],
-      "reference" : {
-        "reference" : "Specimen/example-cbc-specimen-2"
-      },
-      "name" : "cbc-specimen-2",
       "description" : "An example of a blood specimen.",
       "exampleBoolean" : true
     },
@@ -702,6 +678,18 @@
       },
       "name" : "CodeSystem: Laboratory Order Justifications",
       "description" : "The reason for ordering a laboratory test.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/LabOrderRejectionReasonsCS"
+      },
+      "name" : "CodeSystem: Laboratory Order Rejection Reasons",
+      "description" : "The reason for rejecting a laboratory Order.",
       "exampleBoolean" : false
     },
     {
@@ -739,6 +727,18 @@
       "name" : "drtb-specimen",
       "description" : "An example of a blood specimen.",
       "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/example-patient-2"
+      },
+      "name" : "example-patient-2",
+      "description" : "An example of a patient.",
+      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/Kenya-patient-ips"
     },
     {
       "extension" : [{
@@ -866,11 +866,35 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/EIDRejectionReasonsForLabOrderVS"
+      },
+      "name" : "ValueSet: EID Rejection Reasons for Lab Order",
+      "description" : "ValueSet: EID Rejection Reasons for Lab Order",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JustificationForLabOrderVS"
       },
-      "name" : "ValueSet: Justification for Lab Order",
-      "description" : "Justification options for lab orders",
+      "name" : "ValueSet: Justification options for Lab Orders",
+      "description" : "Justification options for lab orders in this IG",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "DiagnosticReport"
+      }],
+      "reference" : {
+        "reference" : "DiagnosticReport/example-vl-hiv-diagnostic-report"
+      },
+      "name" : "vl-hiv-diagnostic-report",
+      "description" : "An example of a diagnostic report for HIV viral load.",
+      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaDiagnosticReport"
     },
     {
       "extension" : [{
@@ -894,7 +918,7 @@
       },
       "name" : "vl-hiv-observation",
       "description" : "An example of a HIV viral load observation.",
-      "exampleBoolean" : true
+      "exampleCanonical" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaObservation"
     },
     {
       "extension" : [{

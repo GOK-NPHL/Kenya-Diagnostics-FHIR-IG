@@ -9,7 +9,18 @@
       "description" : "The reason for ordering a laboratory test.",
       "uses" : {
       },
-      "ValueSet-JustificationForLabOrderVS.html" : "ValueSet: Justification for Lab Order"
+      "ValueSet-JustificationForLabOrderVS.html" : "ValueSet: Justification options for Lab Orders"
+    },
+    {
+      "url" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LabOrderRejectionReasonsCS",
+      "title" : "CodeSystem: Laboratory Order Rejection Reasons",
+      "description" : "The reason for rejecting a laboratory Order.",
+      "uses" : {
+      },
+      "ValueSet-EIDRejectionReasonsForLabOrderVS.html" : "ValueSet: EID Rejection Reasons for Lab Order"
     },
     {
       "url" : "http://snomed.info/sct",

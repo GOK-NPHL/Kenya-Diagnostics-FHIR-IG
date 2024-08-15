@@ -7,6 +7,13 @@
     "name" : "LabOrderJustificationsCS"
   },
   {
+    "id" : "LabOrderRejectionReasonsCS",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
+    "version" : "0.1.0",
+    "name" : "LabOrderRejectionReasonsCS"
+  },
+  {
     "id" : "fhir.ke-moh-diagnostics",
     "type" : "ImplementationGuide",
     "url" : "http://fhir.nphl.go.ke/ImplementationGuide/fhir.ke-moh-diagnostics",
@@ -61,6 +68,13 @@
     "url" : "http://fhir.nphl.go.ke/StructureDefinition/KenyaSpecimen",
     "version" : "0.1.0",
     "name" : "KenyaSpecimen"
+  },
+  {
+    "id" : "EIDRejectionReasonsForLabOrderVS",
+    "type" : "ValueSet",
+    "url" : "http://fhir.nphl.go.ke/ValueSet/EIDRejectionReasonsForLabOrderVS",
+    "version" : "0.1.0",
+    "name" : "KNHTSEIDRejectionReasonsorLabOrderVS"
   },
   {
     "id" : "JustificationForLabOrderVS",

@@ -42,8 +42,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"2.14"}
-    h3,h4,h5,h6{--heading-prefix:"2.14"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.16"}
+    h3,h4,h5,h6{--heading-prefix:"2.16"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -170,10 +170,17 @@
 
 &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation">Observation</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;example-cbc-observation&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://fhir.nphl.go.ke/StructureDefinition/KenyaObservation&quot;/&gt;
+  &lt;/meta&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Observation example-cbc-observation&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;example-cbc-observation&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcexample-cbc-observation&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcexample-cbc-observation-en-US&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 58410-2}&quot;&gt;CBC panel - Blood by Automated count&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=&quot;Patient-example-cbc-patient.html&quot;&gt;John Patient  Male, DoB: 1990-01-01 ( National unique individual identifier)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=&quot;Organization-example-lab-organization--cgrh.html&quot;&gt;Organization Coast General Teaching and Referal Hospital&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 0&lt;/p&gt;&lt;p&gt;&lt;b&gt;specimen&lt;/b&gt;: &lt;a href=&quot;Specimen-example-cbc-specimen.html&quot;&gt;Specimen: status = available; type = specimen&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Observation example-cbc-observation&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;example-cbc-observation&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcexample-cbc-observation&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcexample-cbc-observation-en-US&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: cbc-observation-1&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 58410-2}&quot;&gt;CBC panel - Blood by Automated count&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=&quot;Patient-example-cbc-patient.html&quot;&gt;John Patient  Male, DoB: 1990-01-01 ( National unique individual identifier)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2021-01-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=&quot;Organization-example-lab-organization--cgrh.html&quot;&gt;Organization Coast General Teaching and Referal Hospital&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 0&lt;/p&gt;&lt;p&gt;&lt;b&gt;specimen&lt;/b&gt;: &lt;a href=&quot;Specimen-example-cbc-specimen.html&quot;&gt;Specimen: status = available; type = specimen&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 6690-2}&quot;&gt;Leukocytes [#/volume] in Blood by Automated count&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 6.8 10*3/uL&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 789-8}&quot;&gt;Erythrocytes [#/volume] in Blood by Automated count&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 4.7 10*6/uL&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 718-7}&quot;&gt;Hemoglobin [Mass/volume] in Blood&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 14.5 g/dL&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 4544-3}&quot;&gt;Hematocrit [Volume Fraction] of Blood by Automated count&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 43 %&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 787-2}&quot;&gt;MCV [Entitic volume] by Automated count&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 92 fL&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 785-6}&quot;&gt;MCH [Entitic mass] by Automated count&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 30.5 pg&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 786-4}&quot;&gt;MCHC [Mass/volume] by Automated count&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 34.2 g/dL&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 21000-5}&quot;&gt;Erythrocyte distribution width [Entitic volume] by Automated count&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 13.5 %&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 788-0}&quot;&gt;Erythrocyte distribution width [Ratio] by Automated count&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 250 %&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 777-3}&quot;&gt;Platelets [#/volume] in Blood by Automated count&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 9.5 10*3/uL&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 32207-3}&quot;&gt;Platelet distribution width [Entitic volume] in Blood by Automated count&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 60 %&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;component&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 32623-1}&quot;&gt;Platelet mean volume [Entitic volume] in Blood by Automated count&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 30 %&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;cbc-observation-1&quot;/&gt;
+  &lt;/identifier&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;final&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.code">code</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
@@ -184,6 +191,7 @@
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">subject</a>&gt;<a href="Patient-example-cbc-patient.html" style="color: Maroon">&#x1F517;</a> 
     &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient/example-cbc-patient&quot;/&gt;
   &lt;/subject&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.effective[x]">effectiveDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2021-01-01&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.performer">performer</a>&gt;<a href="Organization-example-lab-organization--cgrh.html" style="color: Maroon">&#x1F517;</a> 
     &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Organization/example-lab-organization--cgrh&quot;/&gt;
   &lt;/performer&gt;
@@ -193,6 +201,162 @@
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.specimen">specimen</a>&gt;<a href="Specimen-example-cbc-specimen.html" style="color: Maroon">&#x1F517;</a> 
     &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Specimen/example-cbc-specimen&quot;/&gt;
   &lt;/specimen&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component">component</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;6690-2&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/code&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.value[x]">valueQuantity</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;6.8&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;10*3/uL&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+    &lt;/valueQuantity&gt;
+  &lt;/component&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component">component</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;789-8&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/code&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.value[x]">valueQuantity</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;4.7&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;10*6/uL&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+    &lt;/valueQuantity&gt;
+  &lt;/component&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component">component</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;718-7&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/code&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.value[x]">valueQuantity</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;14.5&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;g/dL&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+    &lt;/valueQuantity&gt;
+  &lt;/component&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component">component</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;4544-3&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/code&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.value[x]">valueQuantity</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;43&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;%&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+    &lt;/valueQuantity&gt;
+  &lt;/component&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component">component</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;787-2&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/code&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.value[x]">valueQuantity</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;92&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;fL&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+    &lt;/valueQuantity&gt;
+  &lt;/component&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component">component</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;785-6&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/code&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.value[x]">valueQuantity</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;30.5&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;pg&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+    &lt;/valueQuantity&gt;
+  &lt;/component&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component">component</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;786-4&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/code&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.value[x]">valueQuantity</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;34.2&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;g/dL&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+    &lt;/valueQuantity&gt;
+  &lt;/component&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component">component</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;21000-5&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/code&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.value[x]">valueQuantity</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;13.5&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;%&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+    &lt;/valueQuantity&gt;
+  &lt;/component&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component">component</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;788-0&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/code&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.value[x]">valueQuantity</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;250&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;%&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+    &lt;/valueQuantity&gt;
+  &lt;/component&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component">component</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;777-3&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/code&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.value[x]">valueQuantity</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;9.5&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;10*3/uL&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+    &lt;/valueQuantity&gt;
+  &lt;/component&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component">component</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;32207-3&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/code&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.value[x]">valueQuantity</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;60&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;%&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+    &lt;/valueQuantity&gt;
+  &lt;/component&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component">component</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;32623-1&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/code&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.component.value[x]">valueQuantity</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">value</a>=&quot;30&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;%&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unitsofmeasure.org&quot;/&gt;
+    &lt;/valueQuantity&gt;
+  &lt;/component&gt;
 &lt;/Observation&gt;</code></pre>
 
 
@@ -217,7 +381,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Aug 14, 2024 15:19+0300">2024-08-14</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 15, 2024 14:46+0300">2024-08-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

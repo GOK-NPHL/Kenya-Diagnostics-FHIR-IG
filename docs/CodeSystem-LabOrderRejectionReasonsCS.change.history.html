@@ -1,9 +1,13 @@
+<!-- layouts\layout-changehistory.html -->
+<!-- get modelType -->
+
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>cbc-specimen-2 -  v0.1.0</title>
+    <title> -  v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -40,8 +44,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"2.18"}
-    h3,h4,h5,h6{--heading-prefix:"2.18"}</style>
+    <style type="text/css">h2{--heading-prefix:""}
+    h3,h4,h5,h6{--heading-prefix:""}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -95,7 +99,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>cbc-specimen-2</b></li>
+          
 
         </ul>
       </div>  <!-- /container -->
@@ -107,9 +111,9 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">KenyaDiagnosticsFHIRIG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://fhir.nphl.go.ke/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
+<div style="counter-reset: section 10" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">KenyaDiagnosticsFHIRIG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://fhir.nphl.go.ke/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -121,29 +125,29 @@
 
 <ul class="nav nav-tabs">
 
-  <li class="active">
-    <a href="#">Narrative Content</a>
+  <li>
+    <a href="CodeSystem-LabOrderRejectionReasonsCS.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="Specimen-example-cbc-specimen-2.xml.html">XML</a>
+      <a href="CodeSystem-LabOrderRejectionReasonsCS.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="Specimen-example-cbc-specimen-2.json.html">JSON</a>
+      <a href="CodeSystem-LabOrderRejectionReasonsCS.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="Specimen-example-cbc-specimen-2.ttl.html">TTL</a>
+      <a href="CodeSystem-LabOrderRejectionReasonsCS.ttl.html">TTL</a>
     </li>
   
 
@@ -153,28 +157,13 @@
 
 
   <a name="root"> </a>
-
-
-  <h2 id="root">Example Specimen: cbc-specimen-2</h2>
-
-
-
-
-  <!-- insert intro if present -->
-  
-
-
-
-  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Specimen example-cbc-specimen-2</b></p><a name="example-cbc-specimen-2"> </a><a name="hcexample-cbc-specimen-2"> </a><a name="hcexample-cbc-specimen-2-en-US"> </a><p><b>status</b>: Available</p><p><b>type</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation specimen}">specimen</span></p><p><b>subject</b>: <a href="Patient-example-cbc-patient.html">John Patient  Male, DoB: 1990-01-01 ( National unique individual identifier)</a></p><h3>Collections</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Collected[x]</b></td><td><b>Method</b></td><td><b>BodySite</b></td></tr><tr><td style="display: none">*</td><td>2021-01-01</td><td><span title="Codes:{http://loinc.org LNC#LA26398-0}">Blood draw</span></td><td><span title="Codes:{http://loinc.org LA7275-6}">Left arm</span></td></tr></table></div>
+  <h2 id="root">: LabOrderRejectionReasonsCS - Change History</h2>
+  <p>History of changes for LabOrderRejectionReasonsCS .</p>
 
   
-
-  <!-- insert notes if present -->
-  
-
-
 
 </div>
+
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
     </div>  <!-- /container -->
@@ -183,6 +172,8 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
+  <script type="text/javascript" src="assets/js/tabs.js"> </script>
+
   <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
@@ -190,7 +181,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Aug 14, 2024 15:19+0300">2024-08-14</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 15, 2024 14:46+0300">2024-08-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

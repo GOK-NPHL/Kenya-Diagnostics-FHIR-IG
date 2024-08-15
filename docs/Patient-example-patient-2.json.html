@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>cbc-specimen-2 - JSON Representation -  v0.1.0</title>
+    <title>example-patient-2 - JSON Representation -  v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -42,8 +42,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"2.18"}
-    h3,h4,h5,h6{--heading-prefix:"2.18"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.23"}
+    h3,h4,h5,h6{--heading-prefix:"2.23"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -97,7 +97,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>cbc-specimen-2</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>example-patient-2</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -123,14 +123,14 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="Specimen-example-cbc-specimen-2.html">Narrative Content</a>
+    <a href="Patient-example-patient-2.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="Specimen-example-cbc-specimen-2.xml.html">XML</a>
+      <a href="Patient-example-patient-2.xml.html">XML</a>
     </li>
   
 
@@ -144,7 +144,7 @@
 
   
     <li>
-      <a href="Specimen-example-cbc-specimen-2.ttl.html">TTL</a>
+      <a href="Patient-example-patient-2.ttl.html">TTL</a>
     </li>
   
 
@@ -156,10 +156,10 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: cbc-specimen-2 - JSON Representation</h2>
+<h2 id="root">: example-patient-2 - JSON Representation</h2>
 
 
-<p><a href="Specimen-example-cbc-specimen-2.json" no-download="true">Raw json</a> | <a href="Specimen-example-cbc-specimen-2.json" download>Download</a></p>
+<p><a href="Patient-example-patient-2.json" no-download="true">Raw json</a> | <a href="Patient-example-patient-2.json" download>Download</a></p>
 
   <!-- insert intro if present -->
   
@@ -168,44 +168,58 @@
 
   <pre class="json" style="white-space: pre; text-wrap: nowrap;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">
 {
-  "<a href="http://hl7.org/fhir/R4/specimen.html#Specimen">resourceType</a>" : "Specimen",
-  "<a href="http://hl7.org/fhir/R4/specimen.html#Specimen.id">id</a>" : "example-cbc-specimen-2",
-  "<a href="http://hl7.org/fhir/R4/specimen.html#Specimen.text">text</a>" : {
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Specimen example-cbc-specimen-2&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;example-cbc-specimen-2\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcexample-cbc-specimen-2\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcexample-cbc-specimen-2-en-US\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Available&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation specimen}\&quot;&gt;specimen&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-example-cbc-patient.html\&quot;&gt;John Patient  Male, DoB: 1990-01-01 ( National unique individual identifier)&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;Collections&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Collected[x]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Method&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;BodySite&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;2021-01-01&lt;/td&gt;&lt;td&gt;&lt;span title=\&quot;Codes:{http://loinc.org LNC#LA26398-0}\&quot;&gt;Blood draw&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span title=\&quot;Codes:{http://loinc.org LA7275-6}\&quot;&gt;Left arm&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
-  },
-  "<a href="http://hl7.org/fhir/R4/specimen.html#Specimen.status">status</a>" : "available",
-  "<a href="http://hl7.org/fhir/R4/specimen.html#Specimen.type">type</a>" : {
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-      {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "specimen"
-      }
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient">resourceType</a>" : "Patient",
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.id">id</a>" : "example-patient-2",
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+      <a href="StructureDefinition-Kenya-patient-ips.html" style="color: Maroon">&#x1F517;</a> "http://fhir.nphl.go.ke/StructureDefinition/Kenya-patient-ips"
     ]
   },
-  "<a href="http://hl7.org/fhir/R4/specimen.html#Specimen.subject">subject</a>" : {
-    <a href="Patient-example-cbc-patient.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Patient/example-cbc-patient"
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Patient example-patient-2&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;example-patient-2\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcexample-patient-2\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcexample-patient-2-en-US\&quot;&gt; &lt;/a&gt;&lt;p style=\&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\&quot;&gt;Janet Patient  Female, DoB: 1990-01-01 ( National unique individual identifier)&lt;/p&gt;&lt;hr/&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Known Marital status of Patient\&quot;&gt;Marital Status:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;span title=\&quot;Codes:\&quot;&gt;U&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Ways to contact the Patient\&quot;&gt;Contact Detail&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;P.O. Box 12345, Eldoret, Kenya&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
   },
-  "<a href="http://hl7.org/fhir/R4/specimen.html#Specimen.collection">collection</a>" : {
-    "<a href="http://hl7.org/fhir/R4/specimen.html#Specimen.collection.collected[x]">collectedDateTime</a>" : "2021-01-01",
-    "<a href="http://hl7.org/fhir/R4/specimen.html#Specimen.collection.method">method</a>" : {
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-        {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://loinc.org",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "LNC#LA26398-0",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Blood draw"
-        }
-      ]
-    },
-    "<a href="http://hl7.org/fhir/R4/specimen.html#Specimen.collection.bodySite">bodySite</a>" : {
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-        {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://loinc.org",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "LA7275-6",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Left arm"
-        }
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">identifier</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">type</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "NI"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "123456789"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.name">name</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a>" : "Patient",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a>" : [
+        "Janet"
       ]
     }
+  ],
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.gender">gender</a>" : "female",
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">birthDate</a>" : "1990-01-01",
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.address">address</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.text">text</a>" : "P.O. Box 12345, Eldoret, Kenya",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a>" : [
+        "P.O. Box 12345"
+      ],
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a>" : "Eldoret",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">state</a>" : "Kenya",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">postalCode</a>" : "12345",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">country</a>" : "KE"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.maritalStatus">maritalStatus</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "U"
+      }
+    ]
   }
 }</code></pre>
 
@@ -231,7 +245,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Aug 14, 2024 15:19+0300">2024-08-14</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 15, 2024 14:46+0300">2024-08-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

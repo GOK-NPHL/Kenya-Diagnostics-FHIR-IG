@@ -1,12 +1,23 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://fhir.nphl.go.ke/ValueSet/EIDRejectionReasonsForLabOrderVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "KNHTSEIDRejectionReasonsorLabOrderVS",
+      "title" : "ValueSet: EID Rejection Reasons for Lab Order",
+      "description" : "ValueSet: EID Rejection Reasons for Lab Order",
+      "systems" : [
+        "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS"
+      ]
+    },
+    {
       "url" : "http://fhir.nphl.go.ke/ValueSet/JustificationForLabOrderVS",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "JustificationsForLabOrders",
-      "title" : "ValueSet: Justification for Lab Order",
-      "description" : "Justification options for lab orders",
+      "title" : "ValueSet: Justification options for Lab Orders",
+      "description" : "Justification options for lab orders in this IG",
       "systems" : ["http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS"],
       "uses" : {
       },

@@ -1,0 +1,121 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "LabOrderRejectionReasonsCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem LabOrderRejectionReasonsCS</b></p><a name=\"LabOrderRejectionReasonsCS\"> </a><a name=\"hcLabOrderRejectionReasonsCS\"> </a><a name=\"hcLabOrderRejectionReasonsCS-en-US\"> </a><p>This  code system <code>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">KEID.RC1<a name=\"LabOrderRejectionReasonsCS-KEID.46RC1\"> </a></td><td>EID-RR - Unlabeled DBS</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC2<a name=\"LabOrderRejectionReasonsCS-KEID.46RC2\"> </a></td><td>EID-RR - Over saturation</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC3<a name=\"LabOrderRejectionReasonsCS-KEID.46RC3\"> </a></td><td>EID-RR - Insufficient blood</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC4<a name=\"LabOrderRejectionReasonsCS-KEID.46RC4\"> </a></td><td>EID-RR - Scratched spots</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC5<a name=\"LabOrderRejectionReasonsCS-KEID.46RC5\"> </a></td><td>EID-RR - Scattered spots</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC6<a name=\"LabOrderRejectionReasonsCS-KEID.46RC6\"> </a></td><td>EID-RR - Two layered spot</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC7<a name=\"LabOrderRejectionReasonsCS-KEID.46RC7\"> </a></td><td>EID-RR - Sample not due</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC8<a name=\"LabOrderRejectionReasonsCS-KEID.46RC8\"> </a></td><td>EID-RR - Samples packed together</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC9<a name=\"LabOrderRejectionReasonsCS-KEID.46RC9\"> </a></td><td>EID-RR - Clotted blood</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC10<a name=\"LabOrderRejectionReasonsCS-KEID.46RC10\"> </a></td><td>EID-RR - Improper drying</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC11<a name=\"LabOrderRejectionReasonsCS-KEID.46RC11\"> </a></td><td>EID-RR - Serum rings –water, alcohol</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC12<a name=\"LabOrderRejectionReasonsCS-KEID.46RC12\"> </a></td><td>EID-RR - Collected on expired DBS card</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC13<a name=\"LabOrderRejectionReasonsCS-KEID.46RC13\"> </a></td><td>EID-RR - Overstayed specimen ( &gt;2wks )</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC14<a name=\"LabOrderRejectionReasonsCS-KEID.46RC14\"> </a></td><td>EID-RR - Above 2years</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC15<a name=\"LabOrderRejectionReasonsCS-KEID.46RC15\"> </a></td><td>EID-RR - Sample &amp; requisition mismatch</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC1<a name=\"LabOrderRejectionReasonsCS-KVL.46RC1\"> </a></td><td>VL-RR - Missing Sample</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC2<a name=\"LabOrderRejectionReasonsCS-KVL.46RC2\"> </a></td><td>VL-RR - Hemolysed sample</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC3<a name=\"LabOrderRejectionReasonsCS-KVL.46RC3\"> </a></td><td>VL-RR - Missing patient</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC4<a name=\"LabOrderRejectionReasonsCS-KVL.46RC4\"> </a></td><td>VL-RR - Sample request form &amp; sample mismatch</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC5<a name=\"LabOrderRejectionReasonsCS-KVL.46RC5\"> </a></td><td>VL-RR - Sample not under cold chain</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC6<a name=\"LabOrderRejectionReasonsCS-KVL.46RC6\"> </a></td><td>VL-RR - Expired PPT tubes</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC7<a name=\"LabOrderRejectionReasonsCS-KVL.46RC7\"> </a></td><td>VL-RR - No request form</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC8<a name=\"LabOrderRejectionReasonsCS-KVL.46RC8\"> </a></td><td>VL-RR - Improper packaging</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC9<a name=\"LabOrderRejectionReasonsCS-KVL.46RC9\"> </a></td><td>VL-RR - Insufficient volume</td></tr></table></div>"
+  },
+  "url" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS",
+  "version" : "0.1.0",
+  "name" : "LabOrderRejectionReasonsCS",
+  "title" : "CodeSystem: Laboratory Order Rejection Reasons",
+  "status" : "draft",
+  "date" : "2024-08-15T14:46:36+03:00",
+  "publisher" : "DNLS",
+  "contact" : [{
+    "name" : "DNLS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://nphl.go.ke"
+    }]
+  }],
+  "description" : "The reason for rejecting a laboratory Order.",
+  "content" : "complete",
+  "count" : 24,
+  "concept" : [{
+    "code" : "KEID.RC1",
+    "display" : "EID-RR - Unlabeled DBS"
+  },
+  {
+    "code" : "KEID.RC2",
+    "display" : "EID-RR - Over saturation"
+  },
+  {
+    "code" : "KEID.RC3",
+    "display" : "EID-RR - Insufficient blood"
+  },
+  {
+    "code" : "KEID.RC4",
+    "display" : "EID-RR - Scratched spots"
+  },
+  {
+    "code" : "KEID.RC5",
+    "display" : "EID-RR - Scattered spots"
+  },
+  {
+    "code" : "KEID.RC6",
+    "display" : "EID-RR - Two layered spot"
+  },
+  {
+    "code" : "KEID.RC7",
+    "display" : "EID-RR - Sample not due"
+  },
+  {
+    "code" : "KEID.RC8",
+    "display" : "EID-RR - Samples packed together"
+  },
+  {
+    "code" : "KEID.RC9",
+    "display" : "EID-RR - Clotted blood"
+  },
+  {
+    "code" : "KEID.RC10",
+    "display" : "EID-RR - Improper drying"
+  },
+  {
+    "code" : "KEID.RC11",
+    "display" : "EID-RR - Serum rings –water, alcohol"
+  },
+  {
+    "code" : "KEID.RC12",
+    "display" : "EID-RR - Collected on expired DBS card"
+  },
+  {
+    "code" : "KEID.RC13",
+    "display" : "EID-RR - Overstayed specimen ( >2wks )"
+  },
+  {
+    "code" : "KEID.RC14",
+    "display" : "EID-RR - Above 2years"
+  },
+  {
+    "code" : "KEID.RC15",
+    "display" : "EID-RR - Sample & requisition mismatch"
+  },
+  {
+    "code" : "KVL.RC1",
+    "display" : "VL-RR - Missing Sample"
+  },
+  {
+    "code" : "KVL.RC2",
+    "display" : "VL-RR - Hemolysed sample"
+  },
+  {
+    "code" : "KVL.RC3",
+    "display" : "VL-RR - Missing patient"
+  },
+  {
+    "code" : "KVL.RC4",
+    "display" : "VL-RR - Sample request form & sample mismatch"
+  },
+  {
+    "code" : "KVL.RC5",
+    "display" : "VL-RR - Sample not under cold chain"
+  },
+  {
+    "code" : "KVL.RC6",
+    "display" : "VL-RR - Expired PPT tubes"
+  },
+  {
+    "code" : "KVL.RC7",
+    "display" : "VL-RR - No request form"
+  },
+  {
+    "code" : "KVL.RC8",
+    "display" : "VL-RR - Improper packaging"
+  },
+  {
+    "code" : "KVL.RC9",
+    "display" : "VL-RR - Insufficient volume"
+  }]
+}
