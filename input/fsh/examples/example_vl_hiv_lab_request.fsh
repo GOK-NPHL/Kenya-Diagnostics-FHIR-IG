@@ -3,11 +3,16 @@ InstanceOf: KenyaDiagnosticServiceRequest
 Usage: #example
 Title: "vl-hiv-lab-request"
 Description: "Example of a laboratory test request for HIV viral load."
+* identifier.system = "http://example.org/ServiceRequest/SR001"
 * identifier.value = "vl-hiv-lab-request-123456789"
 * status = #active
 * intent = #order
-* category = ObsCat#laboratory
-* code = LNC#20447-9
+* category.coding.system = "http://snomed.info/sct"
+* category.coding.code = #108252007
+* category.coding.display = "Laboratory procedure"
+* code.coding.system = "http://snomed.info/sct"
+* code.coding.code = #104001
+* code.coding.display = "Excision of lesion of patella"
 * subject = Reference(example-vl-hiv-patient)
 * specimen = Reference(example-vl-hiv-specimen)
 * requester = Reference(example-lab-organization--cgrh)

@@ -45,11 +45,16 @@ InstanceOf: KenyaDiagnosticServiceRequest
 Usage: #example
 Title: "drtb-lab-request"
 Description: "An example of a laboratory test request for drug resistance to tuberculosis (DR-TB)."
+* identifier.system = "http://example.org/ServiceRequest/SR001"
 * identifier.value = "drtb-lab-request-123456789"
 * status = #active
 * intent = #order
-* category = ObsCat#laboratory
-* code = LNC#13956-8
+* category.coding.system = "http://snomed.info/sct"
+* category.coding.code = #108252007
+* category.coding.display = "Laboratory procedure"
+* code.coding.system = "http://snomed.info/sct"
+* code.coding.code = #104001
+* code.coding.display = "Excision of lesion of patella"
 * subject = Reference(example-drtb-patient)
 * specimen = Reference(example-drtb-specimen)
 * requester = Reference(example-lab-organization--jootrh)

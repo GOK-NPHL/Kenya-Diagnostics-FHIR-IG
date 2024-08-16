@@ -2,16 +2,21 @@ Profile: KenyaDiagnosticServiceRequest
 Parent: ServiceRequest
 Description: "This profile defines a service request to be used in a laboratory test."
 * identifier 1..1 MS
+* identifier.system 1..1 MS
+* identifier.value 1..1 MS
 * identifier ^short = "Unique identifier for the service request"
 * identifier ^definition = "Unique identifier for the service request. This could be a local identifier or a unique identifier from a central system. Examples are: CCC number, lab order number etc."
 * status 1..1 MS // https://hl7.org/fhir/valueset-request-status.html
 * intent 1..1 MS // https://hl7.org/fhir/R4/valueset-request-intent.html
-* intent ^short = "The intent of the service request"
+* intent ^short = "The intent of the service request proposal which will iclude.  plan | directive | order | original-order | reflex-order | filler-order | instance-order | option"
 * intent ^definition = "The intent of the service request, such as order, proposal, plan, or original order. This is a code from a FHIR value set e.g. http://hl7.org/fhir/R4/valueset-request-intent.html."
-* category 0..1  // https://hl7.org/fhir/R4/valueset-servicerequest-category.html
-* category ^short = "The category of the service request. In this IG, this is always diagnostic."
+* category 0..1
+* category.coding.system 1..1 MS
+* category.coding.code 1..1 MS
+* category.coding.display 1..1 MS
+* category from http://hl7.org/fhir/ValueSet/servicerequest-category
+* category ^short = "The category of the service request."
 * category ^definition = "The category of the service request, such as diagnostic, counseling, or social. This is a code from a FHIR value set e.g. http://hl7.org/fhir/R4/valueset-servicerequest-category.html."
-* priority 0..1  // routine | urgent | asap | stat
 * encounter 0..1
 * encounter ^short = "The encounter for the service request"
 * encounter ^definition = "The encounter for the service request i.e. a patient visit. This is a reference to a Encounter resource."
@@ -33,7 +38,9 @@ Description: "This profile defines a service request to be used in a laboratory 
 * subject ^definition = "The patient for the service request. This is a reference to a KenyaPatientIps resource."
 * subject only Reference(KenyaPatientIps)
 * code 1..1 MS
-* code ^short = "The code for the service request from a terminology service e.g. LOINC code"
+* code.coding.system 1..1 MS
+* code.coding.code 1..1 MS
+* code.coding.display 1..1 MS
 * code ^definition = "The code for the service request. This is a code from KNHTS or LOINC or some other code system."
 * reasonCode 0..1
 * reasonCode ^short = "The reason for the service request"
