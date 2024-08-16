@@ -1,6 +1,10 @@
+Alias: $rejection-reasons-for-labOrder =  http://fhir.nphl.go.ke/StructureDefinition/rejection-reasons-for-labOrder
+
 Profile: KenyaDiagnosticServiceRequest
 Parent: ServiceRequest
 Description: "This profile defines a service request to be used in a laboratory test."
+* extension contains
+    $rejection-reasons-for-labOrder named rejectionReason 0..1  
 * identifier 1..1 MS
 * identifier.system 1..1 MS
 * identifier.value 1..1 MS
