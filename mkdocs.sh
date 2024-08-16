@@ -31,6 +31,10 @@ rm -rf docs/*
 # Find output/full-ig.zip and extract it to docs/
 if [ -f "output/full-ig.zip" ]; then
   unzip -o output/full-ig.zip -d docs
+  # move everything in docs/site to docs/
+  rm -rf docs/index.html
+  mv docs/site/* docs/
+  rm -rf docs/site
 else
   echo "Error: output/full-ig.zip not found. Run the build script first."
   exit 1
