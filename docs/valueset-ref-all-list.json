@@ -1,15 +1,6 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://fhir.nphl.go.ke/ValueSet/EIDJustificationForLabOrderVS",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "KNHTSEIDJustificationForLabOrderVS",
-      "title" : "ValueSet: EID Justification for Lab Order",
-      "description" : "ValueSet: EID Justification for Lab Order",
-      "systems" : ["http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS"]
-    },
-    {
       "url" : "http://fhir.nphl.go.ke/ValueSet/EIDRejectionReasonsForLabOrderVS",
       "version" : "0.1.0",
       "status" : "draft",
@@ -25,32 +16,12 @@
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "JustificationsForLabOrders",
-      "title" : "ValueSet: Justification for Lab Order",
-      "description" : "Justification options for lab orders",
+      "title" : "ValueSet: Justification options for Lab Orders",
+      "description" : "Justification options for lab orders in this IG",
       "systems" : ["http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS"],
       "uses" : {
       },
       "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest"
-    },
-    {
-      "url" : "http://fhir.nphl.go.ke/ValueSet/VLJustificationForLabOrderVS",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "KNHTSVLJustificationForLabOrderVS",
-      "title" : "ValueSet: VL Justification for Lab Order",
-      "description" : "ValueSet: VL Justification for Lab Order",
-      "systems" : ["http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS"]
-    },
-    {
-      "url" : "http://fhir.nphl.go.ke/ValueSet/VLRejectionReasonsForLabOrderVS",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "KNHTSVLRejectionReasonsorLabOrderVS",
-      "title" : "ValueSet: VL Rejection Reasons for Lab Order",
-      "description" : "ValueSet: VL Rejection Reasons for Lab Order",
-      "systems" : [
-        "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS"
-      ]
     },
     {
       "url" : "http://fhir.nphl.go.ke/ValueSet/yes-no-vs",
@@ -87,9 +58,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
+      "StructureDefinition-KenyaSpecimen.html" : "KenyaSpecimen",
       "StructureDefinition-KenyaObservation.html" : "KenyaObservation",
-      "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest",
-      "StructureDefinition-KenyaSpecimen.html" : "KenyaSpecimen"
+      "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
@@ -365,8 +336,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)",
-      "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization"
+      "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization",
+      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -380,8 +351,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)",
-      "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization"
+      "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization",
+      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -395,13 +366,13 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-KenyaEncounter.html" : "KenyaEncounter",
-      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)",
-      "StructureDefinition-KenyaObservation.html" : "KenyaObservation",
       "StructureDefinition-KenyaDiagnosticReport.html" : "KenyaDiagnosticReport",
-      "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest",
       "StructureDefinition-KenyaSpecimen.html" : "KenyaSpecimen",
-      "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization"
+      "StructureDefinition-KenyaEncounter.html" : "KenyaEncounter",
+      "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization",
+      "StructureDefinition-KenyaObservation.html" : "KenyaObservation",
+      "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest",
+      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",

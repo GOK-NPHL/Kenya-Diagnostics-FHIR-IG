@@ -70,13 +70,6 @@
     "name" : "KenyaSpecimen"
   },
   {
-    "id" : "EIDJustificationForLabOrderVS",
-    "type" : "ValueSet",
-    "url" : "http://fhir.nphl.go.ke/ValueSet/EIDJustificationForLabOrderVS",
-    "version" : "0.1.0",
-    "name" : "KNHTSEIDJustificationForLabOrderVS"
-  },
-  {
     "id" : "EIDRejectionReasonsForLabOrderVS",
     "type" : "ValueSet",
     "url" : "http://fhir.nphl.go.ke/ValueSet/EIDRejectionReasonsForLabOrderVS",
@@ -89,20 +82,6 @@
     "url" : "http://fhir.nphl.go.ke/ValueSet/JustificationForLabOrderVS",
     "version" : "0.1.0",
     "name" : "JustificationsForLabOrders"
-  },
-  {
-    "id" : "VLJustificationForLabOrderVS",
-    "type" : "ValueSet",
-    "url" : "http://fhir.nphl.go.ke/ValueSet/VLJustificationForLabOrderVS",
-    "version" : "0.1.0",
-    "name" : "KNHTSVLJustificationForLabOrderVS"
-  },
-  {
-    "id" : "VLRejectionReasonsForLabOrderVS",
-    "type" : "ValueSet",
-    "url" : "http://fhir.nphl.go.ke/ValueSet/VLRejectionReasonsForLabOrderVS",
-    "version" : "0.1.0",
-    "name" : "KNHTSVLRejectionReasonsorLabOrderVS"
   },
   {
     "id" : "yes-no-vs",

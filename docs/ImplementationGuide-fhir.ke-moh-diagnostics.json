@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "KenyaDiagnosticsFHIRIG",
   "status" : "draft",
-  "date" : "2024-08-15T10:34:39+03:00",
+  "date" : "2024-08-15T14:46:36+03:00",
   "publisher" : "DNLS",
   "contact" : [{
     "name" : "DNLS",
@@ -866,18 +866,6 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/EIDJustificationForLabOrderVS"
-      },
-      "name" : "ValueSet: EID Justification for Lab Order",
-      "description" : "ValueSet: EID Justification for Lab Order",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/EIDRejectionReasonsForLabOrderVS"
       },
       "name" : "ValueSet: EID Rejection Reasons for Lab Order",
@@ -892,32 +880,8 @@
       "reference" : {
         "reference" : "ValueSet/JustificationForLabOrderVS"
       },
-      "name" : "ValueSet: Justification for Lab Order",
-      "description" : "Justification options for lab orders",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/VLJustificationForLabOrderVS"
-      },
-      "name" : "ValueSet: VL Justification for Lab Order",
-      "description" : "ValueSet: VL Justification for Lab Order",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/VLRejectionReasonsForLabOrderVS"
-      },
-      "name" : "ValueSet: VL Rejection Reasons for Lab Order",
-      "description" : "ValueSet: VL Rejection Reasons for Lab Order",
+      "name" : "ValueSet: Justification options for Lab Orders",
+      "description" : "Justification options for lab orders in this IG",
       "exampleBoolean" : false
     },
     {
