@@ -1,5 +1,12 @@
 [
   {
+    "id" : "KenyaDiagnosticsIGCapabilityStatement",
+    "type" : "CapabilityStatement",
+    "url" : "http://fhir.nphl.go.ke/CapabilityStatement/KenyaDiagnosticsIGCapabilityStatement",
+    "version" : "0.1.0",
+    "name" : "KenyaDiagnosticsIGCapabilityStatement"
+  },
+  {
     "id" : "LabOrderJustificationsCS",
     "type" : "CodeSystem",
     "url" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
@@ -70,18 +77,18 @@
     "name" : "KenyaSpecimen"
   },
   {
-    "id" : "EIDRejectionReasonsForLabOrderVS",
-    "type" : "ValueSet",
-    "url" : "http://fhir.nphl.go.ke/ValueSet/EIDRejectionReasonsForLabOrderVS",
-    "version" : "0.1.0",
-    "name" : "KNHTSEIDRejectionReasonsorLabOrderVS"
-  },
-  {
     "id" : "JustificationForLabOrderVS",
     "type" : "ValueSet",
     "url" : "http://fhir.nphl.go.ke/ValueSet/JustificationForLabOrderVS",
     "version" : "0.1.0",
-    "name" : "JustificationsForLabOrders"
+    "name" : "JustificationsForLabOrdersVS"
+  },
+  {
+    "id" : "RejectionReasonsForLabOrderVS",
+    "type" : "ValueSet",
+    "url" : "http://fhir.nphl.go.ke/ValueSet/RejectionReasonsForLabOrderVS",
+    "version" : "0.1.0",
+    "name" : "RejectionReasonsForLabOrdersVS"
   },
   {
     "id" : "yes-no-vs",

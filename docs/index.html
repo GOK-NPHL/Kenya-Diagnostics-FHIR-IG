@@ -146,7 +146,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         
           Draft
           
-            as of 2024-08-15
+            as of 2024-08-16
           
         
       </td>
@@ -170,8 +170,17 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#kenya-diagnostics-fhir-ig" id="markdown-toc-kenya-diagnostics-fhir-ig">Kenya-Diagnostics-FHIR-IG</a>    <ul>
+      <li><a href="#fhir-resources" id="markdown-toc-fhir-resources">FHIR Resources</a></li>
+      <li><a href="#profiles" id="markdown-toc-profiles">Profiles</a></li>
+      <li><a href="#implementation-guidance" id="markdown-toc-implementation-guidance">Implementation Guidance</a></li>
+      <li><a href="#references" id="markdown-toc-references">References</a></li>
+    </ul>
+  </li>
+</ul>
+
 </div>
 <h1 id="kenya-diagnostics-fhir-ig">Kenya-Diagnostics-FHIR-IG</h1>
 
@@ -195,7 +204,7 @@ The following actors are involved in the diagnostic process and will interact wi
 
 4. **Patient**: The patient is the individual undergoing diagnostic tests and receiving healthcare services. They may access their diagnostic data through FHIR-enabled applications and share it with other healthcare providers as needed. -->
 
-<h2 id="fhir-resources">FHIR Resources</h2>
+<h3 id="fhir-resources">FHIR Resources</h3>
 
 <p>This IG uses the following FHIR resources for health diagnostics with additional modifications:</p>
 
@@ -217,28 +226,34 @@ The following actors are involved in the diagnostic process and will interact wi
   </li>
 </ol>
 
-<h2 id="profiles">Profiles</h2>
+<h3 id="profiles">Profiles</h3>
 
 <p>This IG defines the following profiles for FHIR resources related to health diagnostics:</p>
 
 <ol>
   <li>
-    <p><strong>KenyaDiagnosticReport</strong>: This profile specifies additional constraints and extensions for the DiagnosticReport resource to support diagnostic reporting in Kenya. It includes elements for capturing the laboratory facility, test methodology, and result interpretation.</p>
+    <p><strong><a href="StructureDefinition-KenyaDiagnosticReport.html">KenyaDiagnosticReport</a></strong>: This profile specifies additional constraints and extensions for the DiagnosticReport resource to support diagnostic reporting in Kenya. It includes elements for capturing the laboratory facility, test methodology, and result interpretation.</p>
   </li>
   <li>
-    <p><strong>KenyaOrganization</strong>:  This profile constrains the Organization resource to represent an organization that acts as performer or observer for a result observation (laboratory, pathology or imaging), or as performer for a procedure.</p>
+    <p><strong><a href="StructureDefinition-KenyaHealthProviderOrganization.html">KenyaOrganization</a></strong>:  This profile constrains the Organization resource to represent an organization that acts as performer or observer for a result observation (laboratory, pathology or imaging), or as performer for a procedure.</p>
   </li>
   <li>
-    <p><strong>KenyaServiceRequest</strong>: This profile specifies additional constraints and extensions for the ServiceRequest resource to support diagnostic test ordering in Kenya. It includes elements for the ordering provider, clinical indication, and requested service details.</p>
+    <p><strong><a href="StructureDefinition-KenyaDiagnosticServiceRequest.html">KenyaServiceRequest</a></strong>: This profile specifies additional constraints and extensions for the ServiceRequest resource to support diagnostic test ordering in Kenya. It includes elements for the ordering provider, clinical indication, and requested service details.</p>
   </li>
   <li>
-    <p><strong>KenyaPatient (IPS)</strong>: This profile represents the constraints applied to the Patient resource and describes the minimum expectations for the Patient resource when used in one of the referred resources.</p>
+    <p><strong><a href="StructureDefinition-Kenya-patient-ips.html">KenyaPatient (IPS)</a></strong>: This profile represents the constraints applied to the Patient resource and describes the minimum expectations for the Patient resource when used in one of the referred resources.</p>
   </li>
 </ol>
 
-<h2 id="implementation-guidance">Implementation Guidance</h2>
+<h3 id="implementation-guidance">Implementation Guidance</h3>
 
 <p>Throughout this IG, you will find implementation guidance on how to use FHIR resources and profiles for health diagnostics in Kenya. We will provide examples, mappings to existing diagnostic systems, and recommendations for data exchange and interoperability.</p>
+
+<h3 id="references">References</h3>
+<p>See the Laboratory Request Forms for details on <a href="https://nascop.org/">EID &amp; VL</a> and <a href="https://nltp.co.ke/wp-content/uploads/2023/09/Lab-request-form_Draft_06_06_2023.pdf">TB</a> for how an application captures a patient record.</p>
+
+<hr />
+<p>Primary Authors: Benzer Bett, Faith Jepkoech</p>
 
 
 
@@ -259,7 +274,7 @@ The following actors are involved in the diagnostic process and will interact wi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 15, 2024 14:46+0300">2024-08-15</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Aug 16, 2024 12:06+0300">2024-08-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

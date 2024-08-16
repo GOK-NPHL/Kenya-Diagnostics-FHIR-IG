@@ -1,27 +1,27 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://fhir.nphl.go.ke/ValueSet/EIDRejectionReasonsForLabOrderVS",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "KNHTSEIDRejectionReasonsorLabOrderVS",
-      "title" : "ValueSet: EID Rejection Reasons for Lab Order",
-      "description" : "ValueSet: EID Rejection Reasons for Lab Order",
-      "systems" : [
-        "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS"
-      ]
-    },
-    {
       "url" : "http://fhir.nphl.go.ke/ValueSet/JustificationForLabOrderVS",
       "version" : "0.1.0",
       "status" : "draft",
-      "name" : "JustificationsForLabOrders",
+      "name" : "JustificationsForLabOrdersVS",
       "title" : "ValueSet: Justification options for Lab Orders",
       "description" : "Justification options for lab orders in this IG",
       "systems" : ["http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS"],
       "uses" : {
       },
       "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest"
+    },
+    {
+      "url" : "http://fhir.nphl.go.ke/ValueSet/RejectionReasonsForLabOrderVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "RejectionReasonsForLabOrdersVS",
+      "title" : "ValueSet: Rejection reasons for Lab Orders",
+      "description" : "Rejection reasons for lab orders in this IG",
+      "systems" : [
+        "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS"
+      ]
     },
     {
       "url" : "http://fhir.nphl.go.ke/ValueSet/yes-no-vs",
@@ -58,9 +58,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-KenyaSpecimen.html" : "KenyaSpecimen",
+      "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest",
       "StructureDefinition-KenyaObservation.html" : "KenyaObservation",
-      "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest"
+      "StructureDefinition-KenyaSpecimen.html" : "KenyaSpecimen"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
@@ -366,13 +366,13 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-KenyaDiagnosticReport.html" : "KenyaDiagnosticReport",
-      "StructureDefinition-KenyaSpecimen.html" : "KenyaSpecimen",
-      "StructureDefinition-KenyaEncounter.html" : "KenyaEncounter",
-      "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization",
-      "StructureDefinition-KenyaObservation.html" : "KenyaObservation",
       "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest",
-      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)"
+      "StructureDefinition-KenyaObservation.html" : "KenyaObservation",
+      "StructureDefinition-KenyaDiagnosticReport.html" : "KenyaDiagnosticReport",
+      "StructureDefinition-KenyaHealthProviderOrganization.html" : "KenyaHealthProviderOrganization",
+      "StructureDefinition-KenyaSpecimen.html" : "KenyaSpecimen",
+      "StructureDefinition-Kenya-patient-ips.html" : "Patient (IPS)",
+      "StructureDefinition-KenyaEncounter.html" : "KenyaEncounter"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",

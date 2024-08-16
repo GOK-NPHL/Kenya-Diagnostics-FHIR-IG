@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>ValueSet: EID Rejection Reasons for Lab Order - TTL Representation -  v0.1.0</title>
+    <title>ValueSet: Rejection reasons for Lab Orders - TTL Representation -  v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -42,8 +42,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"2.8"}
-    h3,h4,h5,h6{--heading-prefix:"2.8"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.10"}
+    h3,h4,h5,h6{--heading-prefix:"2.10"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -97,7 +97,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ValueSet: EID Rejection Reasons for Lab Order</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ValueSet: Rejection reasons for Lab Orders</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -123,21 +123,21 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="ValueSet-EIDRejectionReasonsForLabOrderVS.html">Narrative Content</a>
+    <a href="ValueSet-RejectionReasonsForLabOrderVS.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="ValueSet-EIDRejectionReasonsForLabOrderVS.xml.html">XML</a>
+      <a href="ValueSet-RejectionReasonsForLabOrderVS.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="ValueSet-EIDRejectionReasonsForLabOrderVS.json.html">JSON</a>
+      <a href="ValueSet-RejectionReasonsForLabOrderVS.json.html">JSON</a>
     </li>
   
 
@@ -156,7 +156,7 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: ValueSet: EID Rejection Reasons for Lab Order - TTL Representation</h2>
+<h2 id="root">: ValueSet: Rejection reasons for Lab Orders - TTL Representation</h2>
 
   <table class="colsd">
     <tr>
@@ -165,7 +165,7 @@
         
           Draft
           
-            as of 2024-08-15
+            as of 2024-08-16
           
         
       </td>
@@ -174,7 +174,7 @@
   </table>
 
 
-<p><a href="ValueSet-EIDRejectionReasonsForLabOrderVS.ttl" no-download="true">Raw ttl</a> | <a href="ValueSet-EIDRejectionReasonsForLabOrderVS.ttl" download>Download</a></p>
+<p><a href="ValueSet-RejectionReasonsForLabOrderVS.ttl" no-download="true">Raw ttl</a> | <a href="ValueSet-RejectionReasonsForLabOrderVS.ttl" download>Download</a></p>
 
   <!-- insert intro if present -->
   
@@ -191,18 +191,18 @@
 
  a fhir:ValueSet ;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;EIDRejectionReasonsForLabOrderVS&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;RejectionReasonsForLabOrderVS&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet EIDRejectionReasonsForLabOrderVS&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;EIDRejectionReasonsForLabOrderVS\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcEIDRejectionReasonsForLabOrderVS\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcEIDRejectionReasonsForLabOrderVS-en-US\&quot;&gt; &lt;/a&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html\&quot;&gt;&lt;code&gt;http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS&lt;/code&gt;&lt;/a&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC1\&quot;&gt;KEID.RC1&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC1 - Unlabeled DBS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC2\&quot;&gt;KEID.RC2&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC2 - Over saturation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC3\&quot;&gt;KEID.RC3&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC3 - Insufficient blood&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC4\&quot;&gt;KEID.RC4&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC4 - Scattered spots&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC5\&quot;&gt;KEID.RC5&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC5 - Two layered spot&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC8\&quot;&gt;KEID.RC8&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC8 - Samples packed together&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC9\&quot;&gt;KEID.RC9&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC9 - Clotted blood&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC10\&quot;&gt;KEID.RC10&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC10 - Improper drying&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC11\&quot;&gt;KEID.RC11&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC11 - Serum rings –water, alcohol&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC12\&quot;&gt;KEID.RC12&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC12 - Collected on expired DBS card&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC13\&quot;&gt;KEID.RC13&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC13 - Overstayed specimen ( &amp;gt;2wks )&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC14\&quot;&gt;KEID.RC14&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC14 - Above 2years&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC15\&quot;&gt;KEID.RC15&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC15 - Sample &amp;amp; requisition mismatch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC1\&quot;&gt;KVL.RC1&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC1 - Missing Sample&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC2\&quot;&gt;KVL.RC2&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC2 - Hemolysed sample&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC3\&quot;&gt;KVL.RC3&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC3 - Missing patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC4\&quot;&gt;KVL.RC4&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC4 - Sample request form &amp;amp; sample mismatch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC5\&quot;&gt;KVL.RC5&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC5 - Sample not under cold chain&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC6\&quot;&gt;KVL.RC6&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC6 - Expired PPT tubes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC7\&quot;&gt;KVL.RC7&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC7 - No request form&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC8\&quot;&gt;KVL.RC8&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC8 - Improper packaging&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC9\&quot;&gt;KVL.RC9&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC9 - Insufficient volume&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet RejectionReasonsForLabOrderVS&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;RejectionReasonsForLabOrderVS\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcRejectionReasonsForLabOrderVS\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcRejectionReasonsForLabOrderVS-en-US\&quot;&gt; &lt;/a&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html\&quot;&gt;&lt;code&gt;http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS&lt;/code&gt;&lt;/a&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC1\&quot;&gt;KEID.RC1&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC1 - Unlabeled DBS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC2\&quot;&gt;KEID.RC2&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC2 - Over saturation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC3\&quot;&gt;KEID.RC3&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC3 - Insufficient blood&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC4\&quot;&gt;KEID.RC4&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC4 - Scattered spots&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC5\&quot;&gt;KEID.RC5&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC5 - Two layered spot&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC8\&quot;&gt;KEID.RC8&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC8 - Samples packed together&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC9\&quot;&gt;KEID.RC9&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC9 - Clotted blood&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC10\&quot;&gt;KEID.RC10&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC10 - Improper drying&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC11\&quot;&gt;KEID.RC11&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC11 - Serum rings –water, alcohol&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC12\&quot;&gt;KEID.RC12&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC12 - Collected on expired DBS card&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC13\&quot;&gt;KEID.RC13&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC13 - Overstayed specimen ( &amp;gt;2wks )&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC14\&quot;&gt;KEID.RC14&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC14 - Above 2years&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC15\&quot;&gt;KEID.RC15&lt;/a&gt;&lt;/td&gt;&lt;td&gt;EID-Rejection-RC15 - Sample &amp;amp; requisition mismatch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC1\&quot;&gt;KVL.RC1&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC1 - Missing Sample&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC2\&quot;&gt;KVL.RC2&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC2 - Hemolysed sample&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC3\&quot;&gt;KVL.RC3&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC3 - Missing patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC4\&quot;&gt;KVL.RC4&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC4 - Sample request form &amp;amp; sample mismatch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC5\&quot;&gt;KVL.RC5&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC5 - Sample not under cold chain&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC6\&quot;&gt;KVL.RC6&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC6 - Expired PPT tubes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC7\&quot;&gt;KVL.RC7&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC7 - No request form&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC8\&quot;&gt;KVL.RC8&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC8 - Improper packaging&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC9\&quot;&gt;KVL.RC9&lt;/a&gt;&lt;/td&gt;&lt;td&gt;VL-Rejection-RC9 - Insufficient volume&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC1\&quot;&gt;KTB.RC1&lt;/a&gt;&lt;/td&gt;&lt;td&gt;TB-Rejection-RC1 - Leaking&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC2\&quot;&gt;KTB.RC2&lt;/a&gt;&lt;/td&gt;&lt;td&gt;TB-Rejection-RC2 - Request form without samples&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC3\&quot;&gt;KTB.RC3&lt;/a&gt;&lt;/td&gt;&lt;td&gt;TB-Rejection-RC3 - Mismatch Information on requset from and specimen container&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC4\&quot;&gt;KTB.RC4&lt;/a&gt;&lt;/td&gt;&lt;td&gt;TB-Rejection-RC4 - No label&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC5\&quot;&gt;KTB.RC5&lt;/a&gt;&lt;/td&gt;&lt;td&gt;TB-Rejection-RC5 - No sample in the container&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC6\&quot;&gt;KTB.RC6&lt;/a&gt;&lt;/td&gt;&lt;td&gt;TB-Rejection-RC6 - No requset form&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC7\&quot;&gt;KTB.RC7&lt;/a&gt;&lt;/td&gt;&lt;td&gt;TB-Rejection-RC7 - Missing information required&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC8\&quot;&gt;KTB.RC8&lt;/a&gt;&lt;/td&gt;&lt;td&gt;TB-Rejection-RC8 - Sample in the wrong container&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC9\&quot;&gt;KTB.RC9&lt;/a&gt;&lt;/td&gt;&lt;td&gt;TB-Rejection-RC9 - Delay between sample collection and reception at NTRL&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;
   ] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://fhir.nphl.go.ke/ValueSet/EIDRejectionReasonsForLabOrderVS&quot;^^xsd:anyURI] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://fhir.nphl.go.ke/ValueSet/RejectionReasonsForLabOrderVS&quot;^^xsd:anyURI] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;0.1.0&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;KNHTSEIDRejectionReasonsorLabOrderVS&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;ValueSet: EID Rejection Reasons for Lab Order&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;RejectionReasonsForLabOrdersVS&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;ValueSet: Rejection reasons for Lab Orders&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;draft&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> &quot;false&quot;^^xsd:boolean] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2024-08-15T14:46:36+03:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2024-08-16T12:06:00+03:00&quot;^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;DNLS&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">fhir:contact</a> ( [
 <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;DNLS&quot; ] ;
@@ -210,7 +210,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;url&quot; ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;http://nphl.go.ke&quot; ]     ] )
   ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;ValueSet: EID Rejection Reasons for Lab Order&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Rejection reasons for lab orders in this IG&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">fhir:compose</a> [
     ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">fhir:include</a> [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS&quot;^^xsd:anyURI ] ;
@@ -258,7 +258,25 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;KVL.RC8&quot; ] ;
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;VL-Rejection-RC8 - Improper packaging&quot; ]       ] [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;KVL.RC9&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;VL-Rejection-RC9 - Insufficient volume&quot; ]       ] )     ] )
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;VL-Rejection-RC9 - Insufficient volume&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;KTB.RC1&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;TB-Rejection-RC1 - Leaking&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;KTB.RC2&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;TB-Rejection-RC2 - Request form without samples&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;KTB.RC3&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;TB-Rejection-RC3 - Mismatch Information on requset from and specimen container&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;KTB.RC4&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;TB-Rejection-RC4 - No label&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;KTB.RC5&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;TB-Rejection-RC5 - No sample in the container&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;KTB.RC6&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;TB-Rejection-RC6 - No requset form&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;KTB.RC7&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;TB-Rejection-RC7 - Missing information required&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;KTB.RC8&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;TB-Rejection-RC8 - Sample in the wrong container&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;KTB.RC9&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;TB-Rejection-RC9 - Delay between sample collection and reception at NTRL&quot; ]       ] )     ] )
   ] . # 
 
 </code></pre>
@@ -286,7 +304,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 15, 2024 14:46+0300">2024-08-15</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://nphl.go.ke">DNLS</a>.  Package fhir.ke-moh-diagnostics#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Aug 16, 2024 12:06+0300">2024-08-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

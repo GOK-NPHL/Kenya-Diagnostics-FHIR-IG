@@ -20,7 +20,7 @@
       "description" : "The reason for rejecting a laboratory Order.",
       "uses" : {
       },
-      "ValueSet-EIDRejectionReasonsForLabOrderVS.html" : "ValueSet: EID Rejection Reasons for Lab Order"
+      "ValueSet-RejectionReasonsForLabOrderVS.html" : "ValueSet: Rejection reasons for Lab Orders"
     },
     {
       "url" : "http://snomed.info/sct",
