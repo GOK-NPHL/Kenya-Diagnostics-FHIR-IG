@@ -44,11 +44,16 @@ InstanceOf: KenyaDiagnosticServiceRequest
 Usage: #example
 Title: "cbc-lab-request"
 Description: "An example of a laboratory test request for complete blood count (CBC)."
+* identifier.system = "http://example.org/ServiceRequest/SR001"
 * identifier.value = "cbc-lab-request-123456789"
 * status = #active
 * intent = #order
-* category = ObsCat#laboratory
-* code = LNC#58410-2
+* category.coding.system = "http://snomed.info/sct"
+* category.coding.code = #108252007
+* category.coding.display = "Laboratory procedure"
+* code.coding.system = "http://snomed.info/sct"
+* code.coding.code = #104001
+* code.coding.display = "Excision of lesion of patella"
 * subject = Reference(example-cbc-patient)
 * specimen = Reference(example-cbc-specimen)
 * requester = Reference(example-lab-organization--cgrh)
