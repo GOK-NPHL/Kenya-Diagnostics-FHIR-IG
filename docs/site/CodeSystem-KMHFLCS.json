@@ -1,0 +1,31 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "KMHFLCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem KMHFLCS</b></p><a name=\"KMHFLCS\"> </a><a name=\"hcKMHFLCS\"> </a><a name=\"hcKMHFLCS-en-US\"> </a><p>This case-sensitive code system <code>http://kmhfl.health.go.ke/fhir</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"/><td>KMHFL</td><td>The KMHFL identifier.</td></tr></table></div>"
+  },
+  "url" : "http://kmhfl.health.go.ke/fhir",
+  "version" : "0.1.0",
+  "name" : "KMHFLCS",
+  "title" : "KMHFL Code System",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2024-08-16T14:19:45+03:00",
+  "publisher" : "DNLS",
+  "contact" : [{
+    "name" : "DNLS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://nphl.go.ke"
+    }]
+  }],
+  "description" : "The KMHFL code system is a code system that defines the KMHFL identifier.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 1,
+  "concept" : [{
+    "display" : "KMHFL",
+    "definition" : "The KMHFL identifier."
+  }]
+}

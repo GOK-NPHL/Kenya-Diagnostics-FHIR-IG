@@ -1,0 +1,51 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.nphl.go.ke/DiagnosticReport/example-vl-hiv-diagnostic-report> a fhir:DiagnosticReport ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "example-vl-hiv-diagnostic-report"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://fhir.nphl.go.ke/StructureDefinition/KenyaDiagnosticReport"^^xsd:anyURI ;
+       fhir:link <http://fhir.nphl.go.ke/StructureDefinition/KenyaDiagnosticReport>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport example-vl-hiv-diagnostic-report</b></p><a name=\"example-vl-hiv-diagnostic-report\"> </a><a name=\"hcexample-vl-hiv-diagnostic-report\"> </a><a name=\"hcexample-vl-hiv-diagnostic-report-en-US\"> </a><h2><span title=\"Codes:{http://loinc.org 10351-5}\">HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification</span> </h2><table class=\"grid\"><tr><td>Subject</td><td>Unable to get Patient Details</td></tr><tr><td>When For</td><td>2021-01-01</td></tr><tr><td>Performer</td><td> <a href=\"Organization-example-lab-organization--cgrh.html\">Organization Coast General Teaching and Referal Hospital</a></td></tr><tr><td>Identifier</td><td> vl-hiv-diagnostic-report-1</td></tr></table><p><b>Report Details</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>Reference Range</b></td><td><b>Flags</b></td></tr><tr><td><a href=\"Observation-example-vl-hiv-observation.html\"><span title=\"Codes:{http://loinc.org 10351-5}\">HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification</span></a></td><td>1001 copies/mL</td><td>200 copies/mL - 1000 copies/mL</td><td>Final</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "vl-hiv-diagnostic-report-1" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:10351-5 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "10351-5" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:reference [ fhir:v "example-vl-hiv-patient" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2021-01-01"^^xsd:date] ; # 
+  fhir:performer ( [
+     fhir:link <http://fhir.nphl.go.ke/Organization/example-lab-organization--cgrh> ;
+     fhir:reference [ fhir:v "Organization/example-lab-organization--cgrh" ]
+  ] ) ; # 
+  fhir:specimen ( [
+     fhir:link <http://fhir.nphl.go.ke/Specimen/example-cbc-specimen> ;
+     fhir:reference [ fhir:v "Specimen/example-cbc-specimen" ]
+  ] ) ; # 
+  fhir:result ( [
+     fhir:link <http://fhir.nphl.go.ke/Observation/example-vl-hiv-observation> ;
+     fhir:reference [ fhir:v "Observation/example-vl-hiv-observation" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

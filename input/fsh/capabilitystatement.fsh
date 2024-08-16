@@ -41,8 +41,8 @@ Description: "Defines the expected capabilities of this IG."
 * rest[0].resource[3].profile = Canonical(KenyaPatientIps)
 * rest[0].resource[3].interaction[0].code = #read
 * rest[0].resource[3].interaction[1].code = #search-type
-* rest[0].resource[3].interaction[2].code = #create
-* rest[0].resource[3].interaction[3].code = #update
+// * rest[0].resource[3].interaction[2].code = #create
+// * rest[0].resource[3].interaction[3].code = #update
 
 * rest[0].resource[4].type = #Encounter
 * rest[0].resource[4].profile = Canonical(KenyaEncounter)
@@ -55,19 +55,20 @@ Description: "Defines the expected capabilities of this IG."
 * rest[0].resource[5].profile = Canonical(Practitioner)
 * rest[0].resource[5].interaction[0].code = #read
 * rest[0].resource[5].interaction[1].code = #search-type
-* rest[0].resource[5].interaction[2].code = #create
-* rest[0].resource[5].interaction[3].code = #update
+// * rest[0].resource[5].interaction[2].code = #create
+// * rest[0].resource[5].interaction[3].code = #update
 
-* rest[0].resource[5].type = #Organization
-* rest[0].resource[5].profile = Canonical(KenyaHealthProviderOrganization)
-* rest[0].resource[5].interaction[0].code = #read
-* rest[0].resource[5].interaction[1].code = #search-type
-* rest[0].resource[5].interaction[2].code = #create
-* rest[0].resource[5].interaction[3].code = #update
+* rest[0].resource[6].type = #Organization
+* rest[0].resource[6].profile = Canonical(KenyaHealthProviderOrganization)
+* rest[0].resource[6].interaction[0].code = #read
+* rest[0].resource[6].interaction[1].code = #search-type
+// * rest[0].resource[6].interaction[2].code = #create
+// * rest[0].resource[6].interaction[3].code = #update
 
 * rest[0].interaction[0].code = #transaction
 * rest[0].interaction[1].code = #batch
 * rest[0].interaction[2].code = #history-system
+* rest[0].interaction[3].code = #search-system
 
 
 

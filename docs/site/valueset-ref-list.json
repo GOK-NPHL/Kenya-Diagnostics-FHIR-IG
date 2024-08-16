@@ -1,0 +1,50 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://fhir.nphl.go.ke/ValueSet/JustificationForLabOrderVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "JustificationsForLabOrdersVS",
+      "title" : "ValueSet: Justification options for Lab Orders",
+      "description" : "Justification options for lab orders in this IG",
+      "systems" : ["http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS"],
+      "uses" : {
+      },
+      "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest"
+    },
+    {
+      "url" : "http://fhir.nphl.go.ke/ValueSet/RejectionReasonsForLabOrderVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "RejectionReasonsForLabOrdersVS",
+      "title" : "ValueSet: Rejection reasons for Lab Orders",
+      "description" : "Rejection reasons for lab orders in this IG",
+      "systems" : [
+        "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS"
+      ]
+    },
+    {
+      "url" : "http://fhir.nphl.go.ke/ValueSet/yes-no-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "YesNoVS",
+      "title" : "Yes/No Value Set",
+      "description" : "The SNOMED CT codes to answer in the affirmative or negative.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/servicerequest-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceRequestCategoryCodes",
+      "title" : "Service Request Category Codes",
+      "description" : "An example value set of SNOMED CT concepts that can classify a requested service",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.434"],
+      "sources" : ["2.16.840.1.113883.4.642.3.434"],
+      "uses" : {
+      },
+      "StructureDefinition-KenyaDiagnosticServiceRequest.html" : "KenyaDiagnosticServiceRequest"
+    }
+  ]
+}

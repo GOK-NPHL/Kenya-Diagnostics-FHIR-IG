@@ -1,0 +1,221 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.nphl.go.ke/Observation/example-cbc-observation> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "example-cbc-observation"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://fhir.nphl.go.ke/StructureDefinition/KenyaObservation"^^xsd:anyURI ;
+       fhir:link <http://fhir.nphl.go.ke/StructureDefinition/KenyaObservation>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation example-cbc-observation</b></p><a name=\"example-cbc-observation\"> </a><a name=\"hcexample-cbc-observation\"> </a><a name=\"hcexample-cbc-observation-en-US\"> </a><p><b>identifier</b>: cbc-observation-1</p><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 58410-2}\">CBC panel - Blood by Automated count</span></p><p><b>subject</b>: <a href=\"Patient-example-cbc-patient.html\">John Patient  Male, DoB: 1990-01-01 ( National unique individual identifier)</a></p><p><b>effective</b>: 2021-01-01</p><p><b>performer</b>: <a href=\"Organization-example-lab-organization--cgrh.html\">Organization Coast General Teaching and Referal Hospital</a></p><p><b>value</b>: 0</p><p><b>specimen</b>: <a href=\"Specimen-example-cbc-specimen.html\">Specimen: status = available; type = specimen</a></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 6690-2}\">Leukocytes [#/volume] in Blood by Automated count</span></p><p><b>value</b>: 6.8 10*3/uL</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 789-8}\">Erythrocytes [#/volume] in Blood by Automated count</span></p><p><b>value</b>: 4.7 10*6/uL</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 718-7}\">Hemoglobin [Mass/volume] in Blood</span></p><p><b>value</b>: 14.5 g/dL</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 4544-3}\">Hematocrit [Volume Fraction] of Blood by Automated count</span></p><p><b>value</b>: 43 %</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 787-2}\">MCV [Entitic volume] by Automated count</span></p><p><b>value</b>: 92 fL</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 785-6}\">MCH [Entitic mass] by Automated count</span></p><p><b>value</b>: 30.5 pg</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 786-4}\">MCHC [Mass/volume] by Automated count</span></p><p><b>value</b>: 34.2 g/dL</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 21000-5}\">Erythrocyte distribution width [Entitic volume] by Automated count</span></p><p><b>value</b>: 13.5 %</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 788-0}\">Erythrocyte distribution width [Ratio] by Automated count</span></p><p><b>value</b>: 250 %</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 777-3}\">Platelets [#/volume] in Blood by Automated count</span></p><p><b>value</b>: 9.5 10*3/uL</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 32207-3}\">Platelet distribution width [Entitic volume] in Blood by Automated count</span></p><p><b>value</b>: 60 %</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 32623-1}\">Platelet mean volume [Entitic volume] in Blood by Automated count</span></p><p><b>value</b>: 30 %</p></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "cbc-observation-1" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:58410-2 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "58410-2" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://fhir.nphl.go.ke/Patient/example-cbc-patient> ;
+     fhir:reference [ fhir:v "Patient/example-cbc-patient" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2021-01-01"^^xsd:date] ; # 
+  fhir:performer ( [
+     fhir:link <http://fhir.nphl.go.ke/Organization/example-lab-organization--cgrh> ;
+     fhir:reference [ fhir:v "Organization/example-lab-organization--cgrh" ]
+  ] ) ; # 
+  fhir:value [
+     a fhir:Quantity ;
+     fhir:value [ fhir:v "0"^^xsd:decimal ]
+  ] ; # 
+  fhir:specimen [
+     fhir:link <http://fhir.nphl.go.ke/Specimen/example-cbc-specimen> ;
+     fhir:reference [ fhir:v "Specimen/example-cbc-specimen" ]
+  ] ; # 
+  fhir:component ( [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:6690-2 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "6690-2" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "6.8"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "10*3/uL" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:789-8 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "789-8" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "4.7"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "10*6/uL" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:718-7 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "718-7" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "14.5"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "g/dL" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:4544-3 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "4544-3" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "43"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "%" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:787-2 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "787-2" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "92"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "fL" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:785-6 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "785-6" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "30.5"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "pg" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:786-4 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "786-4" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "34.2"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "g/dL" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:21000-5 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "21000-5" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "13.5"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "%" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:788-0 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "788-0" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "250"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "%" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:777-3 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "777-3" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "9.5"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "10*3/uL" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:32207-3 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "32207-3" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "60"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "%" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:32623-1 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "32623-1" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "30"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "%" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

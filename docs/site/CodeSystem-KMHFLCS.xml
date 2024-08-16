@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="KMHFLCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem KMHFLCS</b></p><a name="KMHFLCS"> </a><a name="hcKMHFLCS"> </a><a name="hcKMHFLCS-en-US"> </a><p>This case-sensitive code system <code>http://kmhfl.health.go.ke/fhir</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"/><td>KMHFL</td><td>The KMHFL identifier.</td></tr></table></div>
+  </text>
+  <url value="http://kmhfl.health.go.ke/fhir"/>
+  <version value="0.1.0"/>
+  <name value="KMHFLCS"/>
+  <title value="KMHFL Code System"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2024-08-16T14:19:45+03:00"/>
+  <publisher value="DNLS"/>
+  <contact>
+    <name value="DNLS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://nphl.go.ke"/>
+    </telecom>
+  </contact>
+  <description value="The KMHFL code system is a code system that defines the KMHFL identifier."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <display value="KMHFL"/>
+    <definition value="The KMHFL identifier."/>
+  </concept>
+</CodeSystem>

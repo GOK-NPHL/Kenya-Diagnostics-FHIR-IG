@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="ExampleOrganization"/>
+  <meta>
+    <profile value="http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Organization ExampleOrganization</b></p><a name="ExampleOrganization"> </a><a name="hcExampleOrganization"> </a><a name="hcExampleOrganization-en-US"> </a><p><b>identifier</b>: <code>http://kmhfr.health.go.ke/fhir</code>/23841</p><p><b>active</b>: true</p><p><b>name</b>: National Tuberculosis Reference Laboratory</p><p><b>address</b>: National Tuberculosis Reference Laboratory, Afya Annex, Nairobi, Kenya</p></div>
+  </text>
+  <identifier>
+    <system value="http://kmhfr.health.go.ke/fhir"/>
+    <value value="23841"/>
+  </identifier>
+  <active value="true"/>
+  <name value="National Tuberculosis Reference Laboratory"/>
+  <address>
+    <text value="National Tuberculosis Reference Laboratory, Afya Annex, Nairobi, Kenya"/>
+    <line value="National Tuberculosis Reference Laboratory"/>
+    <line value="Afya Annex, KNH Grounds"/>
+    <line value="Woodley/Kenyatta Golf Course"/>
+    <line value="Nairobi, Kenya"/>
+    <city value="Nairobi"/>
+    <state value="Kenya"/>
+    <postalCode value="12345"/>
+  </address>
+</Organization>

@@ -1,0 +1,36 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.nphl.go.ke/Organization/ExampleOrganization> a fhir:Organization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ExampleOrganization"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization"^^xsd:anyURI ;
+       fhir:link <http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization ExampleOrganization</b></p><a name=\"ExampleOrganization\"> </a><a name=\"hcExampleOrganization\"> </a><a name=\"hcExampleOrganization-en-US\"> </a><p><b>identifier</b>: <code>http://kmhfr.health.go.ke/fhir</code>/23841</p><p><b>active</b>: true</p><p><b>name</b>: National Tuberculosis Reference Laboratory</p><p><b>address</b>: National Tuberculosis Reference Laboratory, Afya Annex, Nairobi, Kenya</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://kmhfr.health.go.ke/fhir"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "23841" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:name [ fhir:v "National Tuberculosis Reference Laboratory"] ; # 
+  fhir:address ( [
+     fhir:text [ fhir:v "National Tuberculosis Reference Laboratory, Afya Annex, Nairobi, Kenya" ] ;
+     fhir:line ( [ fhir:v "National Tuberculosis Reference Laboratory" ] [ fhir:v "Afya Annex, KNH Grounds" ] [ fhir:v "Woodley/Kenyatta Golf Course" ] [ fhir:v "Nairobi, Kenya" ] ) ;
+     fhir:city [ fhir:v "Nairobi" ] ;
+     fhir:state [ fhir:v "Kenya" ] ;
+     fhir:postalCode [ fhir:v "12345" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

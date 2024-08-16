@@ -1,0 +1,38 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.nphl.go.ke/Organization/example-lab-organization--jootrh> a fhir:Organization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "example-lab-organization--jootrh"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization"^^xsd:anyURI ;
+       fhir:link <http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization example-lab-organization--jootrh</b></p><a name=\"example-lab-organization--jootrh\"> </a><a name=\"hcexample-lab-organization--jootrh\"> </a><a name=\"hcexample-lab-organization--jootrh-en-US\"> </a><p><b>identifier</b>: <code>http://kmhfr.health.go.ke/fhir</code>/13939 (use: official, )</p><p><b>active</b>: true</p><p><b>name</b>: Jaramogi Oginga Odinga Teaching and Referal Hospital</p><p><b>address</b>: Jaramogi Oginga Odinga Teaching and Referal Hospital, P.O. Box 001, Kisumu, Kenya</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "http://kmhfr.health.go.ke/fhir"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "13939" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:name [ fhir:v "Jaramogi Oginga Odinga Teaching and Referal Hospital"] ; # 
+  fhir:address ( [
+     fhir:text [ fhir:v "Jaramogi Oginga Odinga Teaching and Referal Hospital, P.O. Box 001, Kisumu, Kenya" ] ;
+     fhir:line ( [ fhir:v "Jaramogi Oginga Odinga Teaching and Referal Hospital, P.O. Box 001, Kisumu, Kenya" ] ) ;
+     fhir:city [ fhir:v "Kisumu" ] ;
+     fhir:state [ fhir:v "Kenya" ] ;
+     fhir:postalCode [ fhir:v "00-001" ] ;
+     fhir:country [ fhir:v "KE" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

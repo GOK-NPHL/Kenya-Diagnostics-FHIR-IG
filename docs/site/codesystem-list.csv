@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Used
+http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS,0.1.0,draft,,LabOrderJustificationsCS,CodeSystem: Laboratory Order Justifications,"The reason for ordering a laboratory test.",
+http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS,0.1.0,draft,,LabOrderRejectionReasonsCS,CodeSystem: Laboratory Order Rejection Reasons,"The reason for rejecting a laboratory Order.",
+http://kmhfl.health.go.ke/fhir,0.1.0,draft,,KMHFLCS,KMHFL Code System,"The KMHFL code system is a code system that defines the KMHFL identifier.",

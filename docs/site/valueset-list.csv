@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://fhir.nphl.go.ke/ValueSet/JustificationForLabOrderVS,0.1.0,draft,,JustificationsForLabOrdersVS,ValueSet: Justification options for Lab Orders,"Justification options for lab orders in this IG",,"Internal"
+http://fhir.nphl.go.ke/ValueSet/RejectionReasonsForLabOrderVS,0.1.0,draft,,RejectionReasonsForLabOrdersVS,ValueSet: Rejection reasons for Lab Orders,"Rejection reasons for lab orders in this IG",,"Internal"
+http://fhir.nphl.go.ke/ValueSet/yes-no-vs,0.1.0,draft,,YesNoVS,Yes/No Value Set,"The SNOMED CT codes to answer in the affirmative or negative.",,"SCT"

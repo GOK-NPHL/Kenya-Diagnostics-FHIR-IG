@@ -1,0 +1,48 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.nphl.go.ke/Specimen/drtb-specimen> a fhir:Specimen ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "drtb-specimen"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Specimen drtb-specimen</b></p><a name=\"drtb-specimen\"> </a><a name=\"hcdrtb-specimen\"> </a><a name=\"hcdrtb-specimen-en-US\"> </a><p><b>status</b>: Available</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation specimen}\">specimen</span></p><p><b>subject</b>: <a href=\"Patient-drtb-patient.html\">John Patient  Male, DoB: 1990-01-01 ( National unique individual identifier)</a></p><h3>Collections</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Collected[x]</b></td><td><b>Method</b></td><td><b>BodySite</b></td></tr><tr><td style=\"display: none\">*</td><td>2021-01-01</td><td><span title=\"Codes:{http://loinc.org LNC#LA26398-0}\">Blood draw</span></td><td><span title=\"Codes:{http://loinc.org LA7275-6}\">Left arm</span></td></tr></table></div>"
+  ] ; # 
+  fhir:status [ fhir:v "available"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "specimen" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://fhir.nphl.go.ke/Patient/drtb-patient> ;
+     fhir:reference [ fhir:v "Patient/drtb-patient" ]
+  ] ; # 
+  fhir:collection [
+     fhir:collected [ fhir:v "2021-01-01"^^xsd:date ] ;
+     fhir:method [
+       fhir:coding ( [
+         a loinc:LNC#LA26398-0 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LNC#LA26398-0" ] ;
+         fhir:display [ fhir:v "Blood draw" ]
+       ] )
+     ] ;
+     fhir:bodySite [
+       fhir:coding ( [
+         a loinc:LA7275-6 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LA7275-6" ] ;
+         fhir:display [ fhir:v "Left arm" ]
+       ] )
+     ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

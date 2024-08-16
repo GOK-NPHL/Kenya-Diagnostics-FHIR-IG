@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="example-cbc-patient"/>
+  <meta>
+    <profile value="http://fhir.nphl.go.ke/StructureDefinition/Kenya-patient-ips"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient example-cbc-patient</b></p><a name="example-cbc-patient"> </a><a name="hcexample-cbc-patient"> </a><a name="hcexample-cbc-patient-en-US"> </a><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">John Patient  Male, DoB: 1990-01-01 ( National unique individual identifier)</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Known Marital status of Patient">Marital Status:</td><td colspan="3"><span title="Codes:">M</span></td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail</td><td colspan="3">P.O. Box 12345, Eldoret, Kenya</td></tr></table></div>
+  </text>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="NI"/>
+      </coding>
+    </type>
+    <value value="123456789"/>
+  </identifier>
+  <name>
+    <family value="Patient"/>
+    <given value="John"/>
+  </name>
+  <gender value="male"/>
+  <birthDate value="1990-01-01"/>
+  <address>
+    <text value="P.O. Box 12345, Eldoret, Kenya"/>
+    <line value="P.O. Box 12345"/>
+    <city value="Eldoret"/>
+    <state value="Kenya"/>
+    <postalCode value="12345"/>
+    <country value="KE"/>
+  </address>
+  <maritalStatus>
+    <coding>
+      <code value="M"/>
+    </coding>
+  </maritalStatus>
+</Patient>

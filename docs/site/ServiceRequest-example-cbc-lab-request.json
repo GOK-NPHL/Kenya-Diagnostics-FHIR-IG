@@ -1,0 +1,49 @@
+{
+  "resourceType" : "ServiceRequest",
+  "id" : "example-cbc-lab-request",
+  "meta" : {
+    "profile" : ["http://fhir.nphl.go.ke/StructureDefinition/KenyaDiagnosticServiceRequest"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest example-cbc-lab-request</b></p><a name=\"example-cbc-lab-request\"> </a><a name=\"hcexample-cbc-lab-request\"> </a><a name=\"hcexample-cbc-lab-request-en-US\"> </a><p><b>identifier</b>: <code>http://example.org/ServiceRequest/SR001</code>/cbc-lab-request-123456789</p><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>category</b>: <span title=\"Codes:{http://snomed.info/sct 108252007}\">Laboratory procedure</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 104001}\">Excision of lesion of patella</span></p><p><b>subject</b>: <a href=\"Patient-example-cbc-patient.html\">John Patient  Male, DoB: 1990-01-01 ( National unique individual identifier)</a></p><p><b>requester</b>: <a href=\"Organization-example-lab-organization--cgrh.html\">Organization Coast General Teaching and Referal Hospital</a></p><p><b>performer</b>: <a href=\"Organization-example-lab-organization--jootrh.html\">Organization Jaramogi Oginga Odinga Teaching and Referal Hospital</a></p><p><b>reasonCode</b>: <span title=\"Codes:{http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS KDSTB.B1}\">DSTB-Justification-B1 - Baseline</span></p><p><b>specimen</b>: <a href=\"Specimen-example-cbc-specimen.html\">Specimen: status = available; type = specimen</a></p></div>"
+  },
+  "identifier" : [{
+    "system" : "http://example.org/ServiceRequest/SR001",
+    "value" : "cbc-lab-request-123456789"
+  }],
+  "status" : "active",
+  "intent" : "order",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "108252007",
+      "display" : "Laboratory procedure"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "104001",
+      "display" : "Excision of lesion of patella"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/example-cbc-patient"
+  },
+  "requester" : {
+    "reference" : "Organization/example-lab-organization--cgrh"
+  },
+  "performer" : [{
+    "reference" : "Organization/example-lab-organization--jootrh"
+  }],
+  "reasonCode" : [{
+    "coding" : [{
+      "system" : "http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS",
+      "code" : "KDSTB.B1"
+    }]
+  }],
+  "specimen" : [{
+    "reference" : "Specimen/example-cbc-specimen"
+  }]
+}

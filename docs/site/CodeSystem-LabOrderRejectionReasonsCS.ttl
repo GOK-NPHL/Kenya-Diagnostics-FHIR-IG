@@ -1,0 +1,134 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "LabOrderRejectionReasonsCS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem LabOrderRejectionReasonsCS</b></p><a name=\"LabOrderRejectionReasonsCS\"> </a><a name=\"hcLabOrderRejectionReasonsCS\"> </a><a name=\"hcLabOrderRejectionReasonsCS-en-US\"> </a><p>This  code system <code>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">KEID.RC1<a name=\"LabOrderRejectionReasonsCS-KEID.46RC1\"> </a></td><td>EID-Rejection-RC1 - Unlabeled DBS</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC2<a name=\"LabOrderRejectionReasonsCS-KEID.46RC2\"> </a></td><td>EID-Rejection-RC2 - Over saturation</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC3<a name=\"LabOrderRejectionReasonsCS-KEID.46RC3\"> </a></td><td>EID-Rejection-RC3 - Insufficient blood</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC4<a name=\"LabOrderRejectionReasonsCS-KEID.46RC4\"> </a></td><td>EID-Rejection-RC4 - Scratched spots</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC5<a name=\"LabOrderRejectionReasonsCS-KEID.46RC5\"> </a></td><td>EID-Rejection-RC5 - Scattered spots</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC6<a name=\"LabOrderRejectionReasonsCS-KEID.46RC6\"> </a></td><td>EID-Rejection-RC6 - Two layered spot</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC7<a name=\"LabOrderRejectionReasonsCS-KEID.46RC7\"> </a></td><td>EID-Rejection-RC7 - Sample not due</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC8<a name=\"LabOrderRejectionReasonsCS-KEID.46RC8\"> </a></td><td>EID-Rejection-RC8 - Samples packed together</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC9<a name=\"LabOrderRejectionReasonsCS-KEID.46RC9\"> </a></td><td>EID-Rejection-RC9 - Clotted blood</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC10<a name=\"LabOrderRejectionReasonsCS-KEID.46RC10\"> </a></td><td>EID-Rejection-RC10 - Improper drying</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC11<a name=\"LabOrderRejectionReasonsCS-KEID.46RC11\"> </a></td><td>EID-Rejection-RC11 - Serum rings –water, alcohol</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC12<a name=\"LabOrderRejectionReasonsCS-KEID.46RC12\"> </a></td><td>EID-Rejection-RC12 - Collected on expired DBS card</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC13<a name=\"LabOrderRejectionReasonsCS-KEID.46RC13\"> </a></td><td>EID-Rejection-RC13 - Overstayed specimen ( &gt;2wks )</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC14<a name=\"LabOrderRejectionReasonsCS-KEID.46RC14\"> </a></td><td>EID-Rejection-RC14 - Above 2years</td></tr><tr><td style=\"white-space:nowrap\">KEID.RC15<a name=\"LabOrderRejectionReasonsCS-KEID.46RC15\"> </a></td><td>EID-Rejection-RC15 - Sample &amp; requisition mismatch</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC1<a name=\"LabOrderRejectionReasonsCS-KVL.46RC1\"> </a></td><td>VL-Rejection-RC1 - Missing Sample</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC2<a name=\"LabOrderRejectionReasonsCS-KVL.46RC2\"> </a></td><td>VL-Rejection-RC2 - Hemolysed sample</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC3<a name=\"LabOrderRejectionReasonsCS-KVL.46RC3\"> </a></td><td>VL-Rejection-RC3 - Missing patient</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC4<a name=\"LabOrderRejectionReasonsCS-KVL.46RC4\"> </a></td><td>VL-Rejection-RC4 - Sample request form &amp; sample mismatch</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC5<a name=\"LabOrderRejectionReasonsCS-KVL.46RC5\"> </a></td><td>VL-Rejection-RC5 - Sample not under cold chain</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC6<a name=\"LabOrderRejectionReasonsCS-KVL.46RC6\"> </a></td><td>VL-Rejection-RC6 - Expired PPT tubes</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC7<a name=\"LabOrderRejectionReasonsCS-KVL.46RC7\"> </a></td><td>VL-Rejection-RC7 - No request form</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC8<a name=\"LabOrderRejectionReasonsCS-KVL.46RC8\"> </a></td><td>VL-Rejection-RC8 - Improper packaging</td></tr><tr><td style=\"white-space:nowrap\">KVL.RC9<a name=\"LabOrderRejectionReasonsCS-KVL.46RC9\"> </a></td><td>VL-Rejection-RC9 - Insufficient volume</td></tr><tr><td style=\"white-space:nowrap\">KTB.RC1<a name=\"LabOrderRejectionReasonsCS-KTB.46RC1\"> </a></td><td>TB-Rejection-RC1 - Leaking</td></tr><tr><td style=\"white-space:nowrap\">KTB.RC2<a name=\"LabOrderRejectionReasonsCS-KTB.46RC2\"> </a></td><td>TB-Rejection-RC2 - Request form without samples</td></tr><tr><td style=\"white-space:nowrap\">KTB.RC3<a name=\"LabOrderRejectionReasonsCS-KTB.46RC3\"> </a></td><td>TB-Rejection-RC3 - Mismatch Information on requset from and specimen container</td></tr><tr><td style=\"white-space:nowrap\">KTB.RC4<a name=\"LabOrderRejectionReasonsCS-KTB.46RC4\"> </a></td><td>TB-Rejection-RC4 - No label</td></tr><tr><td style=\"white-space:nowrap\">KTB.RC5<a name=\"LabOrderRejectionReasonsCS-KTB.46RC5\"> </a></td><td>TB-Rejection-RC5 - No sample in the container</td></tr><tr><td style=\"white-space:nowrap\">KTB.RC6<a name=\"LabOrderRejectionReasonsCS-KTB.46RC6\"> </a></td><td>TB-Rejection-RC6 - No requset form</td></tr><tr><td style=\"white-space:nowrap\">KTB.RC7<a name=\"LabOrderRejectionReasonsCS-KTB.46RC7\"> </a></td><td>TB-Rejection-RC7 - Missing information required</td></tr><tr><td style=\"white-space:nowrap\">KTB.RC8<a name=\"LabOrderRejectionReasonsCS-KTB.46RC8\"> </a></td><td>TB-Rejection-RC8 - Sample in the wrong container</td></tr><tr><td style=\"white-space:nowrap\">KTB.RC9<a name=\"LabOrderRejectionReasonsCS-KTB.46RC9\"> </a></td><td>TB-Rejection-RC9 - Delay between sample collection and reception at NTRL</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "LabOrderRejectionReasonsCS"] ; # 
+  fhir:title [ fhir:v "CodeSystem: Laboratory Order Rejection Reasons"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-08-16T14:19:45+03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DNLS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DNLS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://nphl.go.ke" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The reason for rejecting a laboratory Order."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "33"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "KEID.RC1" ] ;
+     fhir:display [ fhir:v "EID-Rejection-RC1 - Unlabeled DBS" ]
+  ] [
+     fhir:code [ fhir:v "KEID.RC2" ] ;
+     fhir:display [ fhir:v "EID-Rejection-RC2 - Over saturation" ]
+  ] [
+     fhir:code [ fhir:v "KEID.RC3" ] ;
+     fhir:display [ fhir:v "EID-Rejection-RC3 - Insufficient blood" ]
+  ] [
+     fhir:code [ fhir:v "KEID.RC4" ] ;
+     fhir:display [ fhir:v "EID-Rejection-RC4 - Scratched spots" ]
+  ] [
+     fhir:code [ fhir:v "KEID.RC5" ] ;
+     fhir:display [ fhir:v "EID-Rejection-RC5 - Scattered spots" ]
+  ] [
+     fhir:code [ fhir:v "KEID.RC6" ] ;
+     fhir:display [ fhir:v "EID-Rejection-RC6 - Two layered spot" ]
+  ] [
+     fhir:code [ fhir:v "KEID.RC7" ] ;
+     fhir:display [ fhir:v "EID-Rejection-RC7 - Sample not due" ]
+  ] [
+     fhir:code [ fhir:v "KEID.RC8" ] ;
+     fhir:display [ fhir:v "EID-Rejection-RC8 - Samples packed together" ]
+  ] [
+     fhir:code [ fhir:v "KEID.RC9" ] ;
+     fhir:display [ fhir:v "EID-Rejection-RC9 - Clotted blood" ]
+  ] [
+     fhir:code [ fhir:v "KEID.RC10" ] ;
+     fhir:display [ fhir:v "EID-Rejection-RC10 - Improper drying" ]
+  ] [
+     fhir:code [ fhir:v "KEID.RC11" ] ;
+     fhir:display [ fhir:v "EID-Rejection-RC11 - Serum rings –water, alcohol" ]
+  ] [
+     fhir:code [ fhir:v "KEID.RC12" ] ;
+     fhir:display [ fhir:v "EID-Rejection-RC12 - Collected on expired DBS card" ]
+  ] [
+     fhir:code [ fhir:v "KEID.RC13" ] ;
+     fhir:display [ fhir:v "EID-Rejection-RC13 - Overstayed specimen ( >2wks )" ]
+  ] [
+     fhir:code [ fhir:v "KEID.RC14" ] ;
+     fhir:display [ fhir:v "EID-Rejection-RC14 - Above 2years" ]
+  ] [
+     fhir:code [ fhir:v "KEID.RC15" ] ;
+     fhir:display [ fhir:v "EID-Rejection-RC15 - Sample & requisition mismatch" ]
+  ] [
+     fhir:code [ fhir:v "KVL.RC1" ] ;
+     fhir:display [ fhir:v "VL-Rejection-RC1 - Missing Sample" ]
+  ] [
+     fhir:code [ fhir:v "KVL.RC2" ] ;
+     fhir:display [ fhir:v "VL-Rejection-RC2 - Hemolysed sample" ]
+  ] [
+     fhir:code [ fhir:v "KVL.RC3" ] ;
+     fhir:display [ fhir:v "VL-Rejection-RC3 - Missing patient" ]
+  ] [
+     fhir:code [ fhir:v "KVL.RC4" ] ;
+     fhir:display [ fhir:v "VL-Rejection-RC4 - Sample request form & sample mismatch" ]
+  ] [
+     fhir:code [ fhir:v "KVL.RC5" ] ;
+     fhir:display [ fhir:v "VL-Rejection-RC5 - Sample not under cold chain" ]
+  ] [
+     fhir:code [ fhir:v "KVL.RC6" ] ;
+     fhir:display [ fhir:v "VL-Rejection-RC6 - Expired PPT tubes" ]
+  ] [
+     fhir:code [ fhir:v "KVL.RC7" ] ;
+     fhir:display [ fhir:v "VL-Rejection-RC7 - No request form" ]
+  ] [
+     fhir:code [ fhir:v "KVL.RC8" ] ;
+     fhir:display [ fhir:v "VL-Rejection-RC8 - Improper packaging" ]
+  ] [
+     fhir:code [ fhir:v "KVL.RC9" ] ;
+     fhir:display [ fhir:v "VL-Rejection-RC9 - Insufficient volume" ]
+  ] [
+     fhir:code [ fhir:v "KTB.RC1" ] ;
+     fhir:display [ fhir:v "TB-Rejection-RC1 - Leaking" ]
+  ] [
+     fhir:code [ fhir:v "KTB.RC2" ] ;
+     fhir:display [ fhir:v "TB-Rejection-RC2 - Request form without samples" ]
+  ] [
+     fhir:code [ fhir:v "KTB.RC3" ] ;
+     fhir:display [ fhir:v "TB-Rejection-RC3 - Mismatch Information on requset from and specimen container" ]
+  ] [
+     fhir:code [ fhir:v "KTB.RC4" ] ;
+     fhir:display [ fhir:v "TB-Rejection-RC4 - No label" ]
+  ] [
+     fhir:code [ fhir:v "KTB.RC5" ] ;
+     fhir:display [ fhir:v "TB-Rejection-RC5 - No sample in the container" ]
+  ] [
+     fhir:code [ fhir:v "KTB.RC6" ] ;
+     fhir:display [ fhir:v "TB-Rejection-RC6 - No requset form" ]
+  ] [
+     fhir:code [ fhir:v "KTB.RC7" ] ;
+     fhir:display [ fhir:v "TB-Rejection-RC7 - Missing information required" ]
+  ] [
+     fhir:code [ fhir:v "KTB.RC8" ] ;
+     fhir:display [ fhir:v "TB-Rejection-RC8 - Sample in the wrong container" ]
+  ] [
+     fhir:code [ fhir:v "KTB.RC9" ] ;
+     fhir:display [ fhir:v "TB-Rejection-RC9 - Delay between sample collection and reception at NTRL" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

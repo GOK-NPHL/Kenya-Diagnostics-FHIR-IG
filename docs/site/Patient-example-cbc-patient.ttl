@@ -1,0 +1,51 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.nphl.go.ke/Patient/example-cbc-patient> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "example-cbc-patient"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://fhir.nphl.go.ke/StructureDefinition/Kenya-patient-ips"^^xsd:anyURI ;
+       fhir:link <http://fhir.nphl.go.ke/StructureDefinition/Kenya-patient-ips>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient example-cbc-patient</b></p><a name=\"example-cbc-patient\"> </a><a name=\"hcexample-cbc-patient\"> </a><a name=\"hcexample-cbc-patient-en-US\"> </a><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">John Patient  Male, DoB: 1990-01-01 ( National unique individual identifier)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes:\">M</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\">P.O. Box 12345, Eldoret, Kenya</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "NI" ]
+       ] )
+     ] ;
+     fhir:value [ fhir:v "123456789" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Patient" ] ;
+     fhir:given ( [ fhir:v "John" ] )
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:birthDate [ fhir:v "1990-01-01"^^xsd:date] ; # 
+  fhir:address ( [
+     fhir:text [ fhir:v "P.O. Box 12345, Eldoret, Kenya" ] ;
+     fhir:line ( [ fhir:v "P.O. Box 12345" ] ) ;
+     fhir:city [ fhir:v "Eldoret" ] ;
+     fhir:state [ fhir:v "Kenya" ] ;
+     fhir:postalCode [ fhir:v "12345" ] ;
+     fhir:country [ fhir:v "KE" ]
+  ] ) ; # 
+  fhir:maritalStatus [
+     fhir:coding ( [
+       fhir:code [ fhir:v "M" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

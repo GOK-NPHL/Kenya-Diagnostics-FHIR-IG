@@ -1,0 +1,37 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.nphl.go.ke/Organization/example-lab-organization--cgrh> a fhir:Organization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "example-lab-organization--cgrh"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization"^^xsd:anyURI ;
+       fhir:link <http://fhir.nphl.go.ke/StructureDefinition/KenyaHealthProviderOrganization>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization example-lab-organization--cgrh</b></p><a name=\"example-lab-organization--cgrh\"> </a><a name=\"hcexample-lab-organization--cgrh\"> </a><a name=\"hcexample-lab-organization--cgrh-en-US\"> </a><p><b>identifier</b>: <code>http://kmhfr.health.go.ke/fhir</code>/11289</p><p><b>active</b>: true</p><p><b>name</b>: Coast General Teaching and Referal Hospital</p><p><b>address</b>: Coast General Teaching and Referal Hospital, P.O. Box 000, Mombasa, Kenya</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://kmhfr.health.go.ke/fhir"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "11289" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:name [ fhir:v "Coast General Teaching and Referal Hospital"] ; # 
+  fhir:address ( [
+     fhir:text [ fhir:v "Coast General Teaching and Referal Hospital, P.O. Box 000, Mombasa, Kenya" ] ;
+     fhir:line ( [ fhir:v "Coast General Teaching and Referal Hospital, P.O. Box 000, Mombasa, Kenya" ] ) ;
+     fhir:city [ fhir:v "Mombasa" ] ;
+     fhir:state [ fhir:v "Kenya" ] ;
+     fhir:postalCode [ fhir:v "00-000" ] ;
+     fhir:country [ fhir:v "KE" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

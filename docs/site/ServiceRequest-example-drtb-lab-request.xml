@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ServiceRequest xmlns="http://hl7.org/fhir">
+  <id value="example-drtb-lab-request"/>
+  <meta>
+    <profile value="http://fhir.nphl.go.ke/StructureDefinition/KenyaDiagnosticServiceRequest"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ServiceRequest example-drtb-lab-request</b></p><a name="example-drtb-lab-request"> </a><a name="hcexample-drtb-lab-request"> </a><a name="hcexample-drtb-lab-request-en-US"> </a><p><b>identifier</b>: <code>http://example.org/ServiceRequest/SR001</code>/drtb-lab-request-123456789</p><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>category</b>: <span title="Codes:{http://snomed.info/sct 108252007}">Laboratory procedure</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 104001}">Excision of lesion of patella</span></p><p><b>subject</b>: <a href="example-drtb-patient">example-drtb-patient</a></p><p><b>requester</b>: <a href="Organization-example-lab-organization--jootrh.html">Organization Jaramogi Oginga Odinga Teaching and Referal Hospital</a></p><p><b>performer</b>: <a href="Organization-example-lab-organization--cgrh.html">Organization Coast General Teaching and Referal Hospital</a></p><p><b>reasonCode</b>: <span title="Codes:{http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS KDRTB.B1}">DRTB-Justification-B1 - Baseline</span></p><p><b>specimen</b>: <a href="example-drtb-specimen">example-drtb-specimen</a></p></div>
+  </text>
+  <identifier>
+    <system value="http://example.org/ServiceRequest/SR001"/>
+    <value value="drtb-lab-request-123456789"/>
+  </identifier>
+  <status value="active"/>
+  <intent value="order"/>
+  <category>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="108252007"/>
+      <display value="Laboratory procedure"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="104001"/>
+      <display value="Excision of lesion of patella"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="example-drtb-patient"/>
+  </subject>
+  <requester>
+    <reference value="Organization/example-lab-organization--jootrh"/>
+  </requester>
+  <performer>
+    <reference value="Organization/example-lab-organization--cgrh"/>
+  </performer>
+  <reasonCode>
+    <coding>
+      <system value="http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS"/>
+      <code value="KDRTB.B1"/>
+    </coding>
+  </reasonCode>
+  <specimen>
+    <reference value="example-drtb-specimen"/>
+  </specimen>
+</ServiceRequest>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+  <id value="example-cbc-diagnostic-report"/>
+  <meta>
+    <profile value="http://fhir.nphl.go.ke/StructureDefinition/KenyaDiagnosticReport"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: DiagnosticReport example-cbc-diagnostic-report</b></p><a name="example-cbc-diagnostic-report"> </a><a name="hcexample-cbc-diagnostic-report"> </a><a name="hcexample-cbc-diagnostic-report-en-US"> </a><h2><span title="Codes:{http://loinc.org 58410-2}">CBC panel - Blood by Automated count</span> </h2><table class="grid"><tr><td>Subject</td><td>No display for Patient </td></tr><tr><td>When For</td><td>2021-01-01</td></tr><tr><td>Performer</td><td> <a href="Organization-example-lab-organization--cgrh.html">Organization Coast General Teaching and Referal Hospital</a></td></tr><tr><td>Identifier</td><td> cbc-diagnostic-report-1</td></tr></table><p><b>Report Details</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>Flags</b></td></tr><tr><td><a href="Observation-example-cbc-observation.html"><span title="Codes:{http://loinc.org 58410-2}">CBC panel - Blood by Automated count</span></a></td><td>0</td><td>Final</td></tr></table></div>
+  </text>
+  <identifier>
+    <value value="cbc-diagnostic-report-1"/>
+  </identifier>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="58410-2"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/example-cbc-patient"/>
+  </subject>
+  <effectiveDateTime value="2021-01-01"/>
+  <performer>
+    <reference value="Organization/example-lab-organization--cgrh"/>
+  </performer>
+  <specimen>
+    <reference value="Specimen/example-cbc-specimen"/>
+  </specimen>
+  <result>
+    <reference value="Observation/example-cbc-observation"/>
+  </result>
+</DiagnosticReport>

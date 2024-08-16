@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="example-cbc-observation"/>
+  <meta>
+    <profile value="http://fhir.nphl.go.ke/StructureDefinition/KenyaObservation"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation example-cbc-observation</b></p><a name="example-cbc-observation"> </a><a name="hcexample-cbc-observation"> </a><a name="hcexample-cbc-observation-en-US"> </a><p><b>identifier</b>: cbc-observation-1</p><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 58410-2}">CBC panel - Blood by Automated count</span></p><p><b>subject</b>: <a href="Patient-example-cbc-patient.html">John Patient  Male, DoB: 1990-01-01 ( National unique individual identifier)</a></p><p><b>effective</b>: 2021-01-01</p><p><b>performer</b>: <a href="Organization-example-lab-organization--cgrh.html">Organization Coast General Teaching and Referal Hospital</a></p><p><b>value</b>: 0</p><p><b>specimen</b>: <a href="Specimen-example-cbc-specimen.html">Specimen: status = available; type = specimen</a></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 6690-2}">Leukocytes [#/volume] in Blood by Automated count</span></p><p><b>value</b>: 6.8 10*3/uL</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 789-8}">Erythrocytes [#/volume] in Blood by Automated count</span></p><p><b>value</b>: 4.7 10*6/uL</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 718-7}">Hemoglobin [Mass/volume] in Blood</span></p><p><b>value</b>: 14.5 g/dL</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 4544-3}">Hematocrit [Volume Fraction] of Blood by Automated count</span></p><p><b>value</b>: 43 %</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 787-2}">MCV [Entitic volume] by Automated count</span></p><p><b>value</b>: 92 fL</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 785-6}">MCH [Entitic mass] by Automated count</span></p><p><b>value</b>: 30.5 pg</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 786-4}">MCHC [Mass/volume] by Automated count</span></p><p><b>value</b>: 34.2 g/dL</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 21000-5}">Erythrocyte distribution width [Entitic volume] by Automated count</span></p><p><b>value</b>: 13.5 %</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 788-0}">Erythrocyte distribution width [Ratio] by Automated count</span></p><p><b>value</b>: 250 %</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 777-3}">Platelets [#/volume] in Blood by Automated count</span></p><p><b>value</b>: 9.5 10*3/uL</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 32207-3}">Platelet distribution width [Entitic volume] in Blood by Automated count</span></p><p><b>value</b>: 60 %</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 32623-1}">Platelet mean volume [Entitic volume] in Blood by Automated count</span></p><p><b>value</b>: 30 %</p></blockquote></div>
+  </text>
+  <identifier>
+    <value value="cbc-observation-1"/>
+  </identifier>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="58410-2"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/example-cbc-patient"/>
+  </subject>
+  <effectiveDateTime value="2021-01-01"/>
+  <performer>
+    <reference value="Organization/example-lab-organization--cgrh"/>
+  </performer>
+  <valueQuantity>
+    <value value="0"/>
+  </valueQuantity>
+  <specimen>
+    <reference value="Specimen/example-cbc-specimen"/>
+  </specimen>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="6690-2"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="6.8"/>
+      <unit value="10*3/uL"/>
+      <system value="http://unitsofmeasure.org"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="789-8"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="4.7"/>
+      <unit value="10*6/uL"/>
+      <system value="http://unitsofmeasure.org"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="718-7"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="14.5"/>
+      <unit value="g/dL"/>
+      <system value="http://unitsofmeasure.org"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="4544-3"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="43"/>
+      <unit value="%"/>
+      <system value="http://unitsofmeasure.org"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="787-2"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="92"/>
+      <unit value="fL"/>
+      <system value="http://unitsofmeasure.org"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="785-6"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="30.5"/>
+      <unit value="pg"/>
+      <system value="http://unitsofmeasure.org"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="786-4"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="34.2"/>
+      <unit value="g/dL"/>
+      <system value="http://unitsofmeasure.org"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="21000-5"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="13.5"/>
+      <unit value="%"/>
+      <system value="http://unitsofmeasure.org"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="788-0"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="250"/>
+      <unit value="%"/>
+      <system value="http://unitsofmeasure.org"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="777-3"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="9.5"/>
+      <unit value="10*3/uL"/>
+      <system value="http://unitsofmeasure.org"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="32207-3"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="60"/>
+      <unit value="%"/>
+      <system value="http://unitsofmeasure.org"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="32623-1"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="30"/>
+      <unit value="%"/>
+      <system value="http://unitsofmeasure.org"/>
+    </valueQuantity>
+  </component>
+</Observation>
