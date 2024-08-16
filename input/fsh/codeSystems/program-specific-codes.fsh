@@ -118,21 +118,21 @@ Description:    "The reason for rejecting a laboratory Order."
 
 // ------------- <TB Rejection Reasons for Lab Sample ----------------
 //// 1. TB-RR - Leaking
-* #KTB.RC1 "TB-RR - Leaking"
+* #KTB.RC1 "TB-Rejection-RC1 - Leaking"
 // 2. TB-RR - Request form without samples
-* #KTB.RC2 "TB-RR - Request form without samples"
+* #KTB.RC2 "TB-Rejection-RC2 - Request form without samples"
 // 3. TB-RR - Mismatch Information on requset from and specimen container
-* #KTB.RC3 "TB-RR - Mismatch Information on requset from and specimen container"
+* #KTB.RC3 "TB-Rejection-RC3 - Mismatch Information on requset from and specimen container"
 // 4. TB-RR - No label
-* #KTB.RC4 "TB-RR - No label"
+* #KTB.RC4 "TB-Rejection-RC4 - No label"
 // 5. TB-RR - No sample in the container
-* #KTB.RC5 "TB-RR - No sample in the container"
+* #KTB.RC5 "TB-Rejection-RC5 - No sample in the container"
 // 6. TB-RR - No requset form
-* #KTB.RC6 "TB-RR - No requset form"
+* #KTB.RC6 "TB-Rejection-RC6 - No requset form"
 // 7. TB-RR - Missing information required
-* #KTB.RC7 "TB-RR - Missing information required"
+* #KTB.RC7 "TB-Rejection-RC7 - Missing information required"
 // 8. TB-RR - Sample in the wrong container
-* #KTB.RC8 "TB-RR - Sample in the wrong container"
+* #KTB.RC8 "TB-Rejection-RC8 - Sample in the wrong container"
 // 9. TB-RR - Delay between sample collection and reception at NTRL
-* #KTB.RC9 "TB-RR - Delay between sample collection and reception at NTRL"
+* #KTB.RC9 "TB-Rejection-RC9 - Delay between sample collection and reception at NTRL"
 // ------------- TB Rejection Reasons for Lab Order> ----------------
