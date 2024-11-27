@@ -16,7 +16,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient drtb-patient</b></p><a name=\"drtb-patient\"> </a><a name=\"hcdrtb-patient\"> </a><a name=\"hcdrtb-patient-en-US\"> </a><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">John Patient  Male, DoB: 1990-01-01 ( National unique individual identifier)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes:\">U</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\">P.O. Box 12345, Eldoret, Kenya</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient drtb-patient</b></p><a name=\"drtb-patient\"> </a><a name=\"hcdrtb-patient\"> </a><a name=\"drtb-patient-en-US\"> </a><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">John Patient  Male, DoB: 1990-01-01 ( National unique individual identifier)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes:\">U</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\">P.O. Box 12345, Eldoret, Kenya</td></tr></table></div>"
   ] ; # 
   fhir:identifier ( [
      fhir:type [

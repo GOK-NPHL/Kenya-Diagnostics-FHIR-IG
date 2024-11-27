@@ -16,7 +16,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization example-lab-organization--jootrh</b></p><a name=\"example-lab-organization--jootrh\"> </a><a name=\"hcexample-lab-organization--jootrh\"> </a><a name=\"hcexample-lab-organization--jootrh-en-US\"> </a><p><b>identifier</b>: <code>http://kmhfr.health.go.ke/fhir</code>/13939 (use: official, )</p><p><b>active</b>: true</p><p><b>name</b>: Jaramogi Oginga Odinga Teaching and Referal Hospital</p><p><b>address</b>: Jaramogi Oginga Odinga Teaching and Referal Hospital, P.O. Box 001, Kisumu, Kenya</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization example-lab-organization--jootrh</b></p><a name=\"example-lab-organization--jootrh\"> </a><a name=\"hcexample-lab-organization--jootrh\"> </a><a name=\"example-lab-organization--jootrh-en-US\"> </a><p><b>identifier</b>: <code>http://kmhfr.health.go.ke/fhir</code>/13939 (use: official, )</p><p><b>active</b>: true</p><p><b>name</b>: Jaramogi Oginga Odinga Teaching and Referal Hospital</p><p><b>address</b>: Jaramogi Oginga Odinga Teaching and Referal Hospital, P.O. Box 001, Kisumu, Kenya</p></div>"
   ] ; # 
   fhir:identifier ( [
      fhir:use [ fhir:v "official" ] ;

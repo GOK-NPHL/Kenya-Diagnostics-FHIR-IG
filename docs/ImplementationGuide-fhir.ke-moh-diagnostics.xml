@@ -3,13 +3,13 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="fhir.ke-moh-diagnostics"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide fhir.ke-moh-diagnostics</b></p><a name="fhir.ke-moh-diagnostics"> </a><a name="hcfhir.ke-moh-diagnostics"> </a><a name="hcfhir.ke-moh-diagnostics-en-US"> </a><h2>KenyaDiagnosticsFHIRIG</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.nphl.go.ke/ImplementationGuide/fhir.ke-moh-diagnostics</pre></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide fhir.ke-moh-diagnostics</b></p><a name="fhir.ke-moh-diagnostics"> </a><a name="hcfhir.ke-moh-diagnostics"> </a><a name="fhir.ke-moh-diagnostics-en-US"> </a><h2>KenyaDiagnosticsFHIRIG</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.nphl.go.ke/ImplementationGuide/fhir.ke-moh-diagnostics</pre></div>
   </text>
   <url value="http://fhir.nphl.go.ke/ImplementationGuide/fhir.ke-moh-diagnostics"/>
   <version value="0.1.0"/>
   <name value="KenyaDiagnosticsFHIRIG"/>
   <status value="draft"/>
-  <date value="2024-08-16T14:48:05+03:00"/>
+  <date value="2024-11-27T16:57:00+03:00"/>
   <publisher value="DNLS"/>
   <contact>
     <name value="DNLS"/>
@@ -27,7 +27,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.0.2"/>
+    <version value="6.1.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -239,7 +239,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools#0.1.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.3.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -575,6 +575,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rejection-reasons-for-labOrder"/>
+      </reference>
+      <name value="Extension for rejection reasons for lab orders"/>
+      <description value="Extension for rejection reasons for lab orders"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Organization"/>
       </extension>
       <reference>
@@ -692,6 +703,17 @@
       </reference>
       <name value="Patient (IPS)"/>
       <description value="This profile represents the constraints applied to the Patient resource by the International Patient Summary (IPS) FHIR Implementation Guide and describes the minimum expectations for the Patient resource when used in the IPS composition or in one of the referred resources."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/servicerequest-cost"/>
+      </reference>
+      <name value="Service Request Cost"/>
+      <description value="An extension to represent the cost of a service in a ServiceRequest."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -21,7 +21,10 @@
       "description" : "Rejection reasons for lab orders in this IG",
       "systems" : [
         "http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS"
-      ]
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-rejection-reasons-for-labOrder.html" : "Extension for rejection reasons for lab orders"
     },
     {
       "url" : "http://fhir.nphl.go.ke/ValueSet/yes-no-vs",

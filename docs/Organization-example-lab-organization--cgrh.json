@@ -6,7 +6,7 @@
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization example-lab-organization--cgrh</b></p><a name=\"example-lab-organization--cgrh\"> </a><a name=\"hcexample-lab-organization--cgrh\"> </a><a name=\"hcexample-lab-organization--cgrh-en-US\"> </a><p><b>identifier</b>: <code>http://kmhfr.health.go.ke/fhir</code>/11289</p><p><b>active</b>: true</p><p><b>name</b>: Coast General Teaching and Referal Hospital</p><p><b>address</b>: Coast General Teaching and Referal Hospital, P.O. Box 000, Mombasa, Kenya</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization example-lab-organization--cgrh</b></p><a name=\"example-lab-organization--cgrh\"> </a><a name=\"hcexample-lab-organization--cgrh\"> </a><a name=\"example-lab-organization--cgrh-en-US\"> </a><p><b>identifier</b>: <code>http://kmhfr.health.go.ke/fhir</code>/11289</p><p><b>active</b>: true</p><p><b>name</b>: Coast General Teaching and Referal Hospital</p><p><b>address</b>: Coast General Teaching and Referal Hospital, P.O. Box 000, Mombasa, Kenya</p></div>"
   },
   "identifier" : [{
     "system" : "http://kmhfr.health.go.ke/fhir",

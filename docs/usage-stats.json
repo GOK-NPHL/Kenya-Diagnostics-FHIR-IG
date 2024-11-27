@@ -2,7 +2,22 @@
   "package": "fhir.ke-moh-diagnostics",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
-  "extensions": [],
+  "extensions": [
+    {
+      "url": "http://fhir.nphl.go.ke/StructureDefinition/rejection-reasons-for-labOrder",
+      "title": "Extension for rejection reasons for lab orders",
+      "types": [
+        "code"
+      ]
+    },
+    {
+      "url": "http://fhir.nphl.go.ke/StructureDefinition/servicerequest-cost",
+      "title": "Service Request Cost",
+      "types": [
+        "code"
+      ]
+    }
+  ],
   "profiles": {
     "Patient": [
       {
@@ -48,6 +63,9 @@
     ]
   },
   "usage": {
+    "http://fhir.nphl.go.ke/StructureDefinition/rejection-reasons-for-labOrder": [
+      "ServiceRequest"
+    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],

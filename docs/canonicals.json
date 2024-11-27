@@ -77,6 +77,20 @@
     "name" : "KenyaSpecimen"
   },
   {
+    "id" : "rejection-reasons-for-labOrder",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.nphl.go.ke/StructureDefinition/rejection-reasons-for-labOrder",
+    "version" : "0.1.0",
+    "name" : "RejectionReasonsForLabOrder"
+  },
+  {
+    "id" : "servicerequest-cost",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.nphl.go.ke/StructureDefinition/servicerequest-cost",
+    "version" : "0.1.0",
+    "name" : "ServiceRequestCost"
+  },
+  {
     "id" : "JustificationForLabOrderVS",
     "type" : "ValueSet",
     "url" : "http://fhir.nphl.go.ke/ValueSet/JustificationForLabOrderVS",

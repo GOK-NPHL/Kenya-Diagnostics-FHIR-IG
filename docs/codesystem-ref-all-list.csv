@@ -1,4 +1,4 @@
-URL,Version,Status,OIDs,Name,Title,Descriptino,Used
+URL,Version,Status,OIDs,Name,Title,Description,Used
 http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS,0.1.0,draft,,LabOrderJustificationsCS,CodeSystem: Laboratory Order Justifications,"The reason for ordering a laboratory test.","ValueSet/JustificationForLabOrderVS"
 http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS,0.1.0,draft,,LabOrderRejectionReasonsCS,CodeSystem: Laboratory Order Rejection Reasons,"The reason for rejecting a laboratory Order.","ValueSet/RejectionReasonsForLabOrderVS"
 http://hl7.org/fhir/administrative-gender,4.0.1,active,"2.16.840.1.113883.4.642.4.2",AdministrativeGender,AdministrativeGender,"The gender of a person used for administrative purposes.","ValueSet/administrative-gender"

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="22bdbc9c-6dff-41bb-aaee-6cc78573bc91"/>
+  <id value="87b7272c-578b-40a9-b4a0-0fee0365c53b"/>
   <meta>
-    <lastUpdated value="2024-08-16T14:48:05.800+03:00"/>
+    <lastUpdated value="2024-11-27T16:57:00.959+03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -34,7 +34,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.B1"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KDSTB.B1"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46B1">KDSTB.B1</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -42,7 +42,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.F2"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KDSTB.F2"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46F2">KDSTB.F2</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -50,7 +50,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.F3"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KDSTB.F3"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46F3">KDSTB.F3</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -58,7 +58,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.F5"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KDSTB.F5"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46F5">KDSTB.F5</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -66,7 +66,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDSTB.F6"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KDSTB.F6"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDSTB.46F6">KDSTB.F6</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -74,7 +74,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.B1"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KDRTB.B1"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46B1">KDRTB.B1</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -82,7 +82,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.F2"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KDRTB.F2"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46F2">KDRTB.F2</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -90,7 +90,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.F3"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KDRTB.F3"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46F3">KDRTB.F3</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -98,7 +98,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.F5"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KDRTB.F5"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46F5">KDRTB.F5</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -106,7 +106,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KDRTB.F6"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KDRTB.F6"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KDRTB.46F6">KDRTB.F6</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -114,7 +114,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.P1"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KEID.P1"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46P1">KEID.P1</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -122,7 +122,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.P2"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KEID.P2"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46P2">KEID.P2</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -130,7 +130,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.P3"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KEID.P3"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46P3">KEID.P3</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -138,7 +138,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.B1"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KEID.B1"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46B1">KEID.B1</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -146,7 +146,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.D1"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KEID.D1"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46D1">KEID.D1</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -154,7 +154,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KEID.R1"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KEID.R1"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KEID.46R1">KEID.R1</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -162,7 +162,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.B1"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KVL.B1"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46B1">KVL.B1</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -170,7 +170,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.F1"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KVL.F1"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46F1">KVL.F1</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -178,7 +178,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.S1"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KVL.S1"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46S1">KVL.S1</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -186,7 +186,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.R1"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KVL.R1"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46R1">KVL.R1</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -194,7 +194,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.P1"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KVL.P1"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46P1">KVL.P1</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -202,7 +202,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderJustificationsCS-KVL.P2"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS-KVL.P2"> </a>  
                   <a href="CodeSystem-LabOrderJustificationsCS.html#LabOrderJustificationsCS-KVL.46P2">KVL.P2</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderJustificationsCS</td>
@@ -217,10 +217,10 @@
         <title value="ValueSet: Justification options for Lab Orders"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-08-16T14:48:05+03:00"/>
+        <date value="2024-11-27T16:57:00+03:00"/>
         <expansion>
-          <identifier value="urn:uuid:1f1c8af2-b2b9-4d86-a4c7-77122c843851"/>
-          <timestamp value="2024-08-16T14:48:43+03:00"/>
+          <identifier value="urn:uuid:57c0a2d6-ea17-4064-8643-0c6107287ff7"/>
+          <timestamp value="2024-11-27T16:57:40+03:00"/>
           <total value="22"/>
           <offset value="0"/>
           <parameter>
@@ -381,7 +381,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC1"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KEID.RC1"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC1">KEID.RC1</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -389,7 +389,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC2"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KEID.RC2"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC2">KEID.RC2</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -397,7 +397,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC3"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KEID.RC3"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC3">KEID.RC3</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -405,7 +405,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC4"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KEID.RC4"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC4">KEID.RC4</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -413,7 +413,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC5"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KEID.RC5"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC5">KEID.RC5</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -421,7 +421,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC6"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KEID.RC6"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC6">KEID.RC6</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -429,7 +429,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC7"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KEID.RC7"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC7">KEID.RC7</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -437,7 +437,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC8"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KEID.RC8"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC8">KEID.RC8</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -445,7 +445,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC9"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KEID.RC9"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC9">KEID.RC9</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -453,7 +453,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC10"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KEID.RC10"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC10">KEID.RC10</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -461,7 +461,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC11"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KEID.RC11"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC11">KEID.RC11</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -469,7 +469,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC12"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KEID.RC12"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC12">KEID.RC12</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -477,7 +477,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC13"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KEID.RC13"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC13">KEID.RC13</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -485,7 +485,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC14"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KEID.RC14"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC14">KEID.RC14</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -493,7 +493,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KEID.RC15"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KEID.RC15"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KEID.46RC15">KEID.RC15</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -501,7 +501,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC1"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KVL.RC1"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC1">KVL.RC1</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -509,7 +509,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC2"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KVL.RC2"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC2">KVL.RC2</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -517,7 +517,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC3"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KVL.RC3"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC3">KVL.RC3</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -525,7 +525,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC4"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KVL.RC4"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC4">KVL.RC4</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -533,7 +533,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC5"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KVL.RC5"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC5">KVL.RC5</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -541,7 +541,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC6"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KVL.RC6"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC6">KVL.RC6</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -549,7 +549,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC7"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KVL.RC7"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC7">KVL.RC7</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -557,7 +557,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC8"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KVL.RC8"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC8">KVL.RC8</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -565,7 +565,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KVL.RC9"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KVL.RC9"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KVL.46RC9">KVL.RC9</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -573,7 +573,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KTB.RC1"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KTB.RC1"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC1">KTB.RC1</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -581,7 +581,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KTB.RC2"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KTB.RC2"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC2">KTB.RC2</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -589,7 +589,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KTB.RC3"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KTB.RC3"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC3">KTB.RC3</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -597,7 +597,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KTB.RC4"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KTB.RC4"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC4">KTB.RC4</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -605,7 +605,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KTB.RC5"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KTB.RC5"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC5">KTB.RC5</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -613,7 +613,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KTB.RC6"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KTB.RC6"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC6">KTB.RC6</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -621,7 +621,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KTB.RC7"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KTB.RC7"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC7">KTB.RC7</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -629,7 +629,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KTB.RC8"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KTB.RC8"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC8">KTB.RC8</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -637,7 +637,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---fhir.nphl.go.ke-CodeSystem-LabOrderRejectionReasonsCS-KTB.RC9"> </a>  
+                  <a name="x-http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS-KTB.RC9"> </a>  
                   <a href="CodeSystem-LabOrderRejectionReasonsCS.html#LabOrderRejectionReasonsCS-KTB.46RC9">KTB.RC9</a>
                 </td>
                 <td>http://fhir.nphl.go.ke/CodeSystem/LabOrderRejectionReasonsCS</td>
@@ -652,10 +652,10 @@
         <title value="ValueSet: Rejection reasons for Lab Orders"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-08-16T14:48:05+03:00"/>
+        <date value="2024-11-27T16:57:00+03:00"/>
         <expansion>
-          <identifier value="urn:uuid:a39990fc-d572-421b-a622-9a4b84c39255"/>
-          <timestamp value="2024-08-16T14:48:43+03:00"/>
+          <identifier value="urn:uuid:75f6f694-14a6-4a2d-9f04-5f428768eecd"/>
+          <timestamp value="2024-11-27T16:57:40+03:00"/>
           <total value="33"/>
           <offset value="0"/>
           <parameter>
@@ -869,7 +869,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---snomed.info-sct-373066001"> </a>  
+                  <a name="x-http://snomed.info/sct-373066001"> </a>  
                   <a href="http://snomed.info/id/373066001">373066001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
@@ -877,7 +877,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---snomed.info-sct-373067005"> </a>  
+                  <a name="x-http://snomed.info/sct-373067005"> </a>  
                   <a href="http://snomed.info/id/373067005">373067005</a>
                 </td>
                 <td>http://snomed.info/sct</td>
@@ -891,10 +891,10 @@
         <name value="YesNoVS"/>
         <title value="Yes/No Value Set"/>
         <status value="draft"/>
-        <date value="2024-08-16T14:48:05+03:00"/>
+        <date value="2024-11-27T16:57:00+03:00"/>
         <expansion>
-          <identifier value="urn:uuid:5daafcf2-29d9-430e-b231-538bc68dd238"/>
-          <timestamp value="2024-08-16T14:48:43+03:00"/>
+          <identifier value="urn:uuid:2c8075a6-021f-4640-b77b-511ba90a69e0"/>
+          <timestamp value="2024-11-27T16:57:40+03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>

@@ -16,7 +16,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization ExampleOrganization</b></p><a name=\"ExampleOrganization\"> </a><a name=\"hcExampleOrganization\"> </a><a name=\"hcExampleOrganization-en-US\"> </a><p><b>identifier</b>: <code>http://kmhfr.health.go.ke/fhir</code>/23841</p><p><b>active</b>: true</p><p><b>name</b>: National Tuberculosis Reference Laboratory</p><p><b>address</b>: National Tuberculosis Reference Laboratory, Afya Annex, Nairobi, Kenya</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization ExampleOrganization</b></p><a name=\"ExampleOrganization\"> </a><a name=\"hcExampleOrganization\"> </a><a name=\"ExampleOrganization-en-US\"> </a><p><b>identifier</b>: <code>http://kmhfr.health.go.ke/fhir</code>/23841</p><p><b>active</b>: true</p><p><b>name</b>: National Tuberculosis Reference Laboratory</p><p><b>address</b>: National Tuberculosis Reference Laboratory, Afya Annex, Nairobi, Kenya</p></div>"
   ] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "http://kmhfr.health.go.ke/fhir"^^xsd:anyURI ] ;
